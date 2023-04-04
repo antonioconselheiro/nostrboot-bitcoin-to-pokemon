@@ -2,7 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "rootDir": ".",
-    "sourceMap": true,
+    "sourceMap": false,
     "declaration": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
@@ -11,10 +11,14 @@
     "target": "es2015",
     "module": "esnext",
     "lib": ["es2017", "dom"],
+    "strict": true,
     "skipLibCheck": true,
+    "resolveJsonModule": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nostrboot-btc2poke/btc2poke": ["packages/btc2poke/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

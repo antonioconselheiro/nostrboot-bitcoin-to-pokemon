@@ -1,0 +1,8 @@
+FROM node:16.3.0
+
+RUN npm install typescript node-typescript -g
+RUN npm install npx nx -g --force
+WORKDIR /nostrbot
+
+# The run the start script
+CMD [ "/bin/bash" ]

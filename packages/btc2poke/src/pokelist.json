@@ -1,0 +1,7568 @@
+{
+  "1": {
+    "name": "Bulbasaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_03eb05cfdcbd3f2a7fd74fc94dee40c19b441d3e0ae463cec0a4845953ec8e28.png"
+  },
+  "2": {
+    "name": "Ivysaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_8231de778d2c62b0c6c3dce9607bd98cbe985f2ed01748e2d8b4f1744a0e9cf6.png"
+  },
+  "3": {
+    "name": "Venusaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_b5c142f96544364adf13ce076853e6ecb2b563b4d6b1f4d80cbcb8d754ebb26e.png"
+  },
+  "4": {
+    "name": "Charmander",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_20bd623ce57f25326df422f0b471fd8ab5d92228ba8490ca7653d465a29ec9f9.png"
+  },
+  "5": {
+    "name": "Charmeleon",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_c134bd56e104f117e9df232af56cedcb2d1e5063ffd5d5543146dbacf2981ce0.png"
+  },
+  "6": {
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "img": "i/nostr.build_b505fcb16959aa0bf40e0bc36ae5c8cb01c1a9e74f421196f77912262c9cf8c4.png"
+  },
+  "7": {
+    "name": "Squirtle",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_b24210a63c405d9b2f5c7ac0d901cd0eeeac10afa359374e9f9ce273fc2f42a8.png"
+  },
+  "8": {
+    "name": "Wartortle",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_e7c6c7c795f0ff04f3dc3e1a7ddeb6cda8d8157b924c767b2747a87af0592781.png"
+  },
+  "9": {
+    "name": "Blastoise",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_35db98d27c5114ddc39a6c6e76c0bde103f1419313ed34c490ec2d90ac5b2fe8.png"
+  },
+  "10": {
+    "name": "Caterpie",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_7ad8686289ebc7c753b0af19ee1fc373aa1e33a2fdc04da42a6e3d730f678ff4.png"
+  },
+  "11": {
+    "name": "Metapod",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_bad58d0110f754783165b69b6e5564886a32b0ee78b455b3a0a082540c7c9db7.png"
+  },
+  "12": {
+    "name": "Butterfree",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_c3086bc67a29dd06cddc0ed27c802b928095fc4342251450d0e9c846b6750f5d.png"
+  },
+  "13": {
+    "name": "Weedle",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "img": "i/nostr.build_b083839b0e86a098205b2754e8c36541928d3c56372ebbc7b6d6077714eaf134.png"
+  },
+  "14": {
+    "name": "Kakuna",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "img": "i/nostr.build_49ed41ecd671a2c016159f68feb5051774300c46b66f41976bae203afadc4b4a.png"
+  },
+  "15": {
+    "name": "Beedrill",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "img": "i/nostr.build_a1cf06aa47da6b8123038378f81bf694f19ab5c0ce80dbba6a7e13c6e9054f42.png"
+  },
+  "16": {
+    "name": "Pidgey",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_a6b9b16901b6706786ba5ac73d8faeeb4e3a646566fe00de041288e3dcfb45fd.png"
+  },
+  "17": {
+    "name": "Pidgeotto",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_59773808f4e4f515b711e9dd3194d5405405ca54597b3958b20f60706f95589f.png"
+  },
+  "18": {
+    "name": "Pidgeot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_e1b351342a9184811767d28643dcefc7f84effffebef0d0745f5d657a065858f.png"
+  },
+  "19": {
+    "name": "Rattata",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_42db1fbd8e1fe686c1e8c2c4fa3bac461c3eab7667ef718fe6faddc68d28b26c.png"
+  },
+  "20": {
+    "name": "Raticate",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_e6266d358c6880e0b38587bf6559d5434d3f9cdb0931152788329d80501917b7.png"
+  },
+  "21": {
+    "name": "Spearow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_25327410965b6c315847339a18fad57a7c5f13b0dadbffdecfd6099f641a92ae.png"
+  },
+  "22": {
+    "name": "Fearow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_b9a591a020d409ef20faa47af1ac05c773c75273248f7bc509a46b97205afbe8.png"
+  },
+  "23": {
+    "name": "Ekans",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_ed42926847928d885a262ff2ffc3fab9540413d7dd879156145574dc853fabe7.png"
+  },
+  "24": {
+    "name": "Arbok",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_ddc1473a271609328ed95747d12972c8acb5bb7034c23f1c13dec11b3a9abbde.png"
+  },
+  "25": {
+    "name": "Pikachu",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_f2a5c4c661e1259e8ae0260afe5de73e0b0eaa82fff3ef2424e1d0fcecbaa1d3.png"
+  },
+  "26": {
+    "name": "Raichu",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_f5cf65724b3b71d42711c5bf4bb50ec6efe8f00279fd3a778f3c12cc77e5d929.png"
+  },
+  "27": {
+    "name": "Sandshrew",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_bfb367dbd6640e515fabc86e9431b9565921a88cd2adcb67b8908843e84687e2.png"
+  },
+  "28": {
+    "name": "Sandslash",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_11a6482429b2c33635e7360654b9433049591c2f9aec1d8e7603c13981558520.png"
+  },
+  "29": {
+    "name": "Nidoran♀",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_e8cd7ba4ff54e47ac38fa2e30085f51c55d6877d24cf6e69acd482d98c7f961d.png"
+  },
+  "30": {
+    "name": "Nidorina",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_d02b4f67fd664b14cc527fcb178ea1cb4d712c07be33e0df4a8811a7396773c4.png"
+  },
+  "31": {
+    "name": "Nidoqueen",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "img": "i/nostr.build_31c13a9fbb612a65d645ed1b713a90251a10e0c3c2dc43d4619722e78ac6ffbd.png"
+  },
+  "32": {
+    "name": "Nidoran♂",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_76d9ba0833e493fb51c547cb3152e30a84aa6b8886d8c68d83cbeb09e6d32f0a.png"
+  },
+  "33": {
+    "name": "Nidorino",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_f6242d9febefe6796f65c004acfc1da2eb024dd2e3a04e898bda7d246d98f1c5.png"
+  },
+  "34": {
+    "name": "Nidoking",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "img": "i/nostr.build_de453b570c3cc7ff1d19bdc5da193f00e6fd083b31ce68c4c10c4b3d965eac39.png"
+  },
+  "35": {
+    "name": "Clefairy",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_69690416a08caaf425443e56a51d44a87e14e00a93a7189891f3fe3d7a864dc3.png"
+  },
+  "36": {
+    "name": "Clefable",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_1aedeb0938c6d22a3ede7f45e876cc3be10d92364e7a34736ce8cff09ca302da.png"
+  },
+  "37": {
+    "name": "Vulpix",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_2ea31fbd43b09ad568d273f3edc6573bae46e201b73bb242126e3d64dd2d80e8.png"
+  },
+  "38": {
+    "name": "Ninetales",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_ac11d0f2e554ee4fb9d2c0a221081b47b7ecdd62474e8e8d3d13b3b1e7b44a7f.png"
+  },
+  "39": {
+    "name": "Jigglypuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_b6266d9e27a4eaabd84074a4379f6361b790f8a31325c5b942a5abbb813adee4.png"
+  },
+  "40": {
+    "name": "Wigglytuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_1200e932c65301c92b429aeda1b5016aac028a41c4c6a4418fb77e863cc7e57e.png"
+  },
+  "41": {
+    "name": "Zubat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "img": "i/nostr.build_83411d0fa09efa5eb16473b99e8d898177367e7b26bbc6aebab3a63722164d04.png"
+  },
+  "42": {
+    "name": "Golbat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "img": "i/nostr.build_d873a017b66b9adbc18c2340b48080ac95f61745259dbc94f9ca6b697bf7fd80.png"
+  },
+  "43": {
+    "name": "Oddish",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_945807227196eeef2fed35e414f2a54c45ff1e9418051f608ed061766e7e1b9f.png"
+  },
+  "44": {
+    "name": "Gloom",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_2288da855c1136295e2fcf8279e60c5294764b8dffb2e848b4e327a63cd2dde5.png"
+  },
+  "45": {
+    "name": "Vileplume",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_3a7e547e29afb0b95d48729ebb2806a70da02d3836ccbe26499b615d5c478b9d.png"
+  },
+  "46": {
+    "name": "Paras",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "img": "i/nostr.build_4174cf67d714637a45a7e90e5ffa27ac34be9a288cc304dd812743d12bf7a45e.png"
+  },
+  "47": {
+    "name": "Parasect",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "img": "i/nostr.build_752cc88ae14b1ba630b2cb869c9ec30b3dbb3e5953c3e74b79c9728fb9905384.png"
+  },
+  "48": {
+    "name": "Venonat",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "img": "i/nostr.build_2ca59dc07378e84698eea506b5e9bd044cec3a069e1371acab5325080a7091b2.png"
+  },
+  "49": {
+    "name": "Venomoth",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "img": "i/nostr.build_3ba5b29f3d0643c7e7792a4bd8f871fd60c0ee97bf197a95b46eb2c63923a256.png"
+  },
+  "50": {
+    "name": "Diglett",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_3bab148e08aae5426a27ffedb176579fb051ade3f10d1cc6529bbf5f987d7ce8.png"
+  },
+  "51": {
+    "name": "Dugtrio",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_1e4bf43a69fb391b6af16e1c4b873096a054ae79eed9b256943a83f6e2be443f.png"
+  },
+  "52": {
+    "name": "Meowth",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_cb42cf8a573105c1bf91382f4e4afbdb6c87419e8b6f080545ba9c7201e756de.png"
+  },
+  "53": {
+    "name": "Persian",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_75359f57e665f18480cc6e2b82f27cdbcb4ca3228e24035b701dcfb67adc4851.png"
+  },
+  "54": {
+    "name": "Psyduck",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_cfcfadaf3bfc3667efce9660cb39ddbe71ef3252bddb91e1cea6d5ed9ea5b7f6.png"
+  },
+  "55": {
+    "name": "Golduck",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_b9e742d6cbff92869652c06d584c0dc1b788730ea09d86f2829f7fbd2632f4b3.png"
+  },
+  "56": {
+    "name": "Mankey",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_b051be5ac894ba48acc1f1b11032e7d527ea43086eaf1b2becf67f25c018359d.png"
+  },
+  "57": {
+    "name": "Primeape",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_9b8615cdbdaa9b92caa38c979fd595d36a9e1de92ff2fd8909593af2fbee80ab.png"
+  },
+  "58": {
+    "name": "Growlithe",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_4fc608be31881ded015e3765a63942565948a8838aedb3afdb8a20d1636540a7.png"
+  },
+  "59": {
+    "name": "Arcanine",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_d9b1aebda285736f5fad6adc2fe170d3594fb9b09a1b670a4d9d60faf1e6477c.png"
+  },
+  "60": {
+    "name": "Poliwag",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_ea168f651eaf9a4d1cdd74d9ce5a717cac920dec5b30ec487b61beba96170aa8.png"
+  },
+  "61": {
+    "name": "Poliwhirl",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_adba96f2ab82cbbf460d85c445da85aac1df3af0cd8b3665b721756c7a333741.png"
+  },
+  "62": {
+    "name": "Poliwrath",
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_930fe82b6d2abe01c114f79df9cb211776347953c1a2bbf57091b836406ec22d.png"
+  },
+  "63": {
+    "name": "Abra",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_0496e9497d7304186c968cf23fe3cbe5df08ab5b13568772f69a9e50a6dace13.png"
+  },
+  "64": {
+    "name": "Kadabra",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_62ef5c2515e4d08eeb538361fe0cf212237a223f22eaafad08db963818fe1380.png"
+  },
+  "65": {
+    "name": "Alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_e0340228b6fd15b6bc0a74655c1bde92ddef0fbe6f7962c446636626d4d1383a.png"
+  },
+  "66": {
+    "name": "Machop",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_d4ff2d4b183a534208aacbd91aa2d7835b1c3c11dfdf0292eb0d204abf0b315e.png"
+  },
+  "67": {
+    "name": "Machoke",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_94d67d01819f26d535a9adf43be4d31394670d554832efc4ba50cb88fedda80c.png"
+  },
+  "68": {
+    "name": "Machamp",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_125fb5768e974028fa8915105f9a239d3daf5c67bd268fe1d7472f125966ff36.png"
+  },
+  "69": {
+    "name": "Bellsprout",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_a0c9af3e5bcee8171ab8c546b63abbcb7d8ff53e54ffe1ca5d7ebcd0d85d1b55.png"
+  },
+  "70": {
+    "name": "Weepinbell",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_2e4172de5c2999f6753ddb7248ae89db5d7405b409e5ab347c85ebc8795edba1.png"
+  },
+  "71": {
+    "name": "Victreebel",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_6db4aaff0732f9e88a9e6701ae2dad7a3775ec95ab8ed08d3b708d10a1d85aa1.png"
+  },
+  "72": {
+    "name": "Tentacool",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "img": "i/nostr.build_9d9f07c6dfcad601856708b6ba5277d1a7c2a15ae18553d455c37982630507fb.png"
+  },
+  "73": {
+    "name": "Tentacruel",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "img": "i/nostr.build_71c8553437bc122ae5a22ac826974039c422a6e75c7d1fcebeca6ef796cdece4.png"
+  },
+  "74": {
+    "name": "Geodude",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "img": "i/nostr.build_6dec51870e7afa9a26a59765777e3a03dee5cc6f2ff5f84d778364c18f4e57a1.png"
+  },
+  "75": {
+    "name": "Graveler",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "img": "i/nostr.build_fb264432e4acedc3ac06281f7f82c90ff6dba25c09f02676b034c23dd7aa073c.png"
+  },
+  "76": {
+    "name": "Golem",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "img": "i/nostr.build_0ac0ca4e40a93414f912718827cb62c7816e49996a740c1c403a6d66e3f199c1.png"
+  },
+  "77": {
+    "name": "Ponyta",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_0dd92e636b8a2ce37fdeaee1509dc8b419de1f13cfb870e5205df4be7b17a128.png"
+  },
+  "78": {
+    "name": "Rapidash",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_e45f4ce1314190431fc730435f8b7d5a9b73524499da679f249bb8557f7f8c25.png"
+  },
+  "79": {
+    "name": "Slowpoke",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_f4928b7fbe295618f952dd7d4187899745457850b71e60121821db11e62f93e9.png"
+  },
+  "80": {
+    "name": "Slowbro",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_b381b3d4ea8996e87650f92ca902a9d2e32e72d5d05f2f4abc0240e50c604ee6.png"
+  },
+  "81": {
+    "name": "Magnemite",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "img": "i/nostr.build_63cb2b4aa411781ce7d5a2c85e56c10a08022ad6e40bd8eec229376b90f8116c.png"
+  },
+  "82": {
+    "name": "Magneton",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "img": "i/nostr.build_ea652583c90c62fa409c4e1a89b973496a7b64f12a49482698f0de1da6b21a11.png"
+  },
+  "83": {
+    "name": "Farfetch’d",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_befc41217e3200973f1624452402e05880c266d9d729e40598be66ef0ae73566.png"
+  },
+  "84": {
+    "name": "Doduo",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_b37ae371134a08e74c1a6aa6258d4176d02e30f423ae9a97f0e22ca31d2fa887.png"
+  },
+  "85": {
+    "name": "Dodrio",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_ee9e4839bfab67bbbdceda75b447afd1014124c100a47a89495015cb99a05d3f.png"
+  },
+  "86": {
+    "name": "Seel",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_5a5cc0dac2fa2f712fb0df4ab7bc37aad76c865e028baa7d4395112f76f9731b.png"
+  },
+  "87": {
+    "name": "Dewgong",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "img": "i/nostr.build_71b174959add1456b4857deebab296f39973e507ebef3497642ad182e5499a28.png"
+  },
+  "88": {
+    "name": "Grimer",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_faa6f09f90416f5e655f35d8eabb039a6c06b3cc495ba3dff0d25cf1d44f3347.png"
+  },
+  "89": {
+    "name": "Muk",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_519e488e3b78e607e81c8e2c05776874fbf2b6478fef64ce54d624b260cd0978.png"
+  },
+  "90": {
+    "name": "Shellder",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_4de948f2140b7889e4bacdde0293dccc88f5037576e17bf5eb34299d8eb652cd.png"
+  },
+  "91": {
+    "name": "Cloyster",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "img": "i/nostr.build_0de4c93cc2fc67d92cc4c41310c4fdfd2c58b3c1f426c6206c813192e9d34ef6.png"
+  },
+  "92": {
+    "name": "Gastly",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "img": "i/nostr.build_b38be4d834f44687ac8c73e4ac8fee52bfbd802260742235cc63e6d7f6a3efbe.png"
+  },
+  "93": {
+    "name": "Haunter",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "img": "i/nostr.build_927938201c25911b5c82edc2c0844fec8290afdf1958e586c6c5f80c672541a9.png"
+  },
+  "94": {
+    "name": "Gengar",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "img": "i/nostr.build_5e15b068d0eec023f250f7be4c623e2bc7d04d89348063094512b0ba2a9fcbfe.png"
+  },
+  "95": {
+    "name": "Onix",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "img": "i/nostr.build_505c8ee1ac3ee51a958ba28d13fefc12ed47ef4753ea59a2ad5a29525e6c386b.png"
+  },
+  "96": {
+    "name": "Drowzee",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_4bf3e47a986122d6293f6b16ac4774ef878ca97113d81b8f5fb2cd7295726e15.png"
+  },
+  "97": {
+    "name": "Hypno",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_67c45ada77fd1060ffde00ff01c3f914a7b0863a1f45a35ec921e85ea528ca34.png"
+  },
+  "98": {
+    "name": "Krabby",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_1ebc0a6bb623360c3b12a1ec025a85a12002013f601fd614a9921239ade5ee70.png"
+  },
+  "99": {
+    "name": "Kingler",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_52e06c1f07baba002e4ec4f80780361123db636e0fe173f71dbad1160770fbc8.png"
+  },
+  "100": {
+    "name": "Voltorb",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_81712500109e5cdb4c4c0f9bad48bc97c460cbdfec5d57c29f5a58d69f62ef25.png"
+  },
+  "101": {
+    "name": "Electrode",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_78ebea5094a730f9793f8b0db9ffadc6d7f664808fbe024b4fa5aaebf77e24c5.png"
+  },
+  "102": {
+    "name": "Exeggcute",
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_b912fbb85b5e93eb3be4d344cc4dd199908cda22d3ec9f9e7ed87c92cebc8ce5.png"
+  },
+  "103": {
+    "name": "Exeggutor",
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_cb92db87a78916b1e4f7b2758bea7f95ab260cd1461bcb10453451b170bc1d39.png"
+  },
+  "104": {
+    "name": "Cubone",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_97e0beec4302880ed3c3350d52974b2334342d0b0b2ff30c57c066a8d18c3f00.png"
+  },
+  "105": {
+    "name": "Marowak",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_939ecca507c35674fdd1bd14510663eceaee1c6b6ba1ee8b80c815725bf42206.png"
+  },
+  "106": {
+    "name": "Hitmonlee",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_9286b6721ba6d4deb816a1119fc665dfbae508d17d2b15f83e8bb30bdff8acb3.png"
+  },
+  "107": {
+    "name": "Hitmonchan",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_9547296f7fae53fc79f8dba70aa4614063b28d49b79118c36ce4aa02af003e8d.png"
+  },
+  "108": {
+    "name": "Lickitung",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_6266c46d0be77a30561b1a4879f1e6115b1c72f29bf94923bdf1ddd2a0200baa.png"
+  },
+  "109": {
+    "name": "Koffing",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_290487f8a386fae0e16c106720b26050537abec3def67da8af0fbc80dd5ff860.png"
+  },
+  "110": {
+    "name": "Weezing",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_eca4d2885cc7f28b3c89d07e73a51a97786aed19cbfa9380a124672bc7c167f0.png"
+  },
+  "111": {
+    "name": "Rhyhorn",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "img": "i/nostr.build_6b56e81c4f7d0bb1d1660dbe05ea212027c0a6111af5a7945a45995329354832.png"
+  },
+  "112": {
+    "name": "Rhydon",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "img": "i/nostr.build_49a04a6a84696d136562a169b3eac035f6e0fac0cc56bb085b00049be4de4c05.png"
+  },
+  "113": {
+    "name": "Chansey",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_1212cf81a85b3161eb65e315a6b43eadefcae3f6e15d9aaeed9e2b824b2cfbbf.png"
+  },
+  "114": {
+    "name": "Tangela",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_33b327b4a28a2a9d13a2d1458b14f6c1fa65e2ff29e7217763808c19fca9cb26.png"
+  },
+  "115": {
+    "name": "Kangaskhan",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_ffef98700680445ff12affd53449d794aaa638d680f6223f4403c9aa5c03e572.png"
+  },
+  "116": {
+    "name": "Horsea",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_d45ed789eeb850a5ae592bc3f319b56e3f5b6b32eaeebbcd6420c920745d788a.png"
+  },
+  "117": {
+    "name": "Seadra",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_0fc2d307c61e5e370d482724c6056cac0f1740bc6c97b3a673b60266261f6ccc.png"
+  },
+  "118": {
+    "name": "Goldeen",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_6eca22678c60cc1bc4ac94410ec6681ef09cc5dfd9367dc2f2b17e3f03ed9246.png"
+  },
+  "119": {
+    "name": "Seaking",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_4e7ec7d41ff870ed10ee4de767c6a354831eb6ba0e69b222d6583f1f62b361e3.png"
+  },
+  "120": {
+    "name": "Staryu",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_0ce512c9d51bc97f7121e1949a370c0af81579fbef376f4dd5220aac4298411e.png"
+  },
+  "121": {
+    "name": "Starmie",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_25f2b07a7c74cb0286525c68ad4d22062300c3ebcddd1d12d8b9d0290df5e19d.png"
+  },
+  "122": {
+    "name": "Mr. Mime",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_fffec734698df0433fd583ad3014cb1baa2ad05d9c1ae28d884265f82e029e2c.png"
+  },
+  "123": {
+    "name": "Scyther",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_4835339e7198c4a48c60740dc0644d59d42625fb0322308b71d69bef5431217a.png"
+  },
+  "124": {
+    "name": "Jynx",
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_cba7d8b3cae61cb08c8ff84919664f20a477ffd832c7beefab8639ab1a3d779a.png"
+  },
+  "125": {
+    "name": "Electabuzz",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_379ec01dc1d63cc18051c32ef8a198634096d93e2e4655ea83c7f1a5bcad2d19.png"
+  },
+  "126": {
+    "name": "Magmar",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_e1289c7078f7e31daa1d651b1968e1de295486cde30133328e01e39484fb1f86.png"
+  },
+  "127": {
+    "name": "Pinsir",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_7cee32afb1364a686c4c05c8e208cb474a7a0a18e3dece99cdf5ad430c667a40.png"
+  },
+  "128": {
+    "name": "Tauros",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_3055dc4eaec44244ddd7ad43695df41f8a9729cc52447583ab2b7b4e7c98d6f6.png"
+  },
+  "129": {
+    "name": "Magikarp",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_08bca638f1fc2b4b07a08b448d399fc66e20ce48bae487ee880072ef71afd75c.png"
+  },
+  "130": {
+    "name": "Gyarados",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "img": "i/nostr.build_e321ced23304024b352c94224f48d7678dcfd9fd84cfb42a8e297f0ad0cff7af.png"
+  },
+  "131": {
+    "name": "Lapras",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "img": "i/nostr.build_647ba578cc0e95220a19b9c4473751ad914407ffb2b91cd2714ce0584480572b.png"
+  },
+  "132": {
+    "name": "Ditto",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_6e6e0387334bf9c397f967f3393169850180a10e578a40b9a3010ec38c3b68ad.png"
+  },
+  "133": {
+    "name": "Eevee",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_a97bcba0b70f7a1cfc111180e689ab3f73b05f8c168deed840dbd2761a86613b.png"
+  },
+  "134": {
+    "name": "Vaporeon",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_e780c3ee9e013178a0539d58913571d85a34241cdd3cab39a2c3a3c45650da1a.png"
+  },
+  "135": {
+    "name": "Jolteon",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_9840294c87513bef8be4a2d7d3e66ffcb100bb0f28ad7cbea8fc2ac84651b776.png"
+  },
+  "136": {
+    "name": "Flareon",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_b0a1664859dd74955402b2ffdfffaa558ea2eda999620f062b6b52953a81d1ec.png"
+  },
+  "137": {
+    "name": "Porygon",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_b37e97486c6446601c189ef222ba330dd3625a36ad883638516fcb44fcbb9c8b.png"
+  },
+  "138": {
+    "name": "Omanyte",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "img": "i/nostr.build_c975fbe6c2e65c8e87b189a9fd2a54241f94bde3b232ee34974ecd6ce6c90fab.png"
+  },
+  "139": {
+    "name": "Omastar",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "img": "i/nostr.build_dafd47d6352797cbec0012ac071444b0060e26baa7ac48a21f027e1a2942fb59.png"
+  },
+  "140": {
+    "name": "Kabuto",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "img": "i/nostr.build_879f017df1a5785ce12661fc7fb00a73b18c594257b8659c8bb5b849d8f4c043.png"
+  },
+  "141": {
+    "name": "Kabutops",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "img": "i/nostr.build_42dd765271a767876f4d35b81bb80a5552e679ef3ffe078066a02bbe847bd35e.png"
+  },
+  "142": {
+    "name": "Aerodactyl",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "img": "i/nostr.build_4f9086501a6d1a58b59ea770c740dc8dbb62f58907e1c0898f922d4581247620.png"
+  },
+  "143": {
+    "name": "Snorlax",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_006e94c8f95cf5e9cffe204a9183349e581e909c99cb3bda2401b99e212ba43f.png"
+  },
+  "144": {
+    "name": "Articuno",
+    "types": [
+      "Ice",
+      "Flying"
+    ],
+    "img": "i/nostr.build_2fefb0c82e7de0cb6b620a3c726b77897f6cf1cd2522ad10c806bc29c4815d40.png"
+  },
+  "145": {
+    "name": "Zapdos",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "img": "i/nostr.build_c052c6e43bcab6eec8772893343dc592aeaf04b3c89ed5c09dc2ef486b1a8e2f.png"
+  },
+  "146": {
+    "name": "Moltres",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "img": "i/nostr.build_3c4bf9886f86ea576a4b0dfb66ada160556db479516900d594b46e3ba489c69c.png"
+  },
+  "147": {
+    "name": "Dratini",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_2150fbde183dd54b464559aced60c283d41a7a667b67369c015e6a0926d80da7.png"
+  },
+  "148": {
+    "name": "Dragonair",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_6799f51966a9583c276c1aa6f90f4bcd4cfee452c501a0b5cdd09639d0e35d55.png"
+  },
+  "149": {
+    "name": "Dragonite",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "img": "i/nostr.build_ab0832c9347e1df2250b6bf999297ae7de7aba9abef8730289bc542fe575f85a.png"
+  },
+  "150": {
+    "name": "Mewtwo",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_29e5ca8ffd62ed71e58b7c05f25f348cf09582d370fbad7eae738a1afe2039b9.png"
+  },
+  "151": {
+    "name": "Mew",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_fce317a087087685e68ef7b715b59e610b4541b0dcfc21737f51a6ffd9eefcc0.png"
+  },
+  "152": {
+    "name": "Chikorita",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_6c13fba43c5c5b1226570570bd50479f7f13501108cb853d20d409e9fa71344c.png"
+  },
+  "153": {
+    "name": "Bayleef",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_ee2b6b92b23e03a9410711c22250c64ebb6e5b779202c2235f704d0041bd717d.png"
+  },
+  "154": {
+    "name": "Meganium",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_14fd4dcce3ec30b2d4f3a82ecee224bcea9dc4cf4b4859d3a29474f15991725f.png"
+  },
+  "155": {
+    "name": "Cyndaquil",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_8b728123b8cdbbae6e498f17c61c08ece89a1b1067b2f2e5e898d0ff5b1dd20d.png"
+  },
+  "156": {
+    "name": "Quilava",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_55e326302507d7edf4856adefcc2643bb543b4656b21fa434e861870c5c0fa8a.png"
+  },
+  "157": {
+    "name": "Typhlosion",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_f7025a341d7a3710d2867c7961709e9a24600c72ca277387f4fd7ebd852deac1.png"
+  },
+  "158": {
+    "name": "Totodile",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_8e3c7c7af5c260250861b4fdee26a73490717bc4759143e2333e41a5a905b86e.png"
+  },
+  "159": {
+    "name": "Croconaw",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_7150a633a2c5a2ad343fa59d330e9cc61dfbc2a8b074a6d8dd495c878bb9bb68.png"
+  },
+  "160": {
+    "name": "Feraligatr",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_48a8267accea6121323a1915eb03d7a5b0caf36ee29be0c9cad20ab6ce29bef1.png"
+  },
+  "161": {
+    "name": "Sentret",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_f8dc9673df83f7902b9b1bd693f76575e159c9e8099fce65450ac028537c3c2a.png"
+  },
+  "162": {
+    "name": "Furret",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_6c7781f74c7701b7c08c95cfd029b307f4511eae873a5e82f2b3c7d4d92b0e7a.png"
+  },
+  "163": {
+    "name": "Hoothoot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_181d0317da54bacec21d04274820437927bc7783380398860382f14e91106d8b.png"
+  },
+  "164": {
+    "name": "Noctowl",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_42893a7000f961846a77e68c394992b1885ba2e836c92fe8fe39ddd4d04c105b.png"
+  },
+  "165": {
+    "name": "Ledyba",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_438733beb824719d69ae8cc4042b03bd44d5daa93aa1c53faadfa6995d6099bf.png"
+  },
+  "166": {
+    "name": "Ledian",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_28e4b79c08f23911234863a78b906beb78e282bc193a942d22823a8b8590103a.png"
+  },
+  "167": {
+    "name": "Spinarak",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "img": "i/nostr.build_db929eb075749918a6e35a65b3ad333454dde48a66cd16098c905a229da27343.png"
+  },
+  "168": {
+    "name": "Ariados",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "img": "i/nostr.build_a93a2c672f77babf28de5fec6738f5d16bea3523f42177e1c77c7081a634e1cf.png"
+  },
+  "169": {
+    "name": "Crobat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "img": "i/nostr.build_87255f8b3a4ed0f5bdf10b79e853741936e6761cd09fb1500fb62b9fad107ef0.png"
+  },
+  "170": {
+    "name": "Chinchou",
+    "types": [
+      "Water",
+      "Electric"
+    ],
+    "img": "i/nostr.build_0435d727b82319a3de73f05ec7f4297add7b7e7e6b7feb771c1ec89f941c0757.png"
+  },
+  "171": {
+    "name": "Lanturn",
+    "types": [
+      "Water",
+      "Electric"
+    ],
+    "img": "i/nostr.build_4cc9e9e18dd2e597f61c733c314d1f460c7976084f909380ed4ba008febdc019.png"
+  },
+  "172": {
+    "name": "Pichu",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_6bf4c2f95b5b08292171105460cf128c6a421b30f8f04a3112c1e72e82bf54cd.png"
+  },
+  "173": {
+    "name": "Cleffa",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_322c5cbc16630dfaed1b1e4d7295b815dc9499a1fa20b9a4349b01c82c1fda4e.png"
+  },
+  "174": {
+    "name": "Igglybuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_fe74951de08aa050bb9fc46651d74c2e622368326dbd68be537a010d6565b709.png"
+  },
+  "175": {
+    "name": "Togepi",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_284e0c549a308b3b57cfbdf01dc296f77d496398f2adf55eccbd75afb847fcad.png"
+  },
+  "176": {
+    "name": "Togetic",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "img": "i/nostr.build_ad829f663ebeec3dee8f58e4422abfa9e36b198af897c3fc36539a5e04fb6e02.png"
+  },
+  "177": {
+    "name": "Natu",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "img": "i/nostr.build_76a8f3855f590731c3d6e291d33bb67e70b59f89eb63b73565df776f42d6483e.png"
+  },
+  "178": {
+    "name": "Xatu",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "img": "i/nostr.build_e9b87a1794514b23d25b4b13c99b48e58950afa7760675c27a29fa298ed0ca1c.png"
+  },
+  "179": {
+    "name": "Mareep",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_b5dbe666345b3a0252934123ae5b2984bd86b1d62a9658e7e1a6ed1446868819.png"
+  },
+  "180": {
+    "name": "Flaaffy",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_987d6efeab887bfdfd3b1fa73477081e751e0605c91ee1e7cd35d68098b02bc2.png"
+  },
+  "181": {
+    "name": "Ampharos",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_9a8866e67bf2ef56a0fced0d127836ee54b58c9f87c5e5ef476de0b220e0057e.png"
+  },
+  "182": {
+    "name": "Bellossom",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_57ce99397d3d6c85c29b0c08e825bbcbf041313e8c3809a1dd6a38bf09b687e1.png"
+  },
+  "183": {
+    "name": "Marill",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_96afa5483662bff41826cbd794bad13a0c2331582b9d84b1fd40b7b2306d3a47.png"
+  },
+  "184": {
+    "name": "Azumarill",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_2a9c2650b88f7df896cc03e8a3f0128eb620398ddf81e1aa1db472d9955ef87d.png"
+  },
+  "185": {
+    "name": "Sudowoodo",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_cc676f300ce8f1cbaf5bb8d9b05f55b79b669c33871174c16497ac5f41e48437.png"
+  },
+  "186": {
+    "name": "Politoed",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_60d419f820ded9bf717b95e13abd3448c907673405fddc92ad6593effa0d5658.png"
+  },
+  "187": {
+    "name": "Hoppip",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "img": "i/nostr.build_2a40454fd6482bdab3c27ecff9035cabf0d62ba1ad02260b771888b4fb4e417c.png"
+  },
+  "188": {
+    "name": "Skiploom",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "img": "i/nostr.build_89bf03352154e6631fc368a1ccd6dc1fc37897a6018dab2da43b8870a7fd5774.png"
+  },
+  "189": {
+    "name": "Jumpluff",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "img": "i/nostr.build_442c31f83700be17f47ae2a2d9708e5552aac35a5b16fc4c74fa237ccee87b4e.png"
+  },
+  "190": {
+    "name": "Aipom",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_88d883589b6aa9151441c1f45b1264dbac145f0251f52f12af8e9a5c22cd34cc.png"
+  },
+  "191": {
+    "name": "Sunkern",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_76640d8111d697d326f52e7f7f44492b58d1f7c6393aa402855fc65a37531db9.png"
+  },
+  "192": {
+    "name": "Sunflora",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_c4d1b10924114d92402566aa4a6361c05e6d2de03bc033950699e55ff5dce9f9.png"
+  },
+  "193": {
+    "name": "Yanma",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_a0e3cfe7223a9afe4412ebb2873cb29a828818dbb82c22ff2e4a8fdb819e314f.png"
+  },
+  "194": {
+    "name": "Wooper",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "img": "i/nostr.build_630ead9fff93138e0e316f76ba482332bbc96bcad492330753507eeabcac3b93.png"
+  },
+  "195": {
+    "name": "Quagsire",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "img": "i/nostr.build_116c0550bb7949032ba4af6d689062b76bddee95fabf1af00b527820473d9398.png"
+  },
+  "196": {
+    "name": "Espeon",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_b1463d9a39d6217d38f10c7031e8fdba06c0cfae3dadeacc0c8f117a3aeaa4eb.png"
+  },
+  "197": {
+    "name": "Umbreon",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_35a04a9b7e65ffad9d4a9f162e5ccc1ad748f6d8075b836bbccde22ffb903c1f.png"
+  },
+  "198": {
+    "name": "Murkrow",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "img": "i/nostr.build_41570fae23673a1626d2af8d04ac0f4c8918e5f13d819eb64fb83e6d8d84a5d9.png"
+  },
+  "199": {
+    "name": "Slowking",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_37765e311e89f9af94cd1ea8b17153a8b5fa3263d7db45902975a6084ee6fe5a.png"
+  },
+  "200": {
+    "name": "Misdreavus",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_c783182a522b127a28448a36243a0b52ba820f1285b9bb6cc9e40e4d5627136a.png"
+  },
+  "201": {
+    "name": "Unown",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_96c238fe00861155b2fe3989e7e4b5f86025034b4efabc14b12c8ea57cf43062.png"
+  },
+  "202": {
+    "name": "Wobbuffet",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_8e3fad18cd869b01629a6d16796a9f0d6fc3ca89d219fb81f97ed43338a7cdae.png"
+  },
+  "203": {
+    "name": "Girafarig",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_a60f1025a5c3d739e51fb59a5cced5a99cbd4f6b0db3defef714254ca2254954.png"
+  },
+  "204": {
+    "name": "Pineco",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_0c494ce3b5ee946d2a85f452734de039f75d23414568a7505f7e8a2e9d52b5a1.png"
+  },
+  "205": {
+    "name": "Forretress",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "img": "i/nostr.build_373d343158a5c60131426d9d241111678251eca5b6fbd9cc12d5d13021ab4e4f.png"
+  },
+  "206": {
+    "name": "Dunsparce",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_d379803b3cee395109ebffec7d690ace3efa985d35845b75f5f8f19ae6b79635.png"
+  },
+  "207": {
+    "name": "Gligar",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "img": "i/nostr.build_fbb85bc2cf136620435f3d4eddd6a666baf38229d12c3daa6823e6c38ce74245.png"
+  },
+  "208": {
+    "name": "Steelix",
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "img": "i/nostr.build_78a6340037a47bcc0894e7ddfa9eef1060077e6b16e059a7289bf71673b3486e.png"
+  },
+  "209": {
+    "name": "Snubbull",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_ad2753a82191a291cce87ef6507e810a062c4de584958746ff1d8cf0a7ceba37.png"
+  },
+  "210": {
+    "name": "Granbull",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_8e6c26090299a12d0cac3a1dbc85a038ecd0998e329d65723185d3eac1aefc28.png"
+  },
+  "211": {
+    "name": "Qwilfish",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "img": "i/nostr.build_e67208df9d8adda5d6936584c4dd21bb790a65b842aa2f726ed48c810c05ebf8.png"
+  },
+  "212": {
+    "name": "Scizor",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "img": "i/nostr.build_bc5883b08572a51de92cbd0b84ca7204ea2e2f1d31798a62f8a790b3cf277025.png"
+  },
+  "213": {
+    "name": "Shuckle",
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "img": "i/nostr.build_1ccf239f524b713c56203f982d6db1c7d2fa4d598abd5835e93f76c2b86dfe52.png"
+  },
+  "214": {
+    "name": "Heracross",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_430401612221bbf624b25ac739a5b7ed2ab099afac165379546d16dc8d6ace07.png"
+  },
+  "215": {
+    "name": "Sneasel",
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "img": "i/nostr.build_ddfb18719b65184453c288932c290983fe80640e007adf0a11d7987f560ce9b3.png"
+  },
+  "216": {
+    "name": "Teddiursa",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_63269ae7d102ff84d5d523ff662acaf503fa0e116a0b94b4140dedfe3077ffa4.png"
+  },
+  "217": {
+    "name": "Ursaring",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_2524b2ea263e7b918ef6af27e2a663e4e426388ef7947f9e37ef9026a8a09d6b.png"
+  },
+  "218": {
+    "name": "Slugma",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_4379e704de7889a95717e9dcabc129eb7bf805d88c228206ca21de210686cb45.png"
+  },
+  "219": {
+    "name": "Magcargo",
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "img": "i/nostr.build_6edd93995fe5e2357146b981034c506cfecb59c233349e7a93623bb1f536747b.png"
+  },
+  "220": {
+    "name": "Swinub",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "img": "i/nostr.build_4c1e48f532110075dfce6f428c66d5c0ff3e0242f7bc887826c7095c2b95b931.png"
+  },
+  "221": {
+    "name": "Piloswine",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "img": "i/nostr.build_05a13805e0fa93af13fc73628801c895a2195bc5b66e09c508a3a88b6eb0b6a9.png"
+  },
+  "222": {
+    "name": "Corsola",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "img": "i/nostr.build_8ab84fd16bb578da5f962dd70643f9375461b100ca985ca2bb86e081cedb10c6.png"
+  },
+  "223": {
+    "name": "Remoraid",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_aef735360f72ed4186c9839a13d8a28ccbb96ca879c0ba3c18d302bba2dd622e.png"
+  },
+  "224": {
+    "name": "Octillery",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_96e213addb8db649b7d416f7ab79ee5351d0e538c4950a9097d5a7e77de8edb4.png"
+  },
+  "225": {
+    "name": "Delibird",
+    "types": [
+      "Ice",
+      "Flying"
+    ],
+    "img": "i/nostr.build_f5c1b69e5f463ed5ac51401d8da8b2a9e35c470487f872ad822fdb1ff5e19f07.png"
+  },
+  "226": {
+    "name": "Mantine",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "img": "i/nostr.build_4f88c1485b3eff3256d4078727e28a8249549fb04aa79ce98fb53b9bf234a34b.png"
+  },
+  "227": {
+    "name": "Skarmory",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "img": "i/nostr.build_36d82cfe2bdd35b8cfb3318da414e520db8f472ebd9d3d867920f9e5302cadd3.png"
+  },
+  "228": {
+    "name": "Houndour",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "img": "i/nostr.build_f639d7c9434b0b7a6ad3cddcdefa4ea189e99f38b50dcfc12295341816ac9e80.png"
+  },
+  "229": {
+    "name": "Houndoom",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "img": "i/nostr.build_7198474237f403b72ac26e78eddac4b873f5f697b3d9f67966a440b872ad04e0.png"
+  },
+  "230": {
+    "name": "Kingdra",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_953d98176415b3090fe266a7a51ae66a51a897e1b664d3122706e107cb628ab7.png"
+  },
+  "231": {
+    "name": "Phanpy",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_1e0214033811f9dab70c22e2ac26297669813569abedfddd4365c0e39b311aca.png"
+  },
+  "232": {
+    "name": "Donphan",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_dc977d695c9d3ec8074d2d637983a15e79e563fa1dee343f3811e78f6d2fb509.png"
+  },
+  "233": {
+    "name": "Porygon2",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_cf308912d3cd27b1c0287593b9ecae8a9131eedd365ad63d91b811baa0b81182.png"
+  },
+  "234": {
+    "name": "Stantler",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_e68e7ca4caf0a293739eb17e8b92553b1ac2a9a844fa65f41c88f5ce4dd0bb1c.png"
+  },
+  "235": {
+    "name": "Smeargle",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_cdd6937b128956febea2662aeade8bbb3fea125952b251fa20d66d8e9b13ef99.png"
+  },
+  "236": {
+    "name": "Tyrogue",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_132f49feefed9901cd91e13981ca3ec885b8291b3ef0f0553a964975cdce78fa.png"
+  },
+  "237": {
+    "name": "Hitmontop",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_2a621a0d6313014fb8d80d221e5ce8a76e49730680bc1f6bd01308e0eb33aac0.png"
+  },
+  "238": {
+    "name": "Smoochum",
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_c764b9e3956a76bab401604adc826043c650c7d15fa217b021e686dc1a29ac44.png"
+  },
+  "239": {
+    "name": "Elekid",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_0ecb80f4c6646fd7d2f55c7c3ba7271219f3867fa443175ac95ba810508f4631.png"
+  },
+  "240": {
+    "name": "Magby",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_614fe79a0b312fe17958a4959adb50fa4ffcde04b9da5b6a2cbfd83f70e79149.png"
+  },
+  "241": {
+    "name": "Miltank",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_2241cda2874b50018631453b10e4df42b79d08674d37595ea65b3e5b8fa3abd5.png"
+  },
+  "242": {
+    "name": "Blissey",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_7d8baef4fd8448dfe6dcc7c3bc85beb9e8a18cf56a17770843c941da030cb6fe.png"
+  },
+  "243": {
+    "name": "Raikou",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_e659436bb599228176595d1765633c483073a8ea65ff86f086c132a2fda48ece.png"
+  },
+  "244": {
+    "name": "Entei",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_f4fb4f44fe5b2e4b82da473ac66e127ab2684c3cd4d345e5ddded9939836e819.png"
+  },
+  "245": {
+    "name": "Suicune",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_d5638aa9ab44653f889492c129b42e62ba5efd08d2a6b753fa9773f672dd5447.png"
+  },
+  "246": {
+    "name": "Larvitar",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "img": "i/nostr.build_2f3d6c4442ca2f14365bb20b7fda844a58aa2f1644181b5444677555c6bdaa03.png"
+  },
+  "247": {
+    "name": "Pupitar",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "img": "i/nostr.build_765801c88529c7d897d0057012a3ee16a69b2ec2919c8cf13a0b950457e68c9c.png"
+  },
+  "248": {
+    "name": "Tyranitar",
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "img": "i/nostr.build_9bff012a6f4c93ee89ecdb126f659397e7eae4c941e0b500dee4631661979337.png"
+  },
+  "249": {
+    "name": "Lugia",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "img": "i/nostr.build_024b135b2d9da4b178a6f26a6507f36b2d6f5ab1b066fccd8a3aaca94571f1f5.png"
+  },
+  "250": {
+    "name": "Ho-Oh",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "img": "i/nostr.build_43a7b3f76894fa12f867440a19c9a4c1aa755d4a2dd918f0277705e8a940f482.png"
+  },
+  "251": {
+    "name": "Celebi",
+    "types": [
+      "Psychic",
+      "Grass"
+    ],
+    "img": "i/nostr.build_128d045d0f865732dfa56b35b456ea811e42861dc2e8ecf8e6e235a37d7ec41a.png"
+  },
+  "252": {
+    "name": "Treecko",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_0402c1ebdbc39a14ad8a266e0a711e62d8b789dc53b9976707945e116f752cd1.png"
+  },
+  "253": {
+    "name": "Grovyle",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_8ab376aab8a0f956c6ee22da6b5d48930a8a995e277ad07e90735d7d31eae0e2.png"
+  },
+  "254": {
+    "name": "Sceptile",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_93ada0e86e777e9646c6788bbd14894cab52a7cac87feeb8df50dc92bd4497ce.png"
+  },
+  "255": {
+    "name": "Torchic",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_4f25b56e1d5c2236e513e010cba718d4b13d46293c561cc4b8bf86bf98e349d1.png"
+  },
+  "256": {
+    "name": "Combusken",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_1e60552ee7b47c895134657e32f9abab6bb23f9010e58467a27d1869c2f37cf5.png"
+  },
+  "257": {
+    "name": "Blaziken",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_b5877a7737559deb38c764868a70ea81b6ce93438e6ce8ee41fc7d8a43eb65f4.png"
+  },
+  "258": {
+    "name": "Mudkip",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_2c071811b15f51477c85ae08eb87e3e5f3c854d484c825dbe5a2aef1189c838b.png"
+  },
+  "259": {
+    "name": "Marshtomp",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "img": "i/nostr.build_244c3badb3469b9c4a1e8dfd893bcf9b5239b59741d06172beeb7be60d3df67a.png"
+  },
+  "260": {
+    "name": "Swampert",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "img": "i/nostr.build_34f72b1637618fd6ad403835e004b6e7862ce3c19fea113d46e9fb8cdbfedce2.png"
+  },
+  "261": {
+    "name": "Poochyena",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_8bb97444894cd32e2ff171aa3350f17ebc181dfcfe9c52fd9d925820321beef7.png"
+  },
+  "262": {
+    "name": "Mightyena",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_33185852e0daac8f27947f39dedf7993213c832a6b00c73f13c83c1286ffd5a7.png"
+  },
+  "263": {
+    "name": "Zigzagoon",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_ae23f9e4f5d585e653272dc7c7e1b8bff4cb900fe58f91f7a435212da3b778e4.png"
+  },
+  "264": {
+    "name": "Linoone",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_b6e541df15bd9c0bccca028d2f46bc88d386b48da714346e291d0d4a90788df8.png"
+  },
+  "265": {
+    "name": "Wurmple",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_1d1ef25221e35354cd4e152b98a5b1951bee20143d9746f682822f17250cbd10.png"
+  },
+  "266": {
+    "name": "Silcoon",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_29984947aa3b0f307f6faa56a78fe4f234848cb311dde32badf961f4d09ed064.png"
+  },
+  "267": {
+    "name": "Beautifly",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_285457276fef190bdda2fa59edcd050d668e376f58aa089c26a48ea7835b8b25.png"
+  },
+  "268": {
+    "name": "Cascoon",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_ba53052c7f8d99868d09fd23d7fd64bf0a51024cdbea8edd733fb08978f9b851.png"
+  },
+  "269": {
+    "name": "Dustox",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "img": "i/nostr.build_0d3d5055dedff0008022d9d25d616b94a006efe0d2aa15d80e3ed06bf4000e70.png"
+  },
+  "270": {
+    "name": "Lotad",
+    "types": [
+      "Water",
+      "Grass"
+    ],
+    "img": "i/nostr.build_103d92a9e2114ec1c13aeb74312c468c998b039988eacdee3944c37d03772e53.png"
+  },
+  "271": {
+    "name": "Lombre",
+    "types": [
+      "Water",
+      "Grass"
+    ],
+    "img": "i/nostr.build_36cbbc9787bd5a058f7a84e2aa2fdf90d4f66b05772247d4cd38448b8eb44d65.png"
+  },
+  "272": {
+    "name": "Ludicolo",
+    "types": [
+      "Water",
+      "Grass"
+    ],
+    "img": "i/nostr.build_4ba37fd880aa07b37f66122d53658575ea9ee95eb237c1a8f9bf459cd645fb5d.png"
+  },
+  "273": {
+    "name": "Seedot",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_e8644d8f19140953d2815a6c8c0902af7d6eb4f14d3366b3179677173d2a4386.png"
+  },
+  "274": {
+    "name": "Nuzleaf",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "img": "i/nostr.build_9fb214457b3fea085beee729c23003cf234d080c4033bc92bb279afa149916bd.png"
+  },
+  "275": {
+    "name": "Shiftry",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "img": "i/nostr.build_77d55c9f7e7e35003f06f12926a5b101649cda5d4df07168a5df88239f7a4520.png"
+  },
+  "276": {
+    "name": "Taillow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_6efbdf9fd0078ed324ffb3ecdb7d098bfef961624bd14b80b0f80c091db4ec3d.png"
+  },
+  "277": {
+    "name": "Swellow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_3ca30cc73e9bf2be309fa27dcaa4374d829860a8de150e7b2ed622a541753238.png"
+  },
+  "278": {
+    "name": "Wingull",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "img": "i/nostr.build_216fff5a4a954bcafdd46b2724c025f83f3f38f936794c148145bfaaf267421f.png"
+  },
+  "279": {
+    "name": "Pelipper",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "img": "i/nostr.build_4c73b9d0971ee8a103e6041dfbd1103d74dff843a02d9003adc2a15e5d468a9b.png"
+  },
+  "280": {
+    "name": "Ralts",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_1457784a8b6a7b21d25cf2439a33de0888dcd1792d9a803cf8de9dffecba587c.png"
+  },
+  "281": {
+    "name": "Kirlia",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_7b1bbab5aff17b7db59d3a11a063f4786d8dbfc692334a78daaa066522eeb19b.png"
+  },
+  "282": {
+    "name": "Gardevoir",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_4e36acfb7ffce9e76d4f6a5ae81c289d353630cc71b13ed9f12cbd206dcab4c4.png"
+  },
+  "283": {
+    "name": "Surskit",
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "img": "i/nostr.build_010f4a32c48e5a0cd5a4a08facb0a996dccc299bd5a38b210a5fad2b82c5abcd.png"
+  },
+  "284": {
+    "name": "Masquerain",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_9ac44eb14c0cbdb844192628b8381a481561b2e0b1fc8a6c316d08604897e4a3.png"
+  },
+  "285": {
+    "name": "Shroomish",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_be0ab4ac15f9b3a6d892cf67451d5853c8b7a021ec42d0c1b05ef6c2027ff6e8.png"
+  },
+  "286": {
+    "name": "Breloom",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_8b01e468c9a82c8e0150fb1df3e1ea09207d489994272fbe89b9a89aa329bef3.png"
+  },
+  "287": {
+    "name": "Slakoth",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_1dac77d719ac2f432e9547914bafe25bc14813021e3a6c5f8b6b7b132684dba2.png"
+  },
+  "288": {
+    "name": "Vigoroth",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_5cd4ca21d0b8cc0f460292ace1349fca076722bb0187eb7bae104a9186a32c45.png"
+  },
+  "289": {
+    "name": "Slaking",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_81141b0b94b4315fff81a7f35c08d654ca9b72453d18fd7c2631fbfbf892ffe5.png"
+  },
+  "290": {
+    "name": "Nincada",
+    "types": [
+      "Bug",
+      "Ground"
+    ],
+    "img": "i/nostr.build_bbc74b4d486f43e1d9e13aa33c27ed074f44b7d8e51383e54d7c9891d41597e1.png"
+  },
+  "291": {
+    "name": "Ninjask",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_5df6d5fef40c0bf445fd53e07f8ad95a1aa3ecb0789af6f042fc1211c8305972.png"
+  },
+  "292": {
+    "name": "Shedinja",
+    "types": [
+      "Bug",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_3ceb026f4b03e530cfef3c22683e58d1d73429f7abe7dfc1ddce9a7e033758c5.png"
+  },
+  "293": {
+    "name": "Whismur",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_8c174c0834465632815efa148215438373d4fc5321218e86198a0bf91a53bebf.png"
+  },
+  "294": {
+    "name": "Loudred",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_478fdadc97679a831010e0cba67e4efecd90efe382bfed6d1990322542e607fe.png"
+  },
+  "295": {
+    "name": "Exploud",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_94a9ce9a4a7e50654fd7e802af6643395d97759789ff63c1213d26dde51264b3.png"
+  },
+  "296": {
+    "name": "Makuhita",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_d9b0b63ebc6b28114842498301979a50796c44c586a23881b6d745b911a0292e.png"
+  },
+  "297": {
+    "name": "Hariyama",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_ebb0f6296a83106a86e76cc9ad97cfe6bdba115b07f7a865c936571ab5280239.png"
+  },
+  "298": {
+    "name": "Azurill",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_7fb2f6fc61743bcfc5a18aa1c33ebf56afa684c0fe3101db7226d9ac0c54550f.png"
+  },
+  "299": {
+    "name": "Nosepass",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_3ecf383bc2e899d0ad3ab78ab83185d4babc71bb8f84001c4107ffec6b4245fa.png"
+  },
+  "300": {
+    "name": "Skitty",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_47262dc3ad7219af84cf861dc1f29ab8bc7c52c75f20a5b3077f343e90945602.png"
+  },
+  "301": {
+    "name": "Delcatty",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_836e896c02d46278797bfb04dc1acc563d8fc7c656bbe101f6291c77d8591185.png"
+  },
+  "302": {
+    "name": "Sableye",
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_9782415035b9b2c88539c0bf2afb2a7a731dc1e4bf32fdb27fa2048134f1c316.png"
+  },
+  "303": {
+    "name": "Mawile",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_caf451021120647a16a6dacdf49259e2c4a0577f3035dcd2cc7692de33f742b8.png"
+  },
+  "304": {
+    "name": "Aron",
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "img": "i/nostr.build_a0548060b2705ac49584cb59382599417a6c9e7ea79b80f60179b667b89a4984.png"
+  },
+  "305": {
+    "name": "Lairon",
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "img": "i/nostr.build_8b100742dc598902cd79b0bf20541723ad3867ca9eaa3f91ac830b01c24cb257.png"
+  },
+  "306": {
+    "name": "Aggron",
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "img": "i/nostr.build_5b8e142c326d7321ae2c6dca2015ddfceb7e2c60d8a13f839ece321b4be535c8.png"
+  },
+  "307": {
+    "name": "Meditite",
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_fb181bdaee38496d7b37c405f1d30d4c37e502d202e3717540e9af4afaf88ab1.png"
+  },
+  "308": {
+    "name": "Medicham",
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_434e774b0f58bc16234ff80905295b2c82eeef489cf6d97dd2af3bb4f9ce2642.png"
+  },
+  "309": {
+    "name": "Electrike",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_930dffbef22b8908ecc45e422e3da8cfc4c5e4be8e9394a2f2e4664c4ebf0fdc.png"
+  },
+  "310": {
+    "name": "Manectric",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_690a7a5307da5a084308faaad1afd6efd7ae81ae526be8f6f16f0108a8c5735c.png"
+  },
+  "311": {
+    "name": "Plusle",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_2b22cc8f5e4a9317ab67e9a36dd5be10ae34616e527a195c78aa2b9a62df4c71.png"
+  },
+  "312": {
+    "name": "Minun",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_f89f5c8db563a8fe32fa5cc8c9927413b2f278d6a2e694f016608eb6dff3e6ef.png"
+  },
+  "313": {
+    "name": "Volbeat",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_632c5e7e60194f8e2eccb5061475bf2317d1334e8662d4347cb1583584368369.png"
+  },
+  "314": {
+    "name": "Illumise",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_929abd96c04ba92b14a048780edd0dec41e25b164cdd83cebb592243a5e31e28.png"
+  },
+  "315": {
+    "name": "Roselia",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_8899ebe9baa1d3244532ff39130101485fad462ef60ff920f15924ef45092447.png"
+  },
+  "316": {
+    "name": "Gulpin",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_a94af10f91981f8acc257a7fb616cd4217d0bfab39954819bfd5cedeaa060dee.png"
+  },
+  "317": {
+    "name": "Swalot",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_bff1f102735ec30432fee96ff323811b7be53603eac286dd18aaf4348262e50f.png"
+  },
+  "318": {
+    "name": "Carvanha",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "img": "i/nostr.build_b1cda705499ffd52b897fb116be6fb9f6903d13afba0ca4808f3acaed2bf729f.png"
+  },
+  "319": {
+    "name": "Sharpedo",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "img": "i/nostr.build_d1b07d979685e86945d59e69eda03b97ededbbc87abc22f5f0d56c892642708b.png"
+  },
+  "320": {
+    "name": "Wailmer",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_3bce81151fec6e1366a1699a460e9d048d6343b4d9abae44298b3449bf2c3b91.png"
+  },
+  "321": {
+    "name": "Wailord",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_f1a4352880ebb4513c600968b5c451e093ca3c838dcc72e340f3d1b3ca5f5671.png"
+  },
+  "322": {
+    "name": "Numel",
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "img": "i/nostr.build_827fdb529b9155434a2d35c00d1c2765e6911a2d4f77c65c9c6227366267acf3.png"
+  },
+  "323": {
+    "name": "Camerupt",
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "img": "i/nostr.build_95037f553cdf77b2827aa31f797782c1f33755770b3fc6c5fe6431e62c89f90e.png"
+  },
+  "324": {
+    "name": "Torkoal",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_be07bf8bf617f8f414b35b7a5b53ba7424da071a39423ac6c53b43faff70fecd.png"
+  },
+  "325": {
+    "name": "Spoink",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_c993838e82041a1bd6c7af065589708bf423d2a343bc09d1ca4c355888b60576.png"
+  },
+  "326": {
+    "name": "Grumpig",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_d70e3d4cc2f6d99869c6dffe7dd591f4efefdaecf937937d9b9d2ffd70dc53c4.png"
+  },
+  "327": {
+    "name": "Spinda",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_53c79c9dc5d2cb80c030773885347b46dbe31b9ad5391cd7fc80fcdfd666f8b2.png"
+  },
+  "328": {
+    "name": "Trapinch",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_94996e1c966358d9a708b09c8ddf112392ab1b56c63a43c8c5ffd3941ccd6f40.png"
+  },
+  "329": {
+    "name": "Vibrava",
+    "types": [
+      "Ground",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_488547d182f42e1d58228a9cbe3849b84d70994397ca7b51f38f51ade7746e1f.png"
+  },
+  "330": {
+    "name": "Flygon",
+    "types": [
+      "Ground",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_20da0281a99ef8d777d8fb1692bbc6148373755ce1f7dcf49d2048193cec9dd3.png"
+  },
+  "331": {
+    "name": "Cacnea",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_78cd9c58c96cc0e9021b68118cbaaf4160847df1575ab919d3bc74b7fdeb7a0e.png"
+  },
+  "332": {
+    "name": "Cacturne",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "img": "i/nostr.build_e4e892de144ad73184329a6e5c5fee0b92dbd9e32bb3e455d96a9b17f4a99c46.png"
+  },
+  "333": {
+    "name": "Swablu",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_ba19a9b15bbc2e37637b96b5c4031a7f67eb58117a6dbf4098abd71d61f1e8b5.png"
+  },
+  "334": {
+    "name": "Altaria",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "img": "i/nostr.build_df56d489277559c0c1751c13f9bc409043d6ff750d0ed08246976cef2a88d21f.png"
+  },
+  "335": {
+    "name": "Zangoose",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_2be0bd6ba6229b8bbd196de763e9181092a5a9640754bda091237c62cdaf0d22.png"
+  },
+  "336": {
+    "name": "Seviper",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_dc1309fcef2296397fc6bcc2e4c9a548f08f8deb7cc9e272fe1fd40f67ec05cf.png"
+  },
+  "337": {
+    "name": "Lunatone",
+    "types": [
+      "Rock",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_50f88f8ddadd95e522cedea40ed15fe4c4e74f46a671ae9b499350964d6c9fc3.png"
+  },
+  "338": {
+    "name": "Solrock",
+    "types": [
+      "Rock",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_35a84a9c25bde6df173624b396c9711d52a2cb50b18e70f40f810cbc7aecac6c.png"
+  },
+  "339": {
+    "name": "Barboach",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "img": "i/nostr.build_74d7d10cffd3cf785568e58ae59b809fb2470a7a89b8bc6107fcd69d87d3e134.png"
+  },
+  "340": {
+    "name": "Whiscash",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "img": "i/nostr.build_f6372d9e8b193f6540bfb0084196efa792c5ffe00866c6f1d1fd8de9712c2d32.png"
+  },
+  "341": {
+    "name": "Corphish",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_1cf9d33f713feca33fb7cedd7b0b3bee371daffb1cf24b1a7550be0cf15bf300.png"
+  },
+  "342": {
+    "name": "Crawdaunt",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "img": "i/nostr.build_5a391a8a59c1944b71f7fc09a6bc38cfb23f88ebc52f46526b99228e2f97662b.png"
+  },
+  "343": {
+    "name": "Baltoy",
+    "types": [
+      "Ground",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_3d905c31a2851ac9da53c68b3df31eff7db0933b47bfe1c9599eb964c198a6e8.png"
+  },
+  "344": {
+    "name": "Claydol",
+    "types": [
+      "Ground",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_392bd44f9eb363be882d59ee309b59ed69df4274ad08990324250b42d97bcecd.png"
+  },
+  "345": {
+    "name": "Lileep",
+    "types": [
+      "Rock",
+      "Grass"
+    ],
+    "img": "i/nostr.build_66f3cb57e05c4e924c028fce502faa94a7c9e64609586ca8c98cd2bce13e6631.png"
+  },
+  "346": {
+    "name": "Cradily",
+    "types": [
+      "Rock",
+      "Grass"
+    ],
+    "img": "i/nostr.build_879ed9121f0222c48e529e05f5523a86e775c016851eea521144f8b734ac0894.png"
+  },
+  "347": {
+    "name": "Anorith",
+    "types": [
+      "Rock",
+      "Bug"
+    ],
+    "img": "i/nostr.build_be93c919b3c818abd5b1b130272bb3c4d5cc188b7f53c2494d502821c9422cd2.png"
+  },
+  "348": {
+    "name": "Armaldo",
+    "types": [
+      "Rock",
+      "Bug"
+    ],
+    "img": "i/nostr.build_89255f23dbb4440021bd4505cc61d4fce9121ae1aa6ba29919cbd953711cb771.png"
+  },
+  "349": {
+    "name": "Feebas",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_19d4ac3c3a456b042ccd0b335cf9bd394d97a53f995854ff7a1b9a890e61e701.png"
+  },
+  "350": {
+    "name": "Milotic",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_7ee14bd19d3c63d4e8f3882d9e1cbf312f9b38c6bf92dcb735cd6c485dde1568.png"
+  },
+  "351": {
+    "name": "Castform",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_df9c0cd81aecb9b96ed19686115e16fe8825b706f85f72c1894e11c5996712de.png"
+  },
+  "352": {
+    "name": "Kecleon",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_0876739af0fbef73684aad66534336605f365360c0c6dd23f78227bc5d5c834e.png"
+  },
+  "353": {
+    "name": "Shuppet",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_5def192c0264a29c5e41a3e453a52ab49bb87a19d0c23d71970bfd7ddba7fb4b.png"
+  },
+  "354": {
+    "name": "Banette",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_99e3a29286f9491618f07d7b4b282d508c10d61c96f766ff8b15f25187165e2d.png"
+  },
+  "355": {
+    "name": "Duskull",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_6e1b95ba8eba8833797c21f4e34d72404a7360c1741bbfa8d3a15f2bf804c3ed.png"
+  },
+  "356": {
+    "name": "Dusclops",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_361c50421f9031ca8f877e8494ee1aee1aeed941802fb0171d248b2b08e5a2f7.png"
+  },
+  "357": {
+    "name": "Tropius",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "img": "i/nostr.build_d0ec0974c593a67723a81ad0551da0ef2c2dcb04c94dc0c0bcb1ed7a0dc0df2d.png"
+  },
+  "358": {
+    "name": "Chimecho",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_671424e06f9313eee79e771ed7d644ae6683c48cfe8f2dfb8edd3b97f229b60f.png"
+  },
+  "359": {
+    "name": "Absol",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_3516ed5c7bb07ea4b3a833dc6aa474f152ac5d5a95f7ca9203799380aeeb6ca1.png"
+  },
+  "360": {
+    "name": "Wynaut",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_ae663595958b8f86df9142eb0d0816e34899a8ea80f618a718767e689ee7efbc.png"
+  },
+  "361": {
+    "name": "Snorunt",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_32500fe4366d203839af99282cf3a169252faf8b0056d95f2fe1b169ee5c4d76.png"
+  },
+  "362": {
+    "name": "Glalie",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_7213ac7669094590729387a5bd1b925467720f0cfa9281d1d51198281dd1231f.png"
+  },
+  "363": {
+    "name": "Spheal",
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "img": "i/nostr.build_554c236a06684dded1dde581c5b00a38a62b30ae3b9180507912f34165068464.png"
+  },
+  "364": {
+    "name": "Sealeo",
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "img": "i/nostr.build_b413159a410c27217febf8d0b7e022672778e4f30677ea1ad8e24071e172f106.png"
+  },
+  "365": {
+    "name": "Walrein",
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "img": "i/nostr.build_b1c70f41a38128909dff4631d3fee81e2ed49b29408060d055ea42cff7c0cc06.png"
+  },
+  "366": {
+    "name": "Clamperl",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_6d7f97fbcd733c98df3dbb5a32596f67e88db46fc1d98245b9b7910c3cd372b0.png"
+  },
+  "367": {
+    "name": "Huntail",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_d7ba4932e63f211c85689adeaea6f76d9ea19bc5f7c85a66430ae20105c175e6.png"
+  },
+  "368": {
+    "name": "Gorebyss",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_d8283acdf8e1bba159c283d487c748b8aab3dd2de84bd663c6ecf8963b783d02.png"
+  },
+  "369": {
+    "name": "Relicanth",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "img": "i/nostr.build_bef35a3538d861133c397bbf981808b97745d21cbec421e65743980022f4dc88.png"
+  },
+  "370": {
+    "name": "Luvdisc",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_a0c34955fd7280b95010674b88853ada9e8ccec71bbc055cb936594023191c6e.png"
+  },
+  "371": {
+    "name": "Bagon",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_48a9bf7171e2250bb18c02f9e0123a0bbf58dca21ade77de6b77741528b1288c.png"
+  },
+  "372": {
+    "name": "Shelgon",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_6f46adec42bab23ce205982a4638b45afeac6c1bad6028fc13e82bf0035cd401.png"
+  },
+  "373": {
+    "name": "Salamence",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "img": "i/nostr.build_b2b6df2201dd845336bc339ba08fa9a08cc96c77e0a2964c1f2a47c61da5fd9c.png"
+  },
+  "374": {
+    "name": "Beldum",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_15d1674bbf59e769559b81861d2187ee597726b5c265bcd9b84a8fa6da6de800.png"
+  },
+  "375": {
+    "name": "Metang",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_93a42fd5b01d78e2a4a3127706287cb7b9388154e107bcee74c0b3f7395c1aa9.png"
+  },
+  "376": {
+    "name": "Metagross",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_bf89076011498addc2a0d1adf25dfa6ad309bf2f675b3ae0eac5a9165a3b9a06.png"
+  },
+  "377": {
+    "name": "Regirock",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_7fc111045e9155df86fad9c53b15ff7d43bd9b72964b2615a35adde1f7e5792d.png"
+  },
+  "378": {
+    "name": "Regice",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_86c1c0d42a85201de027ae7eabe891fdd624931d7ae1bc317d2dd8447355f06e.png"
+  },
+  "379": {
+    "name": "Registeel",
+    "types": [
+      "Steel"
+    ],
+    "img": "i/nostr.build_d81df24802d3dc1fa7da273a9758cafd521410f93e003fc42c4e29cc258bf7cb.png"
+  },
+  "380": {
+    "name": "Latias",
+    "types": [
+      "Dragon",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_98dc2dbea0fb93165c7de67622bcb01814646a3a1d4e830d4b10b545fb539df2.png"
+  },
+  "381": {
+    "name": "Latios",
+    "types": [
+      "Dragon",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_a82068e5bbb0408c80c7595dc6324efeed68c73bdc5cc0612d4021ce95013770.png"
+  },
+  "382": {
+    "name": "Kyogre",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_fecb6a74f99ad945f258d0eeaeef229a49ed2d5496008fbabaa3a791c38e0a73.png"
+  },
+  "383": {
+    "name": "Groudon",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_96abefc8d515266038d85602a5947d799ceffdf8f8865ca5a3ad6ff6477b890a.png"
+  },
+  "384": {
+    "name": "Rayquaza",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "img": "i/nostr.build_8197c44626280bdc32787fcb169351c2669365e807c601b7285fe0f0fe052df8.png"
+  },
+  "385": {
+    "name": "Jirachi",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_de2d71f6843d8200a7dcc3068df24ddd552973c8fbc1266522d5466b8e333632.png"
+  },
+  "386": {
+    "name": "Deoxys",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_a04771cf49c6081bd03b2a7480565676cf3056222cc89e81d31ea0d22b8d7fa5.png"
+  },
+  "387": {
+    "name": "Turtwig",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_32bdcb81ec5d9b8dcca12b6ea852f3453b8aac97653b619380eb223df6e86e59.png"
+  },
+  "388": {
+    "name": "Grotle",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_b4a6376a73035cecf0e9eed76ef927d04ecb570691bf79e12c5a8b8c274e820b.png"
+  },
+  "389": {
+    "name": "Torterra",
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "img": "i/nostr.build_4c33390bf5bfc73a422a2d316c970fb13aed848e2e169f876a05da0b1251c4f1.png"
+  },
+  "390": {
+    "name": "Chimchar",
+    "types": [
+      "Fire"
+    ]
+  },
+  "391": {
+    "name": "Monferno",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_0f54b06668ee1db5c939b54cfe4b0b6f70fe392acd33fd18d0090ca205d93f01.png"
+  },
+  "392": {
+    "name": "Infernape",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_36a91c47daac984c6fcf5a28bf4f96650c15f3b5ee37e0d8c9e48d0a87e913f4.png"
+  },
+  "393": {
+    "name": "Piplup",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_dcdf2ec10ef000732b09b90de53bcd536f43dcace5af519b14d9791509aae97b.png"
+  },
+  "394": {
+    "name": "Prinplup",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_3420c6824f45463d320210dc499a8c9da2ca2a59f225cfb7202286d92ab5628d.png"
+  },
+  "395": {
+    "name": "Empoleon",
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "img": "i/nostr.build_cb68d276757199ad5912341754325c3258a041a7e41fee5272bdaba276bf9522.png"
+  },
+  "396": {
+    "name": "Starly",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_2179462e2ff87ef1f476293cb258efe18d4f11623c97459115945cb3a9f8e5f7.png"
+  },
+  "397": {
+    "name": "Staravia",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_3f81826a323139518ba7981512b289d63e21fec48ed4a50ce5139206c5c732bc.png"
+  },
+  "398": {
+    "name": "Staraptor",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_821676a0d33b69ae3293c775462291583bb17a4193312181c6ecb12439ec82a0.png"
+  },
+  "399": {
+    "name": "Bidoof",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_7d64113a1b2b752fe773dcf7ec818c1e951030eac1c74f6208ef2b28441b6917.png"
+  },
+  "400": {
+    "name": "Bibarel",
+    "types": [
+      "Normal",
+      "Water"
+    ],
+    "img": "i/nostr.build_59bcf7a04860cdc610962f3389952451647a937bf654c6bf4728ee734d33b1f2.png"
+  },
+  "401": {
+    "name": "Kricketot",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_692132e85ea81a55e8e6a4de261e6a8378c20c919bc4d869dc7af7cfaf9d9371.png"
+  },
+  "402": {
+    "name": "Kricketune",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_9cc868448469144f14617b3bc0472b0e9ffa1558dcaa0edefc70c18f2c900d9e.png"
+  },
+  "403": {
+    "name": "Shinx",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_7865d52e14371587828678558156f5db3f675b3c1ed9b7d5ec93fd6389645953.png"
+  },
+  "404": {
+    "name": "Luxio",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_d9d674b237ef63ca2e24146897dc38aa1cd0904b8eba84da2f798520c4960576.png"
+  },
+  "405": {
+    "name": "Luxray",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_56c439ba149b001996c7b46bf76f82b2b3eb1edd81676d2f588f12d2659425e0.png"
+  },
+  "406": {
+    "name": "Budew",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_b5abf17c2ff74563e1000899047e7b1a2aaca02407f8fa315ac25460717571aa.png"
+  },
+  "407": {
+    "name": "Roserade",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_fc11a941519728935f30074e75a874dfd30f494e93854d507703147ddd7d5833.png"
+  },
+  "408": {
+    "name": "Cranidos",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_9bf9543e4db97a2ee22d2360befdc79ce48731237ac81c9c9e4b9cd008e11cb8.png"
+  },
+  "409": {
+    "name": "Rampardos",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_2d2e0d34e6536f5f00f84334fb3261de45ca36e722d7b99462c5377b5b1fd55f.png"
+  },
+  "410": {
+    "name": "Shieldon",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "img": "i/nostr.build_a494b1b74a4fe11c6f29ffab87b23d75d2a0d81803cef2a53013799a7e066a2a.png"
+  },
+  "411": {
+    "name": "Bastiodon",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "img": "i/nostr.build_36d4897355e667e5d46c95966e974588ee2a16058bdb4dc83eddab02c9658934.png"
+  },
+  "412": {
+    "name": "Burmy",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_d774a6ff65ec107b364deca02b1b5e42cb10e722cd713c7e00be780ef9ad6761.png"
+  },
+  "413": {
+    "name": "Wormadam",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "img": "i/nostr.build_44cd27a39470702e0217bb5aa5eae96ce09713c2094c59ca5de13f13abf9092f.png"
+  },
+  "414": {
+    "name": "Mothim",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_a501ee8d8a7e3913acdf169cf62ab2f43205b8b6ed3df5c093a248909048a58d.png"
+  },
+  "415": {
+    "name": "Combee",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_63e85887df7c4a39ce1a76a25522b129db0114f330b058a3eea8c1f582f90338.png"
+  },
+  "416": {
+    "name": "Vespiquen",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_876c543b9a6879c5bc1ebbe4ec656c3c935ebfa81c76c631d48652c6dfb1d43d.png"
+  },
+  "417": {
+    "name": "Pachirisu",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_2a3ff975c18b9b45cc3b42d6484fd00dafa2006549578b39f246d3db2bc6830a.png"
+  },
+  "418": {
+    "name": "Buizel",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_82c5b99ad586d9256c3a94c15d51be9a4a89d416d18ae467e2554ecefaa0e02a.png"
+  },
+  "419": {
+    "name": "Floatzel",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_8896a32236e63ce678dacbf98c85f8fdd5c13205fab0a99fe08a27f77319730b.png"
+  },
+  "420": {
+    "name": "Cherubi",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_260b9956a9953f940ed00fad0e607b4b5e36c06fafa9030b94c9be09fca7d88d.png"
+  },
+  "421": {
+    "name": "Cherrim",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_f6562ad07c6212a2af23f9edd5b975fddcf2b72edf1ca17f5a182be46421ccad.png"
+  },
+  "422": {
+    "name": "Shellos",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_11496303e0e8e6a6c8d41a752b67ce7eacfb56cb4c1b1ca0ecb6e1f8798d2e27.png"
+  },
+  "423": {
+    "name": "Gastrodon",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "img": "i/nostr.build_4aacdcd84e7b8a2e59c0fdd14afe6b87fa4cc1585ec81dc9c629f43c5aa7a4fe.png"
+  },
+  "424": {
+    "name": "Ambipom",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_6af793f794615ffba9c5e3ff2cc39cea8bd4b9d8b5adef1d4c40fd36184e7a4a.png"
+  },
+  "425": {
+    "name": "Drifloon",
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "img": "i/nostr.build_c1f11b283c4334deb9ee710d9a54a6874528b82d20081295f8324dc7a2662f4e.png"
+  },
+  "426": {
+    "name": "Drifblim",
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "img": "i/nostr.build_ce6d00bb45062a0e8c8c314471684d5664dbb7cd3d7b2f6c73c13fa72eec44be.png"
+  },
+  "427": {
+    "name": "Buneary",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_5ca706306fbfd69342bf923d2dc535691f1283db548d81357f0b16aff91d11c1.png"
+  },
+  "428": {
+    "name": "Lopunny",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_23a57f6a2eaf9d884649f4ab13071df9aab5a5c15c197e5dfe9735da61eabd55.png"
+  },
+  "429": {
+    "name": "Mismagius",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_c951f70e451c220c8bc745289d6612059aca9c7580810399709046400d2783f4.png"
+  },
+  "430": {
+    "name": "Honchkrow",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "img": "i/nostr.build_f2bf33366ed215742e6ad2da3a5fa3215e4f057578dd28a3a394558e959e0bf1.png"
+  },
+  "431": {
+    "name": "Glameow",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_b61c29f930abe6fffee5051eab25556e7a7da772caa845972c1446a9c80d2a51.png"
+  },
+  "432": {
+    "name": "Purugly",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_b36f4a0f621ce6023b12d8ae6c0eda90219dd75a54962d6fd6785c06a907cea3.png"
+  },
+  "433": {
+    "name": "Chingling",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_aec1185af024839a86fab26af6767ead5fb171688a899563cb81334e8595845e.png"
+  },
+  "434": {
+    "name": "Stunky",
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "img": "i/nostr.build_b13b54c0a5e6fc9b59852c8472def23c7e499f723ddd2f2cdb652ce781a76955.png"
+  },
+  "435": {
+    "name": "Skuntank",
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "img": "i/nostr.build_b9bd8e1ac2ef1b0e5df0e739fce2e9128ef69a2f77aa46fbf6e23d9e18e9699e.png"
+  },
+  "436": {
+    "name": "Bronzor",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_34b3c7d23f23aa36492e676845377b6cddd2b5bce4e61ff0e2e8d6ae673d8be6.png"
+  },
+  "437": {
+    "name": "Bronzong",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_39ed634a9d5272fb3c4efbd481315c178bae10acc003905f7d66582d0c7bc99c.png"
+  },
+  "438": {
+    "name": "Bonsly",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_580b40fe8badb8ab4ec0cb85179addeb2472cf6444facb81e6de3526990075db.png"
+  },
+  "439": {
+    "name": "Mime Jr.",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_ef26685bbe9e010433e1f9d2b8a43063ceab0f4d6338b5112c2c3ef5465115a1.png"
+  },
+  "440": {
+    "name": "Happiny",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_ca4cae01107bb5f017e718f41a9441d5fac128c31239ba4daff82d9638a1bca1.png"
+  },
+  "441": {
+    "name": "Chatot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_95319608d08c685c32d05612287db0ed06808f68cc22beff72f4562bb803f1ef.png"
+  },
+  "442": {
+    "name": "Spiritomb",
+    "types": [
+      "Ghost",
+      "Dark"
+    ],
+    "img": "i/nostr.build_1ff3338a8e1517c353d4f59c25ddab624a14785723a5bd8aa853e0bdd9848c5f.png"
+  },
+  "443": {
+    "name": "Gible",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "img": "i/nostr.build_e7ec6bc0d77a704e12355f016ec2017a5a267548490ebf838e9df2705448bf6d.png"
+  },
+  "444": {
+    "name": "Gabite",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "img": "i/nostr.build_c167254d9abaaa467144d810a23097f1b80d20bf65f1443605f915edebd2b0ad.png"
+  },
+  "445": {
+    "name": "Garchomp",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "img": "i/nostr.build_07c1aaaa02658c9aafeddfbb23b31696a271e26b4827f479caa25a3a3d12ae7c.png"
+  },
+  "446": {
+    "name": "Munchlax",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_4584176efb46f68a764636400ef22f572d63a4e08fff3f7214360da5b41b349c.png"
+  },
+  "447": {
+    "name": "Riolu",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_26c397c0a425328c2471d63c168204556a27fe4a497f7b61b2fe3b2332df549c.png"
+  },
+  "448": {
+    "name": "Lucario",
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "img": "i/nostr.build_0bb36e2c0f486c15881d171b737aaee75b1c5ecbd76c17972c7806fa18982123.png"
+  },
+  "449": {
+    "name": "Hippopotas",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_5874901e84558ce0c2b0c1c00d2dbc5ba4dd16c3d95d35512bc472bbbc4045ac.png"
+  },
+  "450": {
+    "name": "Hippowdon",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_c4695c7e071cfd1651f13297e1ec7015a88f370fcd4953017e7c7e0d89792b5b.png"
+  },
+  "451": {
+    "name": "Skorupi",
+    "types": [
+      "Poison",
+      "Bug"
+    ],
+    "img": "i/nostr.build_20e9d5a9fed56c0d335823175139369f98a314813fb73818b00a3e7987de6e48.png"
+  },
+  "452": {
+    "name": "Drapion",
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "img": "i/nostr.build_82b22122a7b44dfe11d983fd6235c83b9968a19130fa0e070fcc0cf578fdafd7.png"
+  },
+  "453": {
+    "name": "Croagunk",
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_530690becff89d14531eea8a3d99b5461c392962e097a734364f73d8d3d70fc1.png"
+  },
+  "454": {
+    "name": "Toxicroak",
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_98253c5ad1ad2961d643e3b49544bb18289fe360b72e7706491bcb9c2b4fd691.png"
+  },
+  "455": {
+    "name": "Carnivine",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_3b79fb5f99f48bcee1f0f809ad4799626153aec55de7e27385e4c52aef05beb6.png"
+  },
+  "456": {
+    "name": "Finneon",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_36bb080e933a3677fad793d07858313216081c410859770dea3ff7278bf2a599.png"
+  },
+  "457": {
+    "name": "Lumineon",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_d309588c607855c642a178ad8d91689f0d6f787226621baa1672e9104a948ecc.png"
+  },
+  "458": {
+    "name": "Mantyke",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "img": "i/nostr.build_1290ae44bbf070aa3475e97ac2f165099888d1115a430c7f796521ed7d821685.png"
+  },
+  "459": {
+    "name": "Snover",
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "img": "i/nostr.build_4c952eb2be88fd9cdd658415f01da5227c7c10722ddabaec403cc0aeadbac56a.png"
+  },
+  "460": {
+    "name": "Abomasnow",
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "img": "i/nostr.build_f8d2940a600d6d6408bc4c9796c5ec83c3002a25dce5dd8455812f1d4c98ccf9.png"
+  },
+  "461": {
+    "name": "Weavile",
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "img": "i/nostr.build_0d7fc8d1446985502f6a554b2af6ea7485ff109ca703cb5f1d66b499f864a026.png"
+  },
+  "462": {
+    "name": "Magnezone",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "img": "i/nostr.build_fdf8ec88519d51bacc121aca57c2a274b1fa2036b6d39e842519335bc30686f2.png"
+  },
+  "463": {
+    "name": "Lickilicky",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_5cbed9ad0c6a211073eb9da32003f2df30217ef05e7cbf2d20ac718b43421bf6.png"
+  },
+  "464": {
+    "name": "Rhyperior",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "img": "i/nostr.build_6cef567a48dd5ff6d5e8fd2cd0e1f5fda75bb9adffd3ce43b8cb94c7ab7649c6.png"
+  },
+  "465": {
+    "name": "Tangrowth",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_a4bfeaf9f3d9f7d6485b78ddab5aa473221d3d46b1953891d4fe6a133048333c.png"
+  },
+  "466": {
+    "name": "Electivire",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_5f16623aab47a547a42ce32a748335e30da09a1a91211891c8c26d7303e7c5d8.png"
+  },
+  "467": {
+    "name": "Magmortar",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_0a4b2248b28edba24c84f858efcf24d0a4a4e6d235df614f2ef964b9a2b668c9.png"
+  },
+  "468": {
+    "name": "Togekiss",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "img": "i/nostr.build_d8e3f4c1d9a52dc54e8d1a750dbfd675788ec3faec17cb59695ef4fc83bc1a3e.png"
+  },
+  "469": {
+    "name": "Yanmega",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_de7707211304e8220e0b79176acef621c06ce938867fad2d3b0121da5dcf5ed7.png"
+  },
+  "470": {
+    "name": "Leafeon",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_470d596a20b02a03be3c0208e82658ffe902f279bde6de50a3ce3e474673627d.png"
+  },
+  "471": {
+    "name": "Glaceon",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_21bf469b38699dafa71843c167903365cbf05864679ce1a8d9eec0c22ae89b2b.png"
+  },
+  "472": {
+    "name": "Gliscor",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "img": "i/nostr.build_a493d7a52e7d69f8ec5b20bb636471836792ed54487f8505927aff44aca92b05.png"
+  },
+  "473": {
+    "name": "Mamoswine",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "img": "i/nostr.build_1aee973350a187ccf45cbf4bd39a5557304347bebe0e9f316ca8f72ecc7495e8.png"
+  },
+  "474": {
+    "name": "Porygon-Z",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_b6c742f764b9a9b0396b700efaab6a3082821aeb0c643be61aa540d2cffea9ca.png"
+  },
+  "475": {
+    "name": "Gallade",
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_16e37a09784a6e74a11c32e8c6357d2c37b5208c1c0f2107a1a9978dd1773fbf.png"
+  },
+  "476": {
+    "name": "Probopass",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "img": "i/nostr.build_7ea4da00599077e46332de815e4c1550bcd1042e59bfaa9346e4d18b066cf58c.png"
+  },
+  "477": {
+    "name": "Dusknoir",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_646a8a6f8286734e3d903b01948fac76d4668559d0d6b0260b902abc7fd95aaa.png"
+  },
+  "478": {
+    "name": "Froslass",
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_af23613fa8ba743e4642223d3b7233460da1a2773b14cfa47d7a76e3751fee23.png"
+  },
+  "479": {
+    "name": "Rotom",
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_53db469858956328c51f18e7c62ccb4192f0c632a4ba7da4aa7a27dc8f344bc8.png"
+  },
+  "480": {
+    "name": "Uxie",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_bf11cc5d46924d814c9b5725bb3fd2667b4c4f6e3ac9f0eebea3e04e5aa7401c.png"
+  },
+  "481": {
+    "name": "Mesprit",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_15bf7e4b7a4158a9d4a91271b8626fc14b89837832f8f5b0345505e920ab2b8e.png"
+  },
+  "482": {
+    "name": "Azelf",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_9129cbd71c0c7ae93031776cbe4c65829f796f775888b82cf2b4ce6ffaa8f8b2.png"
+  },
+  "483": {
+    "name": "Dialga",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_0c5813fc57e7d3bed60d610c6b4d8e1e587b7f08f6c0f483c7ed2eaee0e612a1.png"
+  },
+  "484": {
+    "name": "Palkia",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_265d1c3e40fe25983d85526428b9877b7d6c3823aec52e89946af399a01d7983.png"
+  },
+  "485": {
+    "name": "Heatran",
+    "types": [
+      "Fire",
+      "Steel"
+    ],
+    "img": "i/nostr.build_48b1b47fe8c3ee4ef8e99519620067925298ae9d45b7afeedeeb83461ce5d936.png"
+  },
+  "486": {
+    "name": "Regigigas",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_309e6bf491eb10c3745db13a78f2218f3bc390afb5b0fedc5d63926c7791ab78.png"
+  },
+  "487": {
+    "name": "Giratina",
+    "types": [
+      "Ghost",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_af5adecab6254e55df83ee9ee1169cfa0759f47de2995845bdb88cadc9c5714e.png"
+  },
+  "488": {
+    "name": "Cresselia",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_70d17e9c5361c1d744366110d4ab474a0f4a70ddc0205a21fc084bf208f26713.png"
+  },
+  "489": {
+    "name": "Phione",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_4e82548f0e496d041ea5a35ca9bb74623f525f19204937f436976596af2b274a.png"
+  },
+  "490": {
+    "name": "Manaphy",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_6c7c8cdd4a8e76e623baca69f6f42546a87047090b51814b26692f4f8a30f217.png"
+  },
+  "491": {
+    "name": "Darkrai",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_b3979be10355208e6a744b2bb1e0c3c59a874e4167dddee97b191b9aa26dd742.png"
+  },
+  "492": {
+    "name": "Shaymin",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_72f01b8e153c9ebd76cce17a08103b994d39740b35f561bf034a180923aab23a.png"
+  },
+  "493": {
+    "name": "Arceus",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_b58b86d5e272e82905be2faef35b948fbc07d6f98c0fcecbcb66718dc27a4cc8.png"
+  },
+  "494": {
+    "name": "Victini",
+    "types": [
+      "Psychic",
+      "Fire"
+    ],
+    "img": "i/nostr.build_cc2e7c2a7fbccd09a414d476454aec349a3fa73bf56d1036e69d756ab43eacfe.png"
+  },
+  "495": {
+    "name": "Snivy",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_cd153cb05b654614dae84f44fd7c3163a351ea8361366f5e3a323feb9a7938ee.png"
+  },
+  "496": {
+    "name": "Servine",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_fd1b124bcc13c7c19f0ea2d875fe66f56b1c242ec608c3f0bc81bc3568d4377d.png"
+  },
+  "497": {
+    "name": "Serperior",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_d3fb7a9189995b742700a4320b73635e3d57ecd6429235701f347308956e2704.png"
+  },
+  "498": {
+    "name": "Tepig",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_397dfe67170ec21ef94f3643cd75260ae37394d68cf9362f30a3ad84c51c8993.png"
+  },
+  "499": {
+    "name": "Pignite",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_3387a6fc79539232b22175b7d644eb1b8cf27141e85e77d5ca24eb21fa19dd1e.png"
+  },
+  "500": {
+    "name": "Emboar",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_34e6f2bc3617038d2b144021b9bf9c03c3a943a65aeb2cd220847af973f0bdda.png"
+  },
+  "501": {
+    "name": "Oshawott",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_2c149f08f305b2031b1f86bf5b8e700c9dbd1704b9248fb9701346149d46ba4f.png"
+  },
+  "502": {
+    "name": "Dewott",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_6006c6b552ab49aa5cef71ef4b4e963ecbe6c098705dd9b05d2db3df6efcf176.png"
+  },
+  "503": {
+    "name": "Samurott",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_fa4834d3ec3c39c9c0ce3a4c445eb0462d5841b0278323df7a56450752535fb0.png"
+  },
+  "504": {
+    "name": "Patrat",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_be86746fc299835726f790a1e6aea1287dad83e9c0355456d5709cdc6a0f031f.png"
+  },
+  "505": {
+    "name": "Watchog",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_4271d0f18f84f025e7e55b3afcc8cd4d6b9f65d4c8a05ed825f421f5e7ce9a83.png"
+  },
+  "506": {
+    "name": "Lillipup",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_25c0a6806a690f1476cbf10695910ca107030f14983c2a245b67711b814a9132.png"
+  },
+  "507": {
+    "name": "Herdier",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_fe77be3145485ecf0857487cf427a7e99702fe3173f48b478a32ca0839de31a9.png"
+  },
+  "508": {
+    "name": "Stoutland",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_c8e928e48916536ace2a716c168e6dffd302bd38468eb0ad8c0beb91404a91c0.png"
+  },
+  "509": {
+    "name": "Purrloin",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_ab146a1de44a238816bf376433ecfe5cc5819fdb2ea1255d36d40df4e898e6aa.png"
+  },
+  "510": {
+    "name": "Liepard",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_5def60bb1e3d7518698ddc9007a6c68ed6f442b4eba86bbb8e93aca9b5096138.png"
+  },
+  "511": {
+    "name": "Pansage",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_5388253e0b4a41427664bb38c8cb0622bffa52afed84c42d853daa956db426f2.png"
+  },
+  "512": {
+    "name": "Simisage",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_96106b14439caba8759d2b680f0222c342f1b02eb9e077f2552f792ce19cea40.png"
+  },
+  "513": {
+    "name": "Pansear",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_70a10b542c1a7b827e220d7f0aad021011d7379222eddc4cbd8c7528349fe81d.png"
+  },
+  "514": {
+    "name": "Simisear",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_8d2cce98dbb6e0ed3af384a9e1daccab27465986a894604b140e22963165911e.png"
+  },
+  "515": {
+    "name": "Panpour",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_e5e5178dcce2cf15fabd371526e9ec0c5a85b0670ca807feb77f4289877078ac.png"
+  },
+  "516": {
+    "name": "Simipour",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_29af7b0f88605d1cebca7a19e3a0a430c9db0cae6c9c2e21ba07d82d631da7f8.png"
+  },
+  "517": {
+    "name": "Munna",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_9d32b3c7ec49a133bad0c986ac61a691065aff2abc8dc76b1cc8f24750569acb.png"
+  },
+  "518": {
+    "name": "Musharna",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_223eae0e1a6b0b80b3565848535a61fc4e3e9880983c87f6db82877d1a4d57db.png"
+  },
+  "519": {
+    "name": "Pidove",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_f73cd118782cd4558f4aac3e546984f312516d61cf2bc1c20a6bbb1fb4318617.png"
+  },
+  "520": {
+    "name": "Tranquill",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_e9a746e280a4b30fc66a4a4c8dfdb6d3d6a177241872457a1e32991b6fecbb52.png"
+  },
+  "521": {
+    "name": "Unfezant",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_f8dad01413439c425cc4563177f170f12e6ab9ddc354bddf0d47a754402d2159.png"
+  },
+  "522": {
+    "name": "Blitzle",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_a55400aa13a888a6eb16ea1930eb0c250d0c3752088625064d5688e79390aa59.png"
+  },
+  "523": {
+    "name": "Zebstrika",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_b9ac3230e43c5e0f2c9e7dbcc4eec183f2568d402239d94d655fdab1cd0103b4.png"
+  },
+  "524": {
+    "name": "Roggenrola",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_8dd20d717d9fe194553d5bf0e80136599220d893b0f64b992392d0bccf632478.png"
+  },
+  "525": {
+    "name": "Boldore",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_afbd734fae5d10dd56c9bdf9a9ae2821d658b039376353b13fd5fabd958f2bcd.png"
+  },
+  "526": {
+    "name": "Gigalith",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_33ce15c75d2d51c0fe7c291e962babf93bc92b072b6d32c79be3f38514264faf.png"
+  },
+  "527": {
+    "name": "Woobat",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "img": "i/nostr.build_a3ee561ee84a17c833b35e48b404a2cca97128d228ba227c00c595c9cec82b74.png"
+  },
+  "528": {
+    "name": "Swoobat",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "img": "i/nostr.build_72d596753bd79b190d60a6fd02c13fc257b41ef51263dcda4a5f4484387207f8.png"
+  },
+  "529": {
+    "name": "Drilbur",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_e8ecc28cd670bee933b22b9e8608659497c313a0b898f849cd5f30d9c77abfd0.png"
+  },
+  "530": {
+    "name": "Excadrill",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "img": "i/nostr.build_bd7ebf9dc3a2b85d9ac35209a56b3bbb9864bb3b68882a41fe5806fe2b4dd7bf.png"
+  },
+  "531": {
+    "name": "Audino",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_2644bd0ed67f6ef27e2d52fadaf288a54433d439f388a3abe8fa071358c1bbfc.png"
+  },
+  "532": {
+    "name": "Timburr",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_3f59993348e99bd58b87459a141edd852ee7665dcb54c90f4237a5ba50ddc214.png"
+  },
+  "533": {
+    "name": "Gurdurr",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_1f3fcfb0b647288d7dae5343411933b6e7feb921888719893ef23b623188d595.png"
+  },
+  "534": {
+    "name": "Conkeldurr",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_29b11bc7e0abf76cfb632fc400c6ee21fcd1727c074aa17feafdb93974e83b9d.png"
+  },
+  "535": {
+    "name": "Tympole",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_0a3ca40e84f669d8c84d3f7a735dce134cd85b38effc4bb8b252ffd54138f064.png"
+  },
+  "536": {
+    "name": "Palpitoad",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "img": "i/nostr.build_c5ac30f7b0f3a478c532f63d0d227016af5944e779f54e9b08d0346f7f2efef3.png"
+  },
+  "537": {
+    "name": "Seismitoad",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "img": "i/nostr.build_d9cbbc73c7f18a13da6426d5f89e467be4a2571691253988c08bad167751a0da.png"
+  },
+  "538": {
+    "name": "Throh",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_004b84a5b0037d8b032bf4e80b4c16cb680a2c604ee44f266cdd64d554b9cd37.png"
+  },
+  "539": {
+    "name": "Sawk",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_b8ac16b893c1e5631fc6dc66bfcc28ac4e7151ba1fdf7429b7ba33d47c28a460.png"
+  },
+  "540": {
+    "name": "Sewaddle",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "img": "i/nostr.build_859c3949313f1c54a2cf7656e82f572fa74e31e81e57ac2b29aef3346f2a5c0e.png"
+  },
+  "541": {
+    "name": "Swadloon",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "img": "i/nostr.build_eacde1e07149214e9520e8c60848ee18312f6d678e4b1727db4727c291f577dd.png"
+  },
+  "542": {
+    "name": "Leavanny",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "img": "i/nostr.build_a95c92cfc3e8db97f1fbd5c8b536157b804567ab38bbbbd4120cc2e87b00972a.png"
+  },
+  "543": {
+    "name": "Venipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "img": "i/nostr.build_635dc152e13fc9530c5d7b3a237c4349dedf67fd61259a958732d28fee5e9d48.png"
+  },
+  "544": {
+    "name": "Whirlipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "img": "i/nostr.build_43be2d48264e9f9ac91ddc43b53f4a3cb1df50e50d779d96b06d8115c38ab668.png"
+  },
+  "545": {
+    "name": "Scolipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "img": "i/nostr.build_12e9f1a16622a0d3886f6e9e3a31e1ec6915c97091c17e481c9d99a2c77312f5.png"
+  },
+  "546": {
+    "name": "Cottonee",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_42d3c7d369020cc64bbb5f4c89f4c8d4f707b69d57938a519512ae99fad051df.png"
+  },
+  "547": {
+    "name": "Whimsicott",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_8643f68606dc4a7636ae34bdc9a4d03d3ee4d2b951ca2835fc3887309f9e8bce.png"
+  },
+  "548": {
+    "name": "Petilil",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_4822e59c790116b6c0d4d1099059bf612af2b23fd26635025fdf956da184aa0b.png"
+  },
+  "549": {
+    "name": "Lilligant",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_26b848ba567b22d029a812f24276c88f70020effd1bd98a9fab21e9bf4c9db25.png"
+  },
+  "550": {
+    "name": "Basculin",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_b75fa39287b0e0d164d2f94504ee1ca3800773bd1c22411e7628b0395ab22749.png"
+  },
+  "551": {
+    "name": "Sandile",
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "img": "i/nostr.build_5e73794e48fa7b9a19dc2b774537817ec57ca0ccb8107f426bac26d5235c3744.png"
+  },
+  "552": {
+    "name": "Krokorok",
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "img": "i/nostr.build_96ceb70702131a792100dba4d27a6e113d37bbc1236ecb04f74753d2c6ba641a.png"
+  },
+  "553": {
+    "name": "Krookodile",
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "img": "i/nostr.build_38169eb95042a69bf94533673fe09c2d64863e54251297a78885e98c08813c75.png"
+  },
+  "554": {
+    "name": "Darumaka",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_ac79917aaed13620dd8f5b3240474aab49c5aa8b851cd4e2e97388b2e93fda8b.png"
+  },
+  "555": {
+    "name": "Darmanitan",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_0c30aec4ccfec0869a88ed049a7c27e9a955801b1b514d1d7646733d25c9f79f.png"
+  },
+  "556": {
+    "name": "Maractus",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_d6d5dbb1cfab9e675273b416214e6b11fbe5265c6e74c2b14bb76616c4d56803.png"
+  },
+  "557": {
+    "name": "Dwebble",
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "img": "i/nostr.build_4f5d04d07437616030b59ce34628955b06d8b5350c769d1c57ce94fbd99c12ee.png"
+  },
+  "558": {
+    "name": "Crustle",
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "img": "i/nostr.build_d7d331b59f6ab73d7bc5ad3baa0b9f7bd60cdc9265402608856f599adc3a742e.png"
+  },
+  "559": {
+    "name": "Scraggy",
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_eee759e8c909878f69556710a0b70266f397d7155b2f6979a4582a1eda8c0f08.png"
+  },
+  "560": {
+    "name": "Scrafty",
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_03862385cb485416329ccfc4cd98e790f6347f813a914d0c08e36046b6c895fc.png"
+  },
+  "561": {
+    "name": "Sigilyph",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "img": "i/nostr.build_38d15adafcf1ed120069a3ee03a769174749df2d24c8e2594b6c266f43dbb2ea.png"
+  },
+  "562": {
+    "name": "Yamask",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_33654114362392a291a37114ee3007efbe4bacb7778a959f6fcba9dbb8963afd.png"
+  },
+  "563": {
+    "name": "Cofagrigus",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_77ab6476a160770d86ec8f82a91eb2e9917da5bd3d53a6bfd3c036ae7bb86d8f.png"
+  },
+  "564": {
+    "name": "Tirtouga",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "img": "i/nostr.build_eeeeb7688c29643aeea144cb2dadc2bd5945d265ae1e9e809425f2d696e42671.png"
+  },
+  "565": {
+    "name": "Carracosta",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "img": "i/nostr.build_357d9bb8f3fb4c26ea78c1051a62c3f365fb84f21cc1fc432d0ec8bb2dea2135.png"
+  },
+  "566": {
+    "name": "Archen",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "img": "i/nostr.build_33c6bfe369bb69c3f4609c4731257c55c286423aa3ab782342a57adaa1dbecce.png"
+  },
+  "567": {
+    "name": "Archeops",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "img": "i/nostr.build_a2451b8ccfb48b71daabd6b17f5ab33216722aa18e85c71450f27a982de0ecd0.png"
+  },
+  "568": {
+    "name": "Trubbish",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_2b432007844fa14b14070f3839161cc0d74c80bf3e0c2e46aa78e37ac261e162.png"
+  },
+  "569": {
+    "name": "Garbodor",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_35b8a9a3ce56d72dcbc699758cffa3862d4e1a595c6f8ece58d32f5f161b7c4c.png"
+  },
+  "570": {
+    "name": "Zorua",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_2ebd2f2a4ebe9672054b54aa25c1e44ce911a84731b370fc089ea78dd1baaaf3.png"
+  },
+  "571": {
+    "name": "Zoroark",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_268e5e204845635730164c524d88825c9e38091b5c52577f9bf0be8d6653120c.png"
+  },
+  "572": {
+    "name": "Minccino",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_341eb1f047696fd5f493418e1d148bac3d324031b0a4497d3a33320eebf57225.png"
+  },
+  "573": {
+    "name": "Cinccino",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_c5c12b876f9b346111fddd29b12464d90a3f2767bd516c53f038d9f99ebe017a.png"
+  },
+  "574": {
+    "name": "Gothita",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_0c361ecd7c888c6ffe30a7ccd1262e88cf05cfdfa2fce600997f5498a6cd57f5.png"
+  },
+  "575": {
+    "name": "Gothorita",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_023504e0f956d9f7afdb1db1b5bd8d99cdafe9289696a5d5f2f0673930320a9a.png"
+  },
+  "576": {
+    "name": "Gothitelle",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_5a11e45f4e78a820d5c3c32d7aa1917d971aa69716eeccda9d5bfc1e48e2b459.png"
+  },
+  "577": {
+    "name": "Solosis",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_f7f57e5c0125501a7f257f8d981c61c3d761fe6c79c2f2706a522c62d85b6036.png"
+  },
+  "578": {
+    "name": "Duosion",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_92b148eece24616f79d0faa9904a4d431edeb314ccac02f3a6db2bbad4f923a2.png"
+  },
+  "579": {
+    "name": "Reuniclus",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_7d2475bf832d429a34a5eb8e02bc50140d0a353ab02266a5e4e2ba08d1b69400.png"
+  },
+  "580": {
+    "name": "Ducklett",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "img": "i/nostr.build_e83d1332a1e481e8cb2da8e718cafead24bca5c4ec2ff0ce9e5f6523f1aa8dab.png"
+  },
+  "581": {
+    "name": "Swanna",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "img": "i/nostr.build_de0280b50ff6a54ea04084174f4ea66aa7bcd6be7cf667dfb93af9c30e4fe009.png"
+  },
+  "582": {
+    "name": "Vanillite",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_28dfaa6939bb75b143641f632bd1619c76ced1d6bc328ae14dd8dbca4b24a9d3.png"
+  },
+  "583": {
+    "name": "Vanillish",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_3b4f98bb8bc07c3783262d88b97aa46cbec9cf1af839b6c28b2565c5ea0987cb.png"
+  },
+  "584": {
+    "name": "Vanilluxe",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_b79dc5fd1dd09aab33939dc0ceabf52fc4f2722e5c4250f49371f611ea8bc646.png"
+  },
+  "585": {
+    "name": "Deerling",
+    "types": [
+      "Normal",
+      "Grass"
+    ],
+    "img": "i/nostr.build_2706857643c948ec33cc82d481c4d18018200469b06e5597b81cf8a0da4f9ef6.png"
+  },
+  "586": {
+    "name": "Sawsbuck",
+    "types": [
+      "Normal",
+      "Grass"
+    ],
+    "img": "i/nostr.build_8104f331b9962e44003290b70f8bfea618fb4e1155cbbb9522536f89dbebcd5c.png"
+  },
+  "587": {
+    "name": "Emolga",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "img": "i/nostr.build_f3191c0f1f4423c3886f758564e7f129cdba52f353cdf44f4ac254821bb01958.png"
+  },
+  "588": {
+    "name": "Karrablast",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_0191dd142ee4f70a479112539f6a3cc7ebfb53df84fb2ead0d5b929b6193bc49.png"
+  },
+  "589": {
+    "name": "Escavalier",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "img": "i/nostr.build_436a88e1594f9f4f862dcbe308721e9b33c23e953cf73797fe2c10ec9b82bbeb.png"
+  },
+  "590": {
+    "name": "Foongus",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_264510e69d80129da5b2807647a23a7a9a659826b42c68ba03f9e27b603a0550.png"
+  },
+  "591": {
+    "name": "Amoonguss",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "img": "i/nostr.build_f9ec8bd4006f7a63b3ec8891b07c906cd7f114896964f678a84b7c21c3b59da8.png"
+  },
+  "592": {
+    "name": "Frillish",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_ab2003ac31fdb6b10e31a6ff67082d00984e5fa42caee0e9094dccb6707e859e.png"
+  },
+  "593": {
+    "name": "Jellicent",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_d647aabb909427fd71cc526d802a6b8d89e09ed4c75d7dc7c61265dedb15527e.png"
+  },
+  "594": {
+    "name": "Alomomola",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_689da79c174c7024ee40c2aa6322bb33787eaa191587e75ee12f6b0123102341.png"
+  },
+  "595": {
+    "name": "Joltik",
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "img": "i/nostr.build_bdc03ad293c55da4601299e10163e9fa0025d347a1f1208359809c513eb2da57.png"
+  },
+  "596": {
+    "name": "Galvantula",
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "img": "i/nostr.build_3db7d2f5209cc94cf21d393ea075064fb365e8728cf1ae3ef64458d991eba913.png"
+  },
+  "597": {
+    "name": "Ferroseed",
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "img": "i/nostr.build_5bb6855698aeeac3b67b2d5d9fc64165e46ebcb19a6a6bd14794218550b67746.png"
+  },
+  "598": {
+    "name": "Ferrothorn",
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "img": "i/nostr.build_ec94c6f1a048c93a201e8ae06d4febaac707e38c4ca7bdaa68745bcd1906e22b.png"
+  },
+  "599": {
+    "name": "Klink",
+    "types": [
+      "Steel"
+    ],
+    "img": "i/nostr.build_f88968cd8ebc87a0a0a3cdb698ea113bd39541304e6d76c1f4b4885ffef212c3.png"
+  },
+  "600": {
+    "name": "Klang",
+    "types": [
+      "Steel"
+    ],
+    "img": "i/nostr.build_8713447a29810e68b2b6b5b298c2152fa2993dbd33d6b2ef48a1d4c2cc2dad46.png"
+  },
+  "601": {
+    "name": "Klinklang",
+    "types": [
+      "Steel"
+    ],
+    "img": "i/nostr.build_73edfdc139e60e57a6e7e8cd8a27783edc1059de4eed4b187bddb4d8f3a9ddba.png"
+  },
+  "602": {
+    "name": "Tynamo",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_428a1061b9c7084100b1ba467171cf6e22098458bb83647e91195d4355bdfa3b.png"
+  },
+  "603": {
+    "name": "Eelektrik",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_b36a951caf6963c73be3a495ed8a555b65cf05e76d24bdbcece793b2e3d050be.png"
+  },
+  "604": {
+    "name": "Eelektross",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_ce47e17ca572f83670eafdbe650ba5a5be64a9e5921a2ce735a3be59143b1695.png"
+  },
+  "605": {
+    "name": "Elgyem",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_49d4ed6181377d83c34cab7560aaf20c49233d6bccf0c4a5f74479a1a3b3f89b.png"
+  },
+  "606": {
+    "name": "Beheeyem",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_56e2a312625c163d1cc92e698e8e109713cba8339ea26887c029ff7b132409b1.png"
+  },
+  "607": {
+    "name": "Litwick",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "img": "i/nostr.build_fcddd587893edb8ce6948da115a2ed9fdff7b3a605527a7b97724ea53f6ebd35.png"
+  },
+  "608": {
+    "name": "Lampent",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "img": "i/nostr.build_79ca0c89819ffa520edfef4f615fb601fc85d6a874df4560a3cf077131214cf6.png"
+  },
+  "609": {
+    "name": "Chandelure",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "img": "i/nostr.build_6e2a8636c449195c75fc003a4f6f0e418ae8900bd3bbc0d7d5e140d20aa8cf72.png"
+  },
+  "610": {
+    "name": "Axew",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_01bc97b0d8528ef0b90079d238a103aa9bf4be85c818aa7ebaa20eec39b4fc9a.png"
+  },
+  "611": {
+    "name": "Fraxure",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_53b43dfbe4443b365a3dcadf6b1392e7c4e1202c688a3034b91eaf2ad0201fb6.png"
+  },
+  "612": {
+    "name": "Haxorus",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_5e44fa2e28946e62f14ea2e35e4fd465acc6c77b3c4a2413d52472bb0fa0bbee.png"
+  },
+  "613": {
+    "name": "Cubchoo",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_1095250d6e6f7d6f8573600ab2c5eda380a4df3fe74dfcf233a154fd5bb26ff5.png"
+  },
+  "614": {
+    "name": "Beartic",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_e08ab220ef92cb6beb602c6ecf12968e1019e61609d26e3988e560da297e29f5.png"
+  },
+  "615": {
+    "name": "Cryogonal",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_d6ff551cf3fa31bb020894e282896b6af60c85384edb895adf5ff8bcd5d2c18a.png"
+  },
+  "616": {
+    "name": "Shelmet",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_1b9686f1c5e41c0af1d5b921b04d9f21ea45dc6d09190c44c5ab88ddc824dddf.png"
+  },
+  "617": {
+    "name": "Accelgor",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_80d5525474ab2ec67a37938c57b5cbde16e687575c80517bc611c29fce5001be.png"
+  },
+  "618": {
+    "name": "Stunfisk",
+    "types": [
+      "Ground",
+      "Electric"
+    ],
+    "img": "i/nostr.build_75bc1c568393fe2f51070533db0d13571cd97fe4b39b99b2084ffbccf8f7c075.png"
+  },
+  "619": {
+    "name": "Mienfoo",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_1fec332772167ca84a645255be19f957f3e1afb1fa87b166bebe44a00fc65e6a.png"
+  },
+  "620": {
+    "name": "Mienshao",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_fd85ee8f1323696ac53140a6f4790cb9d02dbc90f24aeabbd44ff71724c87bba.png"
+  },
+  "621": {
+    "name": "Druddigon",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_79cbbdc59f4676fba97b7ff6daf539b1a3faaa7b9dd485f66f14c43b41d545c0.png"
+  },
+  "622": {
+    "name": "Golett",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_5d34ac174e5c17602b216235edc4eb94c7558b271e17bf37a035e1c153bba7cf.png"
+  },
+  "623": {
+    "name": "Golurk",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_18f6e8b7c53fe06baf5b6ee64f2187d2c26c2da91b7920069c94d52aa21c5e0e.png"
+  },
+  "624": {
+    "name": "Pawniard",
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "img": "i/nostr.build_f28a916f12b951212b00b729b4f8b947739ca92196528aad5444912b67b8602e.png"
+  },
+  "625": {
+    "name": "Bisharp",
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "img": "i/nostr.build_69bb4df6b2e9bfbee1467c6d567f34d741eff52210b833b4e2501dc418015836.png"
+  },
+  "626": {
+    "name": "Bouffalant",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_74fa2823682cf236131290d88777fbe6c754b58fa69f40e744df2f38e0f9c188.png"
+  },
+  "627": {
+    "name": "Rufflet",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_a274156a3521c5025bdb39dd727c1a581c49f5e97bfca06c3a416b76d382fec7.png"
+  },
+  "628": {
+    "name": "Braviary",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_16f43ceefb9384125fbdbf7a4be1bf75b6fdeac2fa66af8434670c627acc42b3.png"
+  },
+  "629": {
+    "name": "Vullaby",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "img": "i/nostr.build_c8b99c6db0e60f26d5166e7578450004b5cce0724c5603641c1fe9767762b361.png"
+  },
+  "630": {
+    "name": "Mandibuzz",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "img": "i/nostr.build_3d2b754ccdc7bc56b283e472d9cccbecf6e09c4ae402f6de48aff82348622064.png"
+  },
+  "631": {
+    "name": "Heatmor",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_c1072ba7aeb5e5cc8ea09bd78f2bbc7faf044d7be5ecf0b31a4c319061a24656.png"
+  },
+  "632": {
+    "name": "Durant",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "img": "i/nostr.build_514e99cbc50994b6de7a96c1a6903ae9bacea2587b95c462838924d3b774cb54.png"
+  },
+  "633": {
+    "name": "Deino",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_f37940cf79777bba17be41af648fe49800f7e4052fc258a02cd8cdb04d8298b6.png"
+  },
+  "634": {
+    "name": "Zweilous",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_1d344b4c0e0fe492ac6aafb0b78ace5503a3a5be946f9428b79001aa0f946c28.png"
+  },
+  "635": {
+    "name": "Hydreigon",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_d516f51f2f86ef123d816573ad930c039258a71af38c34739aaffbb068bd5be7.png"
+  },
+  "636": {
+    "name": "Larvesta",
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "img": "i/nostr.build_2f8173fce670431908c9c202fc4f97fbb38080ee6f3af12216b7d968dfad1e35.png"
+  },
+  "637": {
+    "name": "Volcarona",
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "img": "i/nostr.build_d7126ba33b863692aa7b282d24967694b08fdfca9471fb6af16aea27ea814d95.png"
+  },
+  "638": {
+    "name": "Cobalion",
+    "types": [
+      "Steel",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_5d2e7ea22d9ab3208e4cd004eb3d4dec77c7277fa10d2b7f3b365160750637c1.png"
+  },
+  "639": {
+    "name": "Terrakion",
+    "types": [
+      "Rock",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_89c05d98d8f92406313892841e146c5c24944d27d5aef02a63a2961475704705.png"
+  },
+  "640": {
+    "name": "Virizion",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_c98ba7aa0096cdf9740206bac9825c02de3045ce87075ec9f856b24b05f9f88d.png"
+  },
+  "641": {
+    "name": "Tornadus",
+    "types": [
+      "Flying"
+    ],
+    "img": "i/nostr.build_d329633ced4b8a7d50883b7b78c89528c65e137e8ec0c86031ab31e2b1dc6bdb.png"
+  },
+  "642": {
+    "name": "Thundurus",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "img": "i/nostr.build_0d6dc5f874eafbed76c385e3489ec09ee2d5173f693e9833fe23e02f6360c456.png"
+  },
+  "643": {
+    "name": "Reshiram",
+    "types": [
+      "Dragon",
+      "Fire"
+    ],
+    "img": "i/nostr.build_70a7fc3972c9b56bac90d25e15daa226defe9d4509683cc6f585f45cd5c79839.png"
+  },
+  "644": {
+    "name": "Zekrom",
+    "types": [
+      "Dragon",
+      "Electric"
+    ],
+    "img": "i/nostr.build_15f558466ed8a391a04318d8c4a0bc868d2c6e31f00d180a72068f00d7166338.png"
+  },
+  "645": {
+    "name": "Landorus",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "img": "i/nostr.build_1f7a5c61748218d4aeb17a2df55091b286568ce5ef16002250646294f8f478ae.png"
+  },
+  "646": {
+    "name": "Kyurem",
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "img": "i/nostr.build_14e95ee9979ee86619f0a934e1e5358598fba14e4dd49cc1546e29eb7c7b6d8c.png"
+  },
+  "647": {
+    "name": "Keldeo",
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_2cc2f73c58aa19b3aa41d3a19d3f8501fa566061369dcd8fbacf1e4ed9a42888.png"
+  },
+  "648": {
+    "name": "Meloetta",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_d0089e5ecb11b856cde647ba98965634a7411adde657cf5b030c580243bfd8ca.png"
+  },
+  "649": {
+    "name": "Genesect",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "img": "i/nostr.build_9b0234912686f520ca3c33a8dab121e3e625eb19d094fa01690af988d2e7c942.png"
+  },
+  "650": {
+    "name": "Chespin",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_abe1f1ad1efb16149a796e83377aee99fe55cdbf3fd867494e50aefa1d9a9d43.png"
+  },
+  "651": {
+    "name": "Quilladin",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_4a2e3774efe54e8a072abd18d98ae2f87a00589f8ebc0a13974a75ec19ba53a0.png"
+  },
+  "652": {
+    "name": "Chesnaught",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_1363963d82fc99cb5d603933991188c65e0656142521acd7a4619936c95487f9.png"
+  },
+  "653": {
+    "name": "Fennekin",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_079346fee25f5f5c2f271442b01317dc9d2ffe855d5dcb4a1c178a1a8c345619.png"
+  },
+  "654": {
+    "name": "Braixen",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_49a6ba904bf4ecd636380fad336219d5783b5dde0dc26f26727c06606c0e8605.png"
+  },
+  "655": {
+    "name": "Delphox",
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_9f680c094607c2bde66b4c99a8ecf1a6a57539b19da512731ad4c0654f561ff7.png"
+  },
+  "656": {
+    "name": "Froakie",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_04de51f9fbf14b1086c73d40150f99bb48c2d4557c779bb86f4d441d0e14ee16.png"
+  },
+  "657": {
+    "name": "Frogadier",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_f6548f22ab7ca8ef21e4464c0f40824b34b778e66da0289e3fde2548d6c1f8f8.png"
+  },
+  "658": {
+    "name": "Greninja",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "img": "i/nostr.build_bbef797e28e9f4ae719241851992842f6e8075d82df356ed898c065cd9365ffe.png"
+  },
+  "659": {
+    "name": "Bunnelby",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_4d568147628c657e18c5286ba8076a010f867dd0f94b09036e2333cdd915cbfe.png"
+  },
+  "660": {
+    "name": "Diggersby",
+    "types": [
+      "Normal",
+      "Ground"
+    ],
+    "img": "i/nostr.build_b2643b27a0cdc984134c29ca982b7892aeb2faf6246dfcad5a8b67e8566014d0.png"
+  },
+  "661": {
+    "name": "Fletchling",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_177b4e38ca9584c6be83947a8af45a6c24e143871be3ad3ad32c56d15a6e51d5.png"
+  },
+  "662": {
+    "name": "Fletchinder",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "img": "i/nostr.build_55ab51b86935fa5716d8c8e60dac0b84c11b8d0d6295262e23a4045a9a4f3e25.png"
+  },
+  "663": {
+    "name": "Talonflame",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "img": "i/nostr.build_9a6c101dc4605083cc075531894b1abcb4b2e53dbdc11878e03b077aff6d6c2d.png"
+  },
+  "664": {
+    "name": "Scatterbug",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_5943825f3fc92ad25d8795c1c0f7427df820a016ca418a411b6c19f3c6642cc7.png"
+  },
+  "665": {
+    "name": "Spewpa",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_de65e604fca57f7fae7793ba4da5addec498c01b586279e5d8fcdcb7069ed827.png"
+  },
+  "666": {
+    "name": "Vivillon",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "img": "i/nostr.build_bc4e6fae240a8ec960853a3df1d9f22d842aba9e9ea65df1099ba4038fd6333d.png"
+  },
+  "667": {
+    "name": "Litleo",
+    "types": [
+      "Fire",
+      "Normal"
+    ],
+    "img": "i/nostr.build_dfbdf33ce15b54564639cb2180d9253ac4815461c85bc09c24aa0aa85acfdddf.png"
+  },
+  "668": {
+    "name": "Pyroar",
+    "types": [
+      "Fire",
+      "Normal"
+    ],
+    "img": "i/nostr.build_4247a0d1ca0f510c2403b219ba73e5bdf14ccfce8ca9d994b5ad28faffab706b.png"
+  },
+  "669": {
+    "name": "Flabébé",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_c27ff12bcaf9e9244311997516792d588bc00e4b4474b7c9f12c20ae46a3ec46.png"
+  },
+  "670": {
+    "name": "Floette",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_3746c7129c71264bb88b3d74e6324eb48066d69cd870e9c9a7cf7d37073b2a43.png"
+  },
+  "671": {
+    "name": "Florges",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_7144a65c11370919f276c5833f66cf3fd983179de582f904e1f0147ea8613c02.png"
+  },
+  "672": {
+    "name": "Skiddo",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_a0cee1e05d8b3fc1e92c007134cf20a5ec4099f24bdc650d68bd30b57d2d95e0.png"
+  },
+  "673": {
+    "name": "Gogoat",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_5914524782e81151168d1a026dc36b7025151cc1f2d2f6950e6e981a5bca1c09.png"
+  },
+  "674": {
+    "name": "Pancham",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_e68645b555f1bcb2bbc9f61a66c38c57378f9ac5940f171898c36a1bf19a5557.png"
+  },
+  "675": {
+    "name": "Pangoro",
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "img": "i/nostr.build_6db42b556a2d6b410db5791170dd3aa9240ae2886a40867eca2b3017d971b69b.png"
+  },
+  "676": {
+    "name": "Furfrou",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_1bbefaf64445ccb46a2c6dedfb00fb777e6a78aa7b5152ad9247f3fcbf4683de.png"
+  },
+  "677": {
+    "name": "Espurr",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_a5d471205026f06f14112945aeeb6e433ec2945780f58b89572424ccaa5ee2eb.png"
+  },
+  "678": {
+    "name": "Meowstic",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_3c0a8c20be1e3c6a89de2b9170be80c7a9abd46d9fe3d863fd17abf2deafa2c6.png"
+  },
+  "679": {
+    "name": "Honedge",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_dbf21a9012e95e34856784a703ce9cfa48efab53d1fac5a2c2f899906a03c13a.png"
+  },
+  "680": {
+    "name": "Doublade",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_969851af59cebd9e920c48bb34e4c9e3ea9534de8be4e47d710bb0f0afa0d7e9.png"
+  },
+  "681": {
+    "name": "Aegislash",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_1750135033e1671ead3a18b7678ca93a3300fdcbf567e87db6395a840cc09376.png"
+  },
+  "682": {
+    "name": "Spritzee",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_430c503bb9b1ab569204a5a3cad2f33397eee8dd341b7bff06762cbc6cd659b9.png"
+  },
+  "683": {
+    "name": "Aromatisse",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_d0c328ce1cbb12a7ba1670a17beb2700fba4200ec19720f426e28e6a70546e73.png"
+  },
+  "684": {
+    "name": "Swirlix",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_fdd370ba22f642a3fbedbff7748995bc7515be65b105a21b7386690ced0f6a8d.png"
+  },
+  "685": {
+    "name": "Slurpuff",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_01787ed3494a52ebc1a9a7b9d7b5af525ba9452229cc55f6850b804cffb5e7a1.png"
+  },
+  "686": {
+    "name": "Inkay",
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_3fdf6531832deafa358a04dc53842fc8843c97b158e433e74a47d5c643eaf2a9.png"
+  },
+  "687": {
+    "name": "Malamar",
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_d3c8c8d5a43ceb0ba8fe8b56bf1144d8bf0bb604e169cc847d2426c77093429b.png"
+  },
+  "688": {
+    "name": "Binacle",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "img": "i/nostr.build_fe98d96f3e0a1d6bd42e6e9ca6628dc4fdf9aa2316bb7ec59b2ad604d2417463.png"
+  },
+  "689": {
+    "name": "Barbaracle",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "img": "i/nostr.build_50d1b9426cea0536a4e4a3cad5d608f018c22aef5971556d00672438815e5ac6.png"
+  },
+  "690": {
+    "name": "Skrelp",
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "img": "i/nostr.build_3d39186c8e61837f986d7de39693d32b43cdabe76fdc442dae27d989017e4026.png"
+  },
+  "691": {
+    "name": "Dragalge",
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_44aedd28aa6c7a00156b53e67f73a4cdd470ad7ffa4e527fc23c572b72052d3c.png"
+  },
+  "692": {
+    "name": "Clauncher",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_a0ce81bb687ad64a2853f77d842d04a7efbcabdfdc5636760665c965e631c9b0.png"
+  },
+  "693": {
+    "name": "Clawitzer",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_2144c4c49bdf2e7aa80f4469dc0f497ff652869805fc58811c8638df2f141fed.png"
+  },
+  "694": {
+    "name": "Helioptile",
+    "types": [
+      "Electric",
+      "Normal"
+    ],
+    "img": "i/nostr.build_592fc18493d92209970229d34e60607f6b420046d7b73062a6fbeab1b5063aa4.png"
+  },
+  "695": {
+    "name": "Heliolisk",
+    "types": [
+      "Electric",
+      "Normal"
+    ],
+    "img": "i/nostr.build_2dba5950c081a49f0b70a643e7fbd45bd6138ee3b4d3ea4f2549fbaae8447903.png"
+  },
+  "696": {
+    "name": "Tyrunt",
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_7f95b9282b3d7335fccb846738c73cc0dd7ae34a5de441eac2c2a39e3535aef3.png"
+  },
+  "697": {
+    "name": "Tyrantrum",
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_3b9d4907d0de293c41a8ee6ecd955cb77ae79e3677fd5e8698487fe33a7e4759.png"
+  },
+  "698": {
+    "name": "Amaura",
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "img": "i/nostr.build_4a63e69f3c0ceb70411edba458ac401ea2341eef6f99cdfbdf83d11bd219b89e.png"
+  },
+  "699": {
+    "name": "Aurorus",
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "img": "i/nostr.build_199f377640633300081bf372fa31dd21879e26241c6a521966e11f749789fc09.png"
+  },
+  "700": {
+    "name": "Sylveon",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_f0cc2d8b143604c5f7d807314ce8f41acd266eb0700a757561c001526606e86b.png"
+  },
+  "701": {
+    "name": "Hawlucha",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "img": "i/nostr.build_b8860a7daebf38699accd0dfc01f268c46910c4e0872946a5ea5905b366c7771.png"
+  },
+  "702": {
+    "name": "Dedenne",
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_3b4d2f0cb83ac2bf16c554216e49c639f5d9e6241a94636f02290c4212e49f81.png"
+  },
+  "703": {
+    "name": "Carbink",
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_32af484b39df9f0e37ac167a8a758843967758431e33ccfb04b43e1003136192.png"
+  },
+  "704": {
+    "name": "Goomy",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_707f66fdc1bd9572052e886256fe73d6920afdf72279efbc10258d936e0c292e.png"
+  },
+  "705": {
+    "name": "Sliggoo",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_90890273f95da53c5b94417c102f15992e6c8921e31ed810dd99d937be47a684.png"
+  },
+  "706": {
+    "name": "Goodra",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_4f739aecc01dd05f99a0cb53bea0a4cf8a827c176bd2a15ef2432927c525809c.png"
+  },
+  "707": {
+    "name": "Klefki",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_49c6b3e316c6601fccc2be76bfde3e32cde1c1dc21701bc4e9d58d77d9128476.png"
+  },
+  "708": {
+    "name": "Phantump",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "img": "i/nostr.build_e5178dddba7664fe9bbdbe36834850bc16c8ce09a328feeb0afe5fc65279f6c3.png"
+  },
+  "709": {
+    "name": "Trevenant",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "img": "i/nostr.build_82d1f10de0579d9d06a5b1d0563b0a3d34c53f422e5bd3a3684426972bd4c084.png"
+  },
+  "710": {
+    "name": "Pumpkaboo",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "img": "i/nostr.build_3e426d0066b1c67c9ada3b404f392f0b3515f1657efe047a652005add1774ea7.png"
+  },
+  "711": {
+    "name": "Gourgeist",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "img": "i/nostr.build_7bd40acd49e8c65e20bb69c995f29d7fffb268f74512be1104c8c97ecff257de.png"
+  },
+  "712": {
+    "name": "Bergmite",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_7e19155c1f569ffb68b006a94f6f84b7668f841a4b65704f83f6e27967bd64dd.png"
+  },
+  "713": {
+    "name": "Avalugg",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_620cc38f096bf82f8d13d862a32655470b88e9f18ca09c3b2fc94c5fd6260bb5.png"
+  },
+  "714": {
+    "name": "Noibat",
+    "types": [
+      "Flying",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_355ab6eca80ecb109efae633c50a657af7136717e137ff063e50f5d8594e1a19.png"
+  },
+  "715": {
+    "name": "Noivern",
+    "types": [
+      "Flying",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_80991630f77c4c79561180eb5f1658563771dea9ca3c203f96d3758b1d6755bb.png"
+  },
+  "716": {
+    "name": "Xerneas",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_7f0f29d1a31cf8fcb0ab687a80a37d6b8994efaf52e21bc6703329c57e296e0e.png"
+  },
+  "717": {
+    "name": "Yveltal",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "img": "i/nostr.build_61abc0dcb905289e12159f3078e0267cd0206d9d0506b82159b137c46e3f0a7c.png"
+  },
+  "718": {
+    "name": "Zygarde",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "img": "i/nostr.build_d5181b73dc8174d43deac2d32a01098587fa7bdfa529a055d7e56556b1b58ce7.png"
+  },
+  "719": {
+    "name": "Diancie",
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_e8bc0944879886804712777c143a603b43582da303ad4e76b9b0edf36e3a6efa.png"
+  },
+  "720": {
+    "name": "Hoopa",
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_ba208728988c2b15ab8c0857e20adeb929927cec5ab1fbd072ec4af21e6c98b9.png"
+  },
+  "721": {
+    "name": "Volcanion",
+    "types": [
+      "Fire",
+      "Water"
+    ],
+    "img": "i/nostr.build_720e8ac2ae78609a3d9bccf8a46e814b4815b18ba1066ccfcce5e4242a33746c.png"
+  },
+  "722": {
+    "name": "Rowlet",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "img": "i/nostr.build_4bacd9c830d8cf431857b9d78512055913bdb85a936dcea55de0262d1ab8a3fc.png"
+  },
+  "723": {
+    "name": "Dartrix",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "img": "i/nostr.build_b9bd03db70f4714343e145d91de52a42597aae4954a6830d013906281c8043f1.png"
+  },
+  "724": {
+    "name": "Decidueye",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_f7eb7fade84424c9e4836b0229650ff1046dd49dfdd626786516b00edce45fdc.png"
+  },
+  "725": {
+    "name": "Litten",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_19366483fe4472a6e5943a0611f791d962b0b1e6ba437c472784c40fdd51ca44.png"
+  },
+  "726": {
+    "name": "Torracat",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_5339233b7cf03898cf1edc28b5f5b88cfbb692274e057daff6e3456a996facf8.png"
+  },
+  "727": {
+    "name": "Incineroar",
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "img": "i/nostr.build_f811c45db4e5a7f1e35f13f159af4dd68027cf462f16d70042ba9529e3633397.png"
+  },
+  "728": {
+    "name": "Popplio",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_462304960e44ba9eb9fd263067bc2e870af4b4923b2d72fa4d1f06fb6012a417.png"
+  },
+  "729": {
+    "name": "Brionne",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_ef9e95383cfc8e5897d1e2a747d613a3e31e64f8aac3565378bfbe2129fbe7ea.png"
+  },
+  "730": {
+    "name": "Primarina",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_3ec8c75858e299772d10cc007f67b50e940ed22702d039854d5a97d2824ced7f.png"
+  },
+  "731": {
+    "name": "Pikipek",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_2fc3f463de3c575acda99539dda178b8cee9176eac4ab04a1c5cdf14486450fd.png"
+  },
+  "732": {
+    "name": "Trumbeak",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_82ef96b1f73a31b4448e86b2b72621fda2551fb966b9443a613bb361f1daa8f6.png"
+  },
+  "733": {
+    "name": "Toucannon",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_03a3cee3ac83f008164e5a81858ae8ec5d844e6c3a363c57a681e70512744517.png"
+  },
+  "734": {
+    "name": "Yungoos",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_f15eec739076d5217375b8cf2630d011401f92920b568785dacbaab52a5bf122.png"
+  },
+  "735": {
+    "name": "Gumshoos",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_b9ee8388711d55a883c7d7a6774c7126a631e58f2da925b6e18ce3bbbd66b0c7.png"
+  },
+  "736": {
+    "name": "Grubbin",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_025d685ea48cd6c192ffc381f4dd5233a6ac9779b70438d78ad3d54bae8fd140.png"
+  },
+  "737": {
+    "name": "Charjabug",
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "img": "i/nostr.build_e212faffae48fe67a036f418b3fafd9c950ac543e85a2693fbb11ab9e9c89e53.png"
+  },
+  "738": {
+    "name": "Vikavolt",
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "img": "i/nostr.build_0118ba0116a74a583e63c05d6000bee29d06dd2c1bcda450acabb2a482da1e24.png"
+  },
+  "739": {
+    "name": "Crabrawler",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_13f1fc435b11fe9e673c20c403053cab41f02e93537d4ba2c13d6f4b764665c1.png"
+  },
+  "740": {
+    "name": "Crabominable",
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "img": "i/nostr.build_3e1b5a3c8159600e5d5bff7a74b1260ef757296baf3eae50beb5decada382d16.png"
+  },
+  "741": {
+    "name": "Oricorio",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "img": "i/nostr.build_68f3c5418cabbdca80066fb00fd45a3f28db1f52100c55e3cfbd168eca7a369d.png"
+  },
+  "742": {
+    "name": "Cutiefly",
+    "types": [
+      "Bug",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_ec296401931c0fc410df5a188e914fb0d4ddaaf25fe72035cc637df8c78bb080.png"
+  },
+  "743": {
+    "name": "Ribombee",
+    "types": [
+      "Bug",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_8394daddfcd5b581ed74085b02faea2d9e2a3380c3ebb728203b03787c2e2b3f.png"
+  },
+  "744": {
+    "name": "Rockruff",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_8d1f5734c19c60c229e34cf54cf5e4bde82f93bc9457cf8f9c83645a90cc435e.png"
+  },
+  "745": {
+    "name": "Lycanroc",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_1cc970ec2a4128f9b8086e39864d8dcf8350eaf60900db8b815043f5bdb44822.png"
+  },
+  "746": {
+    "name": "Wishiwashi",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_7a56de78d307750442ed5ef08cc3365613ef185a8b68c17a9a0d76e3f226bc18.png"
+  },
+  "747": {
+    "name": "Mareanie",
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "img": "i/nostr.build_adfe6040d650c8d5533de4f485cd333ff66909295bee4916a2b24b823f9e37ff.png"
+  },
+  "748": {
+    "name": "Toxapex",
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "img": "i/nostr.build_dc5f7774c9fb96449a58ffe59603caee2a658f32c36f8000bfc2609cb2837262.png"
+  },
+  "749": {
+    "name": "Mudbray",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_3d47838c4a50eebc330a2302bb325c0df3a1ae0b7db8c02db6b822a96c27b166.png"
+  },
+  "750": {
+    "name": "Mudsdale",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_4be0bb1973d5103d04459afd842cedd630b5d6f71ed2ab021e0c40458e30959c.png"
+  },
+  "751": {
+    "name": "Dewpider",
+    "types": [
+      "Water",
+      "Bug"
+    ],
+    "img": "i/nostr.build_e08c8b342a7abd2002cab3cfe5559ac388496e1f0efa9285d386e5a5506933b2.png"
+  },
+  "752": {
+    "name": "Araquanid",
+    "types": [
+      "Water",
+      "Bug"
+    ],
+    "img": "i/nostr.build_afdd4f2a06dc407f9572227d0e35c55d300ddad4d969f2a660009e3d6d6059c1.png"
+  },
+  "753": {
+    "name": "Fomantis",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_f1676448948efcc767dd7102a2e2d5a41bea7c3aa8b6c662d70e718c4cf36a18.png"
+  },
+  "754": {
+    "name": "Lurantis",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_ceac3a8b464f8bd6b25467fac0799184f5a03acd7b46bf835cff063b4dbee22c.png"
+  },
+  "755": {
+    "name": "Morelull",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_3d2ce547522b608f666115a5627dda628ed09bf99115831651f4c880880e4380.png"
+  },
+  "756": {
+    "name": "Shiinotic",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_7d2f859861148e14e03462a3f5848924190632ec19b2a3277258cd900d153358.png"
+  },
+  "757": {
+    "name": "Salandit",
+    "types": [
+      "Poison",
+      "Fire"
+    ],
+    "img": "i/nostr.build_d1ffb7bf8dadf7f249c569655124b664620175f9032512d3c6e8c13948e5834e.png"
+  },
+  "758": {
+    "name": "Salazzle",
+    "types": [
+      "Poison",
+      "Fire"
+    ],
+    "img": "i/nostr.build_f354af5c2c9a51d8bddabe8e91076cb6ad675f6cd0640caa6a06ef88295fb81d.png"
+  },
+  "759": {
+    "name": "Stufful",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_cb7a0243b08a293b644c4e09da67b5f448308b9a698dd0e5f621895a67502d0a.png"
+  },
+  "760": {
+    "name": "Bewear",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_c6662e668e7677e7bb56075e203113ea90f8e3289522b08123a549b05735f37c.png"
+  },
+  "761": {
+    "name": "Bounsweet",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_b25edf47f63b9569b2e20ec5e315676ad0e68b11a503e8d193209aef3f6219e0.png"
+  },
+  "762": {
+    "name": "Steenee",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_ca78639c6ed22b17439394f6535903e0d14d3e05317a980fa1b0163ed5e15233.png"
+  },
+  "763": {
+    "name": "Tsareena",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_5eef5162f8b52f0a7b18842de1c94cd5dd7f5cb5aabebb0a0465828cd6f97444.png"
+  },
+  "764": {
+    "name": "Comfey",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_36250ecbdbbb2df89b9aaa36172514fb2f27d68bbdbb65ed7ba636b7d8c21df1.png"
+  },
+  "765": {
+    "name": "Oranguru",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_24bd6070ff6e7f6d0a7f67efb8be836f1ca0f97e3429d61390876cb106e211de.png"
+  },
+  "766": {
+    "name": "Passimian",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_35c5bd5e34dd10f6a7261f4f830408a67ec2cb6df077f1d8e61dc461e4ab82f0.png"
+  },
+  "767": {
+    "name": "Wimpod",
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "img": "i/nostr.build_20bdd61dabd6906b58e912d65e35eba37c148c2b1d5b8f75e3db1a3830e849be.png"
+  },
+  "768": {
+    "name": "Golisopod",
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "img": "i/nostr.build_f6af55befdfaf7b5fce7122e32b0b745af139dd5ebe3256c3c35eff02e8f1daf.png"
+  },
+  "769": {
+    "name": "Sandygast",
+    "types": [
+      "Ghost",
+      "Ground"
+    ],
+    "img": "i/nostr.build_e32a9a71d3ef0e0cb77074c023df34ed1dcfe8c4bf39fd1372250bf74a68a657.png"
+  },
+  "770": {
+    "name": "Palossand",
+    "types": [
+      "Ghost",
+      "Ground"
+    ],
+    "img": "i/nostr.build_91a5d9c94145cb4359eb8d8412df4c66b2a09eba8583a69c66de7cb2e63116dc.png"
+  },
+  "771": {
+    "name": "Pyukumuku",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_c5c177a492c4f98d16726a8d9af91a4442f6db1c28d0b23b549b943e59a3d826.png"
+  },
+  "772": {
+    "name": "Type: Null",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_d1c089049dd6182438a28963193d268011a4d6de035b1c8dbe403702efd584e0.png"
+  },
+  "773": {
+    "name": "Silvally",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_b755c6a1b1e100e1eb287511aa27da9a346e1db1b21664fb85131f4f489f3857.png"
+  },
+  "774": {
+    "name": "Minior",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "img": "i/nostr.build_5b1b06c36bc88daadfdcf121d59228c76dc91483ffca65ffbe96781676fb63bc.png"
+  },
+  "775": {
+    "name": "Komala",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_8bca4e5b3cbaadb761abc3d5c2be4c745836da3f5156185d744ff28bfae40af9.png"
+  },
+  "776": {
+    "name": "Turtonator",
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_3283b26c086b5e2183bb513ed9208d251fb8a8cbffdb9879edde38bcc4e2279f.png"
+  },
+  "777": {
+    "name": "Togedemaru",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "img": "i/nostr.build_12ad25c53dfdcd3f7b0ad4d9007e2a78d5a6eb8181560735ab2423955b27cd7c.png"
+  },
+  "778": {
+    "name": "Mimikyu",
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_2681d89e268355282a3dd55383fbaecea71e04b0caec6751f94f4dc3fe51c62f.png"
+  },
+  "779": {
+    "name": "Bruxish",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_89a9a87bc461a569678d9fd4236aa56be7d77aaa3df80d2b18f2f130a114b9d2.png"
+  },
+  "780": {
+    "name": "Drampa",
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_3b574493337505d372ead6ae54e990a47ada4b85099c77c37eac205d916bd1d0.png"
+  },
+  "781": {
+    "name": "Dhelmise",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "img": "i/nostr.build_30f5e3daa1d32355bdbb61c1cb1e4ec4992368139ec7d9efa8052da0f62179ec.png"
+  },
+  "782": {
+    "name": "Jangmo-o",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_4a91fdb83259610b48d1afad74952f3d5af900c049499c5c1effdbccaf14ea61.png"
+  },
+  "783": {
+    "name": "Hakamo-o",
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_e0f45bff4b8cb9bc49c40b56ab6213fe3fd349491fd774046a4d44f566ec1ad7.png"
+  },
+  "784": {
+    "name": "Kommo-o",
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_f0ec951953c3e9ca7ba7239fd4f3ea31fa1cdb7ddc8e358e1b77d2d74435d81a.png"
+  },
+  "785": {
+    "name": "Tapu Koko",
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_4e2f97d12cb637fb26bdc96afbfe7182db6f47f4a441e2a63cb6a18bab3b97d6.png"
+  },
+  "786": {
+    "name": "Tapu Lele",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_9dee55f5d37c6fc221c57431522e530282cd6887f1f265844390735dee2c6bba.png"
+  },
+  "787": {
+    "name": "Tapu Bulu",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_de757a7793e6c430eac1bd95a4d67d6c9d6d6f236640aa4dad880e728e834dd8.png"
+  },
+  "788": {
+    "name": "Tapu Fini",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_bfb96f31fb25867ade52180eb77acbc119a34e4bd5725133a7cabb08965e69fc.png"
+  },
+  "789": {
+    "name": "Cosmog",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_352db48e584b906164f00e7a963f23e49f5c3e3753875c14c1a662a7f76f7ed8.png"
+  },
+  "790": {
+    "name": "Cosmoem",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_e1a1d8ae66a35e956f9eb9dc81b437c5595927e542c6686323ee951fbb6ee1c5.png"
+  },
+  "791": {
+    "name": "Solgaleo",
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "img": "i/nostr.build_8e54cd061bfe56c935d89c40a35da1f6388509ed5abe34fa6d02a9c5a29ff317.png"
+  },
+  "792": {
+    "name": "Lunala",
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_477594a92fe0f347ae8723d3fb2a143a1a054cded0b53c6da20350af3ad0c3fe.png"
+  },
+  "793": {
+    "name": "Nihilego",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "img": "i/nostr.build_9e87e568007d8be809ebda3c207357a7c65d7cfa247791912bcc465bfa9ae67e.png"
+  },
+  "794": {
+    "name": "Buzzwole",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_bce7c7717aa41706aaad730745533fcd3bb6aa93d951ea7226baaac6efe3b950.png"
+  },
+  "795": {
+    "name": "Pheromosa",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_649b54ce925bfdda629b8985f10452852a2c0448516155624d4b2a8a20030264.png"
+  },
+  "796": {
+    "name": "Xurkitree",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_678b89b5bf19f383c628b35af30366565924707f60d374183ee27214a0733dbe.png"
+  },
+  "797": {
+    "name": "Celesteela",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "img": "i/nostr.build_40e373ae19d700068f6def027316a8ca5d0080ed9d7caf4383723acd07ed593d.png"
+  },
+  "798": {
+    "name": "Kartana",
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "img": "i/nostr.build_84be8703b834f1776f612ee32c8442f6bfddd58cebc0043bba5b9c520a5f1d88.png"
+  },
+  "799": {
+    "name": "Guzzlord",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_6baf2f04310d95651bb9a6b320d1e9bd843b015d34278a086c4a4a71dd266d03.png"
+  },
+  "800": {
+    "name": "Necrozma",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_d3455a670b70a13a1827f18442018d79f15a930fd5d942dee2b1aeacec6b7628.png"
+  },
+  "801": {
+    "name": "Magearna",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_caa473206a23d9ea20a8ff373cee4bb2dc8c13c2771e4b3d0857c269160fe789.png"
+  },
+  "802": {
+    "name": "Marshadow",
+    "types": [
+      "Fighting",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_6a21bba721987a9f2c6a8c3fb7b71de0209fb154bc1887f2015f591def131ca1.png"
+  },
+  "803": {
+    "name": "Poipole",
+    "types": [
+      "Poison"
+    ],
+    "img": "i/nostr.build_4d8595a56ca95eb8a8121a5eaffe5ab4b3483251db3b06f43bd4e2cba550aaf5.png"
+  },
+  "804": {
+    "name": "Naganadel",
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_8638894892d8590d814548161bfecd02d14875087f1fbfaccd3c447f2144a39a.png"
+  },
+  "805": {
+    "name": "Stakataka",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "img": "i/nostr.build_3cbdce3d991aeed485eb73901a5cfc6686c6a24cea9faffd8b011665b9a4e38e.png"
+  },
+  "806": {
+    "name": "Blacephalon",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_68a39b2fd851f09f7e477fd30753f69f6bff5f8cca6b30c15114bd9dc1c88ea7.png"
+  },
+  "807": {
+    "name": "Zeraora",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_f4fd39d2e72f93c0884e4a70fedf01c5a1256e1cc7ce90a03477a29b568b81ac.png"
+  },
+  "808": {
+    "name": "Meltan",
+    "types": [
+      "Steel"
+    ],
+    "img": "i/nostr.build_d7c679d4bf64108c25e09f3ec291b2569cb5a554135b070a42fe0df2fab34506.png"
+  },
+  "809": {
+    "name": "Melmetal",
+    "types": [
+      "Steel"
+    ],
+    "img": "i/nostr.build_3c1077465adb7152e82313afaf618209ab30127838005a578016a240202a386e.png"
+  },
+  "810": {
+    "name": "Grookey",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_750be069d0567f010899adebdf7d350df6713def84b784bb78699cea8c5d1ed5.png"
+  },
+  "811": {
+    "name": "Thwackey",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_10f0482b52b70679b6ed0f9b78b0e9a06b86af40931887f73d4dd5e2acf0ae97.png"
+  },
+  "812": {
+    "name": "Rillaboom",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_b79b051da5cb77bee760c2f9859259f5806a1df77249397ed673790d3cc82a65.png"
+  },
+  "813": {
+    "name": "Scorbunny",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_f56681f5b1825f7d9ed324efa465f8bf31ef956d5b5429671c5006461f41ef16.png"
+  },
+  "814": {
+    "name": "Raboot",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_cc0df8f109ccf5d4ba5e2091199f1b694a70b0630049263ccbb130057770bb22.png"
+  },
+  "815": {
+    "name": "Cinderace",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_5951401a04821ed04c709aa07f0f61e2042c494fec0304e83363b6884f090996.png"
+  },
+  "816": {
+    "name": "Sobble",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_aa7588b1ba8b9f7aab0821221136a882651d65125b85c93150ad564c8715b8d1.png"
+  },
+  "817": {
+    "name": "Drizzile",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_2d7af2813d41c7c2643f12b1339ee353031f078459084cffe6f77018a00a483b.png"
+  },
+  "818": {
+    "name": "Inteleon",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_3f0ed01e919a5f3f5c969c82edbed3f44a489638eaa3c883d4f149e6ce5666c1.png"
+  },
+  "819": {
+    "name": "Skwovet",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_7f5ed0bc154f1b1302e752898938d6703d5d9057e14f56984233bbeb2d5193ed.png"
+  },
+  "820": {
+    "name": "Greedent",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_31e1e00d28106d2b4cf50ecedb3822d2f7dab8da1b5adfd73db052cbc5808fa4.png"
+  },
+  "821": {
+    "name": "Rookidee",
+    "types": [
+      "Flying"
+    ],
+    "img": "i/nostr.build_b6c6f821b671aebed84e864c201e48041a5d00e889de2eba997951bcd3fc028c.png"
+  },
+  "822": {
+    "name": "Corvisquire",
+    "types": [
+      "Flying"
+    ],
+    "img": "i/nostr.build_4d5c95e2bf5e6e8ede8f60aae571062fd7596b3d81c16fc70b6348c977a006bd.png"
+  },
+  "823": {
+    "name": "Corviknight",
+    "types": [
+      "Flying",
+      "Steel"
+    ],
+    "img": "i/nostr.build_09ba6f900aefb02b5113af1e3927578131e8cdbb567bf7dcbfc0a1347c63bbf7.png"
+  },
+  "824": {
+    "name": "Blipbug",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_7a710431898c37fec14fafa51260e17163f8fcb80cf0b967d8b2703d72f359ca.png"
+  },
+  "825": {
+    "name": "Dottler",
+    "types": [
+      "Bug",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_e022715c6af827022134b470c249334a17eb1bba363cf719deac1253734aeca4.png"
+  },
+  "826": {
+    "name": "Orbeetle",
+    "types": [
+      "Bug",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_59d6f78205eb3e4544e9d0590d912e5d9d7f0de89c460dead0aaa781b839b21f.png"
+  },
+  "827": {
+    "name": "Nickit",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_d6771180c5870c3046e78c2f09524dc6771c5a37aee78409507d654a3eab5a4e.png"
+  },
+  "828": {
+    "name": "Thievul",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_7a567e0782687aef52bbab3ceed74cd567df9d301964e5a40cec98f53501175d.png"
+  },
+  "829": {
+    "name": "Gossifleur",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_7d4b46dc8d7696d08baf18b9d7161281f04be6084d9a2cf5399c262af37b0ea1.png"
+  },
+  "830": {
+    "name": "Eldegoss",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_edf753df01ead94bc5fd168593825101c40cb3d60c7dbd6318751bc83afc8f73.png"
+  },
+  "831": {
+    "name": "Wooloo",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_7756fe9f21cfcaa7ab7ea3b6d1e68160c6dace0b329ccab7f4f9c9dc402c194d.png"
+  },
+  "832": {
+    "name": "Dubwool",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_d749039c629da3177abc53eccb43303885cd0f9c71cc58c95214cbc644d583de.png"
+  },
+  "833": {
+    "name": "Chewtle",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_d7f83980dddb9264aa92776f70d4ee4ffdd30c6a43b8bba5bf1a52dcaa04d13e.png"
+  },
+  "834": {
+    "name": "Drednaw",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "img": "i/nostr.build_21a1c87e4b65530359a840eed9b4ffe0011e7500f18039db5961ee16ab3a5717.png"
+  },
+  "835": {
+    "name": "Yamper",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_cdd6fc1bd904f6addfdfa4383144e6268f9582766d871507954edcdfb99da362.png"
+  },
+  "836": {
+    "name": "Boltund",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_8e4c7ecbf94b448df10d34b1c2956d73ea77e36862fbdff48fff232e6b87a15b.png"
+  },
+  "837": {
+    "name": "Rolycoly",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_4a638abd6afadb0f2cef9c4c08560c22aa4195e3861e0dea193b7a28f8260067.png"
+  },
+  "838": {
+    "name": "Carkol",
+    "types": [
+      "Rock",
+      "Fire"
+    ],
+    "img": "i/nostr.build_77d2190ab9bd38c10946f587e2061aff82ce078d2cc95597b73aa1c6937dc296.png"
+  },
+  "839": {
+    "name": "Coalossal",
+    "types": [
+      "Rock",
+      "Fire"
+    ],
+    "img": "i/nostr.build_0d6209287a0edb9a438d516bfd4aa07c1f796ceabd90616d8950af44a7f3f88d.png"
+  },
+  "840": {
+    "name": "Applin",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_1d48687093bede563f8c718eda5a40615bd5f1ce561e9d84ac6fab3bbc9701a1.png"
+  },
+  "841": {
+    "name": "Flapple",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_c35578de3f16f9ba651c86d1058da78b1d3823138abe1659b857c017b5f50cb7.png"
+  },
+  "842": {
+    "name": "Appletun",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_eb24d1846802e0e7dad9c21968c66e6d66ffa31d09fd8cb23304064470e38674.png"
+  },
+  "843": {
+    "name": "Silicobra",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_b1a46edb24fa7acfd66fa5f393b09965f723dee8da7aebb5e16853cd8009a692.png"
+  },
+  "844": {
+    "name": "Sandaconda",
+    "types": [
+      "Ground"
+    ],
+    "img": "i/nostr.build_a5ad74ebd4893785f37e7554fe7d90e4eb59ca64ebcdc0a25176e82743deaa91.png"
+  },
+  "845": {
+    "name": "Cramorant",
+    "types": [
+      "Flying",
+      "Water"
+    ],
+    "img": "i/nostr.build_40a0152379852f6775ef45f785166a8af648d742729324c7dd8be91b9b224311.png"
+  },
+  "846": {
+    "name": "Arrokuda",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_0d3350ff832428431f2deb70c848d23f77693404cf28bff3e4e72632ca45ebec.png"
+  },
+  "847": {
+    "name": "Barraskewda",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_53c4878aa93b712fec827c1fa5f24ebdc19b0059375a1eb3ae5633fba3fb05be.png"
+  },
+  "848": {
+    "name": "Toxel",
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "img": "i/nostr.build_d155070ec80e4bb393fea23a849f1257b039fe6d590f272ae0b8c70021c8d51e.png"
+  },
+  "849": {
+    "name": "Toxtricity",
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "img": "i/nostr.build_96d82978831277e5a53103099a6303ae421ac79280a0049566466d912e6d16d4.png"
+  },
+  "850": {
+    "name": "Sizzlipede",
+    "types": [
+      "Fire",
+      "Bug"
+    ],
+    "img": "i/nostr.build_bbfe57c73ca75245b971b912001a81756a7b026856b22e44392d88ca04481308.png"
+  },
+  "851": {
+    "name": "Centiskorch",
+    "types": [
+      "Fire",
+      "Bug"
+    ],
+    "img": "i/nostr.build_f721f7d2dfe2429dd14de1f790ad84b831e2dbd42247d9b7c4df5fa125f3d781.png"
+  },
+  "852": {
+    "name": "Clobbopus",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_4f38c474671848cf04696dc6830c87f79f3089fe22b8b156044c054d01257d64.png"
+  },
+  "853": {
+    "name": "Grapploct",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_8891c984a6b0965f04fc9c07336c7acdb2f3b8adeaf394211b4919760e0d3257.png"
+  },
+  "854": {
+    "name": "Sinistea",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_72413664da6eda29ffc466aae0c8d7ad124d96a690f479a8043624a31a9293e9.png"
+  },
+  "855": {
+    "name": "Polteageist",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_b5942cc37c53fe96d8bbd5be7dfb24946faac7bfac21cc50f73e2bdeb500f409.png"
+  },
+  "856": {
+    "name": "Hatenna",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_c6378698935abc75232056b114944ca63afee3970350fb9313198a58877639c9.png"
+  },
+  "857": {
+    "name": "Hattrem",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_68028601f723e3237bb76614ddbab159f201867896bbd6d4afa38bd6622762b1.png"
+  },
+  "858": {
+    "name": "Hatterene",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_1f5228d498d19a6cbc56847400ecac4b34ca134cc6d4df39a72911e9a979095b.png"
+  },
+  "859": {
+    "name": "Impidimp",
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_502688646cddd39876bf9dc7c3c1eb6e8e8d086f6b4a8f02e2619c8d74ca4863.png"
+  },
+  "860": {
+    "name": "Morgrem",
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_e6f6b3079498eccf7c10b5f672c17e7fd7448d0241139c3c74dd5febe8d750a9.png"
+  },
+  "861": {
+    "name": "Grimmsnarl",
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_6e0b5e8d3390c76c5c46aab52b098a6342b228b230c2d8b6cf70fb99aa15c466.png"
+  },
+  "862": {
+    "name": "Obstagoon",
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "img": "i/nostr.build_a1505196a14a62c3ced56a1c7644acc4105acb46d4c1f46d4d1893e5228fa1cf.png"
+  },
+  "863": {
+    "name": "Perrserker",
+    "types": [
+      "Steel"
+    ],
+    "img": "i/nostr.build_fdbf18aff7b3d6194264b71de4df81b3a8c92b8274096e96457bf17c85419dd9.png"
+  },
+  "864": {
+    "name": "Cursola",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_5c3dcf2fb50067b3490185923f89ebcd5cbdd771c5399e07d50b471a80ebfa5b.png"
+  },
+  "865": {
+    "name": "Sirfetch’d",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_7fe4303fa3e73be88620012ae676ab80bee86310b84c90b6eae404d3b777dcaf.png"
+  },
+  "866": {
+    "name": "Mr. Rime",
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_5a887258427d3f56b065c520a854eb360756ae8cd692a58d757af4e1d72ff25a.png"
+  },
+  "867": {
+    "name": "Runerigus",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_d8992abab52961c6e3fd6a3d0b13e925dec9c0ad6d184d644b4c1c15c1972064.png"
+  },
+  "868": {
+    "name": "Milcery",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_01fd99bb20bddf7a87698a21b01312a3224708b71f0165c893110c8ff7a4275f.png"
+  },
+  "869": {
+    "name": "Alcremie",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_3a8586a5c95f30de4ab8cebff5d8bea5a57d1b35bd97ee1835ce6149b8b27637.png"
+  },
+  "870": {
+    "name": "Falinks",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_2d5daee3015f3245845378b7c4e3640941de59dcab9872ceec9a7d0d62213a97.png"
+  },
+  "871": {
+    "name": "Pincurchin",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_e47c8b3708c0c79851914d443361e14adac8854c0ecf8574a7def2684aed393b.png"
+  },
+  "872": {
+    "name": "Snom",
+    "types": [
+      "Ice",
+      "Bug"
+    ],
+    "img": "i/nostr.build_425e3947740f0e18fe8f3ff6c88dae95992596121452d2e774017471c9bb7a39.png"
+  },
+  "873": {
+    "name": "Frosmoth",
+    "types": [
+      "Ice",
+      "Bug"
+    ],
+    "img": "i/nostr.build_60bef03969fa9cce705d9c7248234f43cc20a202354b927c3d3f07578ba245b1.png"
+  },
+  "874": {
+    "name": "Stonjourner",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_6e993be980b2e51d3795374ebcd3d4cf1c1c18f0a0069af884341fa26663e6ce.png"
+  },
+  "875": {
+    "name": "Eiscue",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_05949e35777ce213fc8484b6a12660671aeb50d5ceb1b4605a4c114c291e401e.png"
+  },
+  "876": {
+    "name": "Indeedee",
+    "types": [
+      "Psychic",
+      "Normal"
+    ],
+    "img": "i/nostr.build_b2efe43e8e18def2241b8171f8546bbab9a4ef5fcdccdcbf409ece803bc8bc55.png"
+  },
+  "877": {
+    "name": "Morpeko",
+    "types": [
+      "Electric",
+      "Dark"
+    ],
+    "img": "i/nostr.build_17cad73bbc6eb222c786f4ffd67fc8818dfe3a3c03da5ae121f7755128a066da.png"
+  },
+  "878": {
+    "name": "Cufant",
+    "types": [
+      "Steel"
+    ],
+    "img": "i/nostr.build_f97568c9ac5b60779ab0d775de7b32acb19aa4bce458a73950859c0e314a4a6f.png"
+  },
+  "879": {
+    "name": "Copperajah",
+    "types": [
+      "Steel"
+    ],
+    "img": "i/nostr.build_9d7f7a3d4de4d6676607f0fd7485720090034f259b2ac6f5bb491d0a3a8c26b5.png"
+  },
+  "880": {
+    "name": "Dracozolt",
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_55142d1a3243ed9adf3ba2d5a61cecef1778d63a6e319730ae958591469e5d1b.png"
+  },
+  "881": {
+    "name": "Arctozolt",
+    "types": [
+      "Electric",
+      "Ice"
+    ],
+    "img": "i/nostr.build_04bb38ef9b7312fc7351d7e66acdcf9e825973366b0006d6f8284fc6cd3ab9c2.png"
+  },
+  "882": {
+    "name": "Dracovish",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_323622267d5103e4f024541eade5a10ba766592e8c911284420c15f97e0090da.png"
+  },
+  "883": {
+    "name": "Arctovish",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "img": "i/nostr.build_a7fdbe9d9078fddeb8a27c0641aba9114c7beffbedecf38443961f44eb013daf.png"
+  },
+  "884": {
+    "name": "Duraludon",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_fe009516a244ae840b258897012ee64e06a1c1c1dc93c248c1c606e9d855002a.png"
+  },
+  "885": {
+    "name": "Dreepy",
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_d14c05236d887aae3c27cd8339a24001f4ada6ebd1ce414a0158e410347a6f49.png"
+  },
+  "886": {
+    "name": "Drakloak",
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_b7bc5e7fe2b1b76af0d73b897f08d6996d8dc9544a3aadedac6663117fb2f8d2.png"
+  },
+  "887": {
+    "name": "Dragapult",
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_067a7009940f3abb1c47f91314f9c0016f637f23aa787a4846d43cb01c3c8e8b.png"
+  },
+  "888": {
+    "name": "Zacian",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_614f1107aef9979f3cb32e814bbb4893a0648212b8ebfe3e891c269e1ededb1f.png"
+  },
+  "889": {
+    "name": "Zamazenta",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_96394ace9c42a1c5443d447da3157a9c6dff9dfecec53a145a2a372e4d07e52c.png"
+  },
+  "890": {
+    "name": "Eternatus",
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_81b498282ffaf399b0c8f0246172a3ef4008cddc6d98e21e49dc37ddff6b58bb.png"
+  },
+  "891": {
+    "name": "Kubfu",
+    "types": [
+      "Fighting"
+    ],
+    "img": "i/nostr.build_245331ea8deb977b9b1d727f1495acc0077c19a87e3577253ac6a03c9f74f036.png"
+  },
+  "892": {
+    "name": "Urshifu",
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "img": "i/nostr.build_05504a4fcad23994541095e01f20ff9f60ce7deda1efdb218245b9a44141e00a.png"
+  },
+  "893": {
+    "name": "Zarude",
+    "types": [
+      "Dark",
+      "Grass"
+    ],
+    "img": "i/nostr.build_cf713067492899ad702a7236e6cc6118351a49acfead09ce5dc63c41d3d2e59b.png"
+  },
+  "894": {
+    "name": "Regieleki",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_4c400e6014c5722c7cdd5d124c1170cc92403c1c88c51154b5d7113cb3f85206.png"
+  },
+  "895": {
+    "name": "Regidrago",
+    "types": [
+      "Dragon"
+    ],
+    "img": "i/nostr.build_9b27af75a68f994db180875ccc691cf7c2b032a570d635cfd6c754be3e98e562.png"
+  },
+  "896": {
+    "name": "Glastrier",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_767bb1e3c8e70c315d2da55392e71e7b6221b28a0aec7363851c6beaf1d00930.png"
+  },
+  "897": {
+    "name": "Spectrier",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_db3558ecfd9056102926e6389a6ec115d505769ff344e50cd023a14715efb7d4.png"
+  },
+  "898": {
+    "name": "Calyrex",
+    "types": [
+      "Psychic",
+      "Grass"
+    ],
+    "img": "i/nostr.build_7d166cbbe4be349cabd8fd5daeb4c1ab0d7041adc4f5d5de9a0db3e6310c4a8f.png"
+  },
+  "899": {
+    "name": "Wyrdeer",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_def5a557251ad160e5e4544633d2588aabde728de1bd34a25465edd73a4e1450.png"
+  },
+  "900": {
+    "name": "Kleavor",
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "img": "i/nostr.build_7b1a013c459841d6eb50425e0be46edee285722b8ca25d987e37cf3c1c8ebb7d.png"
+  },
+  "901": {
+    "name": "Ursaluna",
+    "types": [
+      "Ground",
+      "Normal"
+    ],
+    "img": "i/nostr.build_e326bf8e4be8b269efc04e0636ce21204ed2426304b67676914501ca1fd0a6c0.png"
+  },
+  "902": {
+    "name": "Basculegion",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_eed52b281f1d15763553525c25eebfef093d404c7536d32fb20ff28cac3cd043.png"
+  },
+  "903": {
+    "name": "Sneasler",
+    "types": [
+      "Fighting",
+      "Poison"
+    ],
+    "img": "i/nostr.build_7151dac456e2b6f90f7745bd36f4b1d6ae47bdc5a117e8cd49f158d0491b6921.png"
+  },
+  "904": {
+    "name": "Overqwil",
+    "types": [
+      "Dark",
+      "Poison"
+    ],
+    "img": "i/nostr.build_a860a68faca19d782d079f392cdb57b69f2bdaa2b4ac721d92435c819c40f747.png"
+  },
+  "905": {
+    "name": "Enamorus",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "img": "i/nostr.build_ad95acbe29918fc9961c7e1bb36e8b964e5ec5a3f62ec86510eb6a1c0b71b47b.png"
+  },
+  "906": {
+    "name": "Sprigatito",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_f4b206b94d658091e059e9a5003909a9c30fec3c8b8b70d164a2adec8e785fdd.png"
+  },
+  "907": {
+    "name": "Floragato",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_96374bc144589cbd311b867cdc3965f553fd4ded49641f8db12fe5c61a63a999.png"
+  },
+  "908": {
+    "name": "Meowscarada",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "img": "i/nostr.build_d690298e5169ea5a909b87f64b30725ec63c7953eb508bd7ae163bab6545cdd4.png"
+  },
+  "909": {
+    "name": "Fuecoco",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_4a68d3abb9aea322ca441354de0979f3819b2e4e6393ed39442f1546eac16bf2.png"
+  },
+  "910": {
+    "name": "Crocalor",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_5c3040101337f4fc3da7237fdb3d386d238f85663083c9708a662022d7bd45b8.png"
+  },
+  "911": {
+    "name": "Skeledirge",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_bd65d6ac3c78e271872d9284c70dfe85886f9cf0fb4c8160d2d436a012fdb97f.png"
+  },
+  "912": {
+    "name": "Quaxly",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_a05190a6892c0889fbaf882bf34073a438ee235d35bcdf66236d85cf7ba19db3.png"
+  },
+  "913": {
+    "name": "Quaxwell",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_2c2bcacf13987bbaffb3713aaa2ba8fcebfd4fd21529a198bd9f9c0d9b303a07.png"
+  },
+  "914": {
+    "name": "Quaquaval",
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_b9852351e41382357533bafb625d480ec083fcd4c59c79820e538a0ab0dd50e6.png"
+  },
+  "915": {
+    "name": "Lechonk",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_0cfdb170cf6f88fff8b9f3ad54cd20d127b87456e0ec9e961d03f31f910605ef.png"
+  },
+  "916": {
+    "name": "Oinkologne",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_d09548222d0a2c774fc5022ee6ccd2a65511927f68caac5a4726fce44ba45292.png"
+  },
+  "917": {
+    "name": "Tarountula",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_fbfac8b7593b575b489ab25a934100fa13edd749c195d009185e2d3969700023.png"
+  },
+  "918": {
+    "name": "Spidops",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_188b355b6c063acaad667d36e029329939526aaf0ecc6963c317a8cb89f0b6dc.png"
+  },
+  "919": {
+    "name": "Nymble",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_24b0131222fbd2fb8cfc61e7486ce42f46c53da976b1b7548975241478a3dac9.png"
+  },
+  "920": {
+    "name": "Lokix",
+    "types": [
+      "Bug",
+      "Dark"
+    ],
+    "img": "i/nostr.build_e639cca900a2d0c75804eddd326b846ae5426314e46f73ee6101e5d825d4359e.png"
+  },
+  "921": {
+    "name": "Pawmi",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_4fff7192bebce6fba72c771d355538bb9e81d56a0c5daa6022339c476cdb352b.png"
+  },
+  "922": {
+    "name": "Pawmo",
+    "types": [
+      "Electric",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_0ca523973a2233f909db0863ca088e17f73ebf916b6766afac24e1ee0f22094f.png"
+  },
+  "923": {
+    "name": "Pawmot",
+    "types": [
+      "Electric",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_106e24dbd488c831907886b2ffb76700630133ca079fa7f76ec870c94907d2ea.png"
+  },
+  "924": {
+    "name": "Tandemaus",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_728de09b3adb4da7d1c2c006e62e87ee901dad907fe22b68b5c5c8eefecc1783.png"
+  },
+  "925": {
+    "name": "Maushold",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_4f0e89a524d55afb621d2dcf7dfa8ff4c3312ae0570f3a04f236ad4912e9b094.png"
+  },
+  "926": {
+    "name": "Fidough",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_839df568ebae75ae99b387c1215a9a48d94bb68d9b06cc6b29e9e05b85d1c57f.png"
+  },
+  "927": {
+    "name": "Dachsbun",
+    "types": [
+      "Fairy"
+    ],
+    "img": "i/nostr.build_ab6e1eff2fc5f821bf418790c51eec37bd0119a0a1cbfb796972c67ca9f488ca.png"
+  },
+  "928": {
+    "name": "Smoliv",
+    "types": [
+      "Grass",
+      "Normal"
+    ],
+    "img": "i/nostr.build_4f84ea6e52ad8c2c51de26670c67075950956c1395012b6bfbfaf9495c8553c1.png"
+  },
+  "929": {
+    "name": "Dolliv",
+    "types": [
+      "Grass",
+      "Normal"
+    ],
+    "img": "i/nostr.build_f3ae8e92b86e2e9de2522c550c8302f93cf8eaf6a7dd772ae2df8933ded04a0c.png"
+  },
+  "930": {
+    "name": "Arboliva",
+    "types": [
+      "Grass",
+      "Normal"
+    ],
+    "img": "i/nostr.build_37242c70645a47e22ebe9aad1d0892dc238747f74e0b3a6c35383f2bc4b72685.png"
+  },
+  "931": {
+    "name": "Squawkabilly",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "img": "i/nostr.build_40e3ba2a23ac50a48c509cd7cd3b3fcb2def2996acfb36a9ece7f0b0d0c1a2c4.png"
+  },
+  "932": {
+    "name": "Nacli",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_40c438ffc281fca55690988d57c59bbf14e58e9657d46d583188cfa31f1bf191.png"
+  },
+  "933": {
+    "name": "Naclstack",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_31ed118ab29560ec2e545d99f2c701ec549ba51e64667ddad92474092113cf13.png"
+  },
+  "934": {
+    "name": "Garganacl",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_a898078b257efe994cbef717147c64cc59f871b6f1e7ad86a1de7adb984381f0.png"
+  },
+  "935": {
+    "name": "Charcadet",
+    "types": [
+      "Fire"
+    ],
+    "img": "i/nostr.build_6e64e7a8b1a86d682996d969f1cb5044e3deeb90fcd968bb5d053b25e8317e1b.png"
+  },
+  "936": {
+    "name": "Armarouge",
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_332d62c0630dd8d3f38d5d999a59d1152b27cf04f632bb386e2e6e231f8dac58.png"
+  },
+  "937": {
+    "name": "Ceruledge",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_b8b54cd06a10fcd3d9b574607022fc46e713982ec298afce69100dc88b2b2331.png"
+  },
+  "938": {
+    "name": "Tadbulb",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_6f0321d845fb50060ae7ed2ae1a7f3bf0e9becf5dacce37be4dddb9db5c5bc02.png"
+  },
+  "939": {
+    "name": "Bellibolt",
+    "types": [
+      "Electric"
+    ],
+    "img": "i/nostr.build_4b7005662141e7a3a0a51b77437fad3754c2ba0fe9e3b7e703035e9e2e574c8b.png"
+  },
+  "940": {
+    "name": "Wattrel",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "img": "i/nostr.build_b3c6bb0350d8eea028b86975502ec150cc9f3bfb92e4f16f0182d8474742aa36.png"
+  },
+  "941": {
+    "name": "Kilowattrel",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "img": "i/nostr.build_4c3720f99cccdd6e7ed022c2b2e6237207ca427f09451cd5fa587ab50f1e4249.png"
+  },
+  "942": {
+    "name": "Maschiff",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_696c392835a508f20e23db609f44fd7d48c3902bb2c0664afae690a5255e68d7.png"
+  },
+  "943": {
+    "name": "Mabosstiff",
+    "types": [
+      "Dark"
+    ],
+    "img": "i/nostr.build_3beb15da4d3a339cb7c88a63a73b95c4765df8f7debb6d9871f43d879962908c.png"
+  },
+  "944": {
+    "name": "Shroodle",
+    "types": [
+      "Poison",
+      "Normal"
+    ],
+    "img": "i/nostr.build_4c149b7c7abd7e48d315edb07cf1bc543c7d53038c0b18f7bcd10b63e4a6d3b3.png"
+  },
+  "945": {
+    "name": "Grafaiai",
+    "types": [
+      "Poison",
+      "Normal"
+    ],
+    "img": "i/nostr.build_576b1f78ae5809fffeb372a8b75771a6c470b465528d6d4bb955308089ff19a9.png"
+  },
+  "946": {
+    "name": "Bramblin",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_44d98aa7e116b229a5d16c9b8a68383283511249fb0a1e0958e9bf60262c05b1.png"
+  },
+  "947": {
+    "name": "Brambleghast",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_a58075fb78ebf933bb1ce042147c7f6d779593d04b6e8f4eeeb1e895e16d80e8.png"
+  },
+  "948": {
+    "name": "Toedscool",
+    "types": [
+      "Ground",
+      "Grass"
+    ],
+    "img": "i/nostr.build_bf2264dda9047d932b731ce6f3d8017b7c633c81e32a01273926292b8fdd7379.png"
+  },
+  "949": {
+    "name": "Toedscruel",
+    "types": [
+      "Ground",
+      "Grass"
+    ],
+    "img": "i/nostr.build_c43782cc42a735ef72af3c67ccd28b89e6e6a78953ea6b2698f425fa28b6728c.png"
+  },
+  "950": {
+    "name": "Klawf",
+    "types": [
+      "Rock"
+    ],
+    "img": "i/nostr.build_c80254ae6e7b996714940880018e6a360433114f8e022bf71a01e61ae691877d.png"
+  },
+  "951": {
+    "name": "Capsakid",
+    "types": [
+      "Grass"
+    ],
+    "img": "i/nostr.build_ada00f9737e1fa211dd088831a2a7f005adc89b77eb72136e4afd78253f92143.png"
+  },
+  "952": {
+    "name": "Scovillain",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "img": "i/nostr.build_a0876540937047b67ccca47bf1fcd5e95be5621628858d22d69fdbf95f86a06a.png"
+  },
+  "953": {
+    "name": "Rellor",
+    "types": [
+      "Bug"
+    ],
+    "img": "i/nostr.build_c3d9eab223a736e0f04d4dde83c94213362b0a6a5120b27018b75dec677d3781.png"
+  },
+  "954": {
+    "name": "Rabsca",
+    "types": [
+      "Bug",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_8a6c85e0949ef6b1ba7623f6741224e2c88e18c8eb0a93cd9b0c8498592aa01c.png"
+  },
+  "955": {
+    "name": "Flittle",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_d30cd2163394c7b93f85b6fda91df06d7c9c4820aaaf113e512d0284910d2fac.png"
+  },
+  "956": {
+    "name": "Espathra",
+    "types": [
+      "Psychic"
+    ],
+    "img": "i/nostr.build_0efd696804475d731751b9e00ddebdf1f563eefda0681b7db401d9d360433320.png"
+  },
+  "957": {
+    "name": "Tinkatink",
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "img": "i/nostr.build_ebeca1af351a5461134b8cb2c8537ebf00b7c9274641b5956bff4a4d9bbefab7.png"
+  },
+  "958": {
+    "name": "Tinkatuff",
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "img": "i/nostr.build_3dc2fb64f6e96ec39682e580f83a78e384cee99434031ca430b6dc2449bcd2fb.png"
+  },
+  "959": {
+    "name": "Tinkaton",
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "img": "i/nostr.build_207f60a292232d0c8c01e549df75da983dc2c6e3fbb19ce49982eb4310d9b24f.png"
+  },
+  "960": {
+    "name": "Wiglett",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_015158a1cea02753bfaa3d36e0b4a87883cb2e6858a6394ef92743b6b28348d5.png"
+  },
+  "961": {
+    "name": "Wugtrio",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_40db19f2c1f46e0bd5885f700db9f9429f737e680334c9df5a2123a0aa6b314a.png"
+  },
+  "962": {
+    "name": "Bombirdier",
+    "types": [
+      "Flying",
+      "Dark"
+    ],
+    "img": "i/nostr.build_b65f6a16e5039dc12d923a5d3adcb87bdc26abc8a90854a00af27b9e7f497f67.png"
+  },
+  "963": {
+    "name": "Finizen",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_7b489e3f6382cf86cafb4ad2b1581b896edac7be2112f7d98d58563fb730b785.png"
+  },
+  "964": {
+    "name": "Palafin",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_0543cd2bbd1e6c9214dcf505b93b1e74a4f44c18e4ee4cfde9a0d69908f809f7.png"
+  },
+  "965": {
+    "name": "Varoom",
+    "types": [
+      "Steel",
+      "Poison"
+    ],
+    "img": "i/nostr.build_2de1e919f2343596a107156f3f6a19f31b3dad6a25e1582d52b79dc9da92959b.png"
+  },
+  "966": {
+    "name": "Revavroom",
+    "types": [
+      "Steel",
+      "Poison"
+    ],
+    "img": "i/nostr.build_d4bf6dc5b6f380e9b4e4bcc12962541a3a7507919ae550152041a55b75275345.png"
+  },
+  "967": {
+    "name": "Cyclizar",
+    "types": [
+      "Dragon",
+      "Normal"
+    ],
+    "img": "i/nostr.build_a5be703ebce3c3e1be0dc99e6ef9832c9e55be93fddfc27b0708eda364e506e7.png"
+  },
+  "968": {
+    "name": "Orthworm",
+    "types": [
+      "Steel"
+    ],
+    "img": "i/nostr.build_2b779679afa595f73aa9ebe740775964591fae00b2002d884ff303838aa5c0f8.png"
+  },
+  "969": {
+    "name": "Glimmet",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "img": "i/nostr.build_4dfaad75fe514e83ff8af6073d54961ca30254b47691916766389aa19adc9361.png"
+  },
+  "970": {
+    "name": "Glimmora",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "img": "i/nostr.build_8b4c0ce65491cc02941978902cb2e242f28aecc2eb5a138e6ffe874855d9d6d9.png"
+  },
+  "971": {
+    "name": "Greavard",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_e1d60be916e74d1244e888d3b2056cb201290f5a9ad1203d8114f92db47b3867.png"
+  },
+  "972": {
+    "name": "Houndstone",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_5ffccf9bf7b1936bf372125599ba5c812a70720c25d97ceeb197bfd3edbaebdf.png"
+  },
+  "973": {
+    "name": "Flamigo",
+    "types": [
+      "Flying",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_edf429ff00fcfeefb6ff067e5532b7ca7cccf5b74c950bff756993d54d6eee62.png"
+  },
+  "974": {
+    "name": "Cetoddle",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_59d1bdb722f6cfbc240c9fdd6a5723aedb0627d1b6b71e2c2d3d4637d6f335c2.png"
+  },
+  "975": {
+    "name": "Cetitan",
+    "types": [
+      "Ice"
+    ],
+    "img": "i/nostr.build_60e01d753d8ec1ad8da09855e6aa0d488d862ad1138100707b9b68fdf907460d.png"
+  },
+  "976": {
+    "name": "Veluza",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_230a7cb45b43f20c9feecb8f7275bef3d73917493f1b4d730360c4322f33b7a4.png"
+  },
+  "977": {
+    "name": "Dondozo",
+    "types": [
+      "Water"
+    ],
+    "img": "i/nostr.build_503834e51c6893242a46dea8f9522f0df8a7488e71c23b31fa8189b301f0fd7d.png"
+  },
+  "978": {
+    "name": "Tatsugiri",
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "img": "i/nostr.build_beb83381c31589b9843ad192dd95a31d28a2190b7cd4fd90e084a271702ca06d.png"
+  },
+  "979": {
+    "name": "Annihilape",
+    "types": [
+      "Fighting",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_9e97929fe9bba628a5d58062d174d32bfa3f01660484d1783be7d304008551df.png"
+  },
+  "980": {
+    "name": "Clodsire",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "img": "i/nostr.build_76eb6b0c231db30f31c4bebbabc6274212d9f49f1c6d03c2943bd30fc087cbc2.png"
+  },
+  "981": {
+    "name": "Farigiraf",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_ae158a82daa66f730b2c1264253bec35c8cf6f76245932caea18cecf9074d19b.png"
+  },
+  "982": {
+    "name": "Dudunsparce",
+    "types": [
+      "Normal"
+    ],
+    "img": "i/nostr.build_4b7923f8f684d4387c73677aedf4c337ab0061b4bb7fe8ac4474c75bb706f69c.png"
+  },
+  "983": {
+    "name": "Kingambit",
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "img": "i/nostr.build_67832e7d06f4f44f775d21f2b949debdbe06fe8fe307aed53ea96c3af45a059b.png"
+  },
+  "984": {
+    "name": "Great Tusk",
+    "types": [
+      "Ground",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_ffb3e613d1502c7943240a280fb5c20815acbed070ba18871950c9bda0e3ba8d.png"
+  },
+  "985": {
+    "name": "Scream Tail",
+    "types": [
+      "Fairy",
+      "Psychic"
+    ],
+    "img": "i/nostr.build_71b71c0be3c2ec016caa0102e217df50bfbceece8cd7c9e32e2c31be189eefe9.png"
+  },
+  "986": {
+    "name": "Brute Bonnet",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "img": "i/nostr.build_61f1cdffc84670ae737768505ec40ec33b7d3e7d13cbe334ddbbc00f416710da.png"
+  },
+  "987": {
+    "name": "Flutter Mane",
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "img": "i/nostr.build_e7f846a4e876f02314f8bbf39216eedd4d14d9736178efe099262c2c266f37b7.png"
+  },
+  "988": {
+    "name": "Slither Wing",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_3c5df5cf7d5ed5ec1158d13abb640d3000c32544288594938ed95222c7024b37.png"
+  },
+  "989": {
+    "name": "Sandy Shocks",
+    "types": [
+      "Electric",
+      "Ground"
+    ],
+    "img": "i/nostr.build_a03308869427d735b22666e553d356c818a97e3cf817f4407595c3bfb9ae84f2.png"
+  },
+  "990": {
+    "name": "Iron Treads",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "img": "i/nostr.build_2702fa0c28705145591e4cecf6782ab11a06f16288801b5d063c79b5fa236a76.png"
+  },
+  "991": {
+    "name": "Iron Bundle",
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "img": "i/nostr.build_9466ab471a00f9ba83ac8f170c7138b4ebb1a1aef54bca0e1bd148eb1878b3dc.png"
+  },
+  "992": {
+    "name": "Iron Hands",
+    "types": [
+      "Fighting",
+      "Electric"
+    ],
+    "img": "i/nostr.build_40c88bd168a9c7ea34facbb51b9482aea88cdc967b802825029ee161132f231a.png"
+  },
+  "993": {
+    "name": "Iron Jugulis",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "img": "i/nostr.build_fbcd8a92b2d4c27f4f1aca0b357045b6b3f413c7d9fd884197673d6084e44cb1.png"
+  },
+  "994": {
+    "name": "Iron Moth",
+    "types": [
+      "Fire",
+      "Poison"
+    ],
+    "img": "i/nostr.build_ac868b584339de7bedea203eb85488e9d9fe6d2ec894b22cd5dabd0c882f6d5d.png"
+  },
+  "995": {
+    "name": "Iron Thorns",
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "img": "i/nostr.build_870727b851610a37776cf4af2e4965609b4afa537dc7be112a52d9ebdb13738d.png"
+  },
+  "996": {
+    "name": "Frigibax",
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "img": "i/nostr.build_be6d344f0dc5e4fe7b92fa62b1e103eedb6b768fe9faaca035ddb8e59eab0903.png"
+  },
+  "997": {
+    "name": "Arctibax",
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "img": "i/nostr.build_187323f6cda2a19c4e85540f99e1da3a8aa607c420db7563499b5d2f889f716b.png"
+  },
+  "998": {
+    "name": "Baxcalibur",
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "img": "i/nostr.build_f75ff201d9295ac8fe23b848d970333cb006a302e7ecafa237bf79003714e94d.png"
+  },
+  "999": {
+    "name": "Gimmighoul",
+    "types": [
+      "Ghost"
+    ],
+    "img": "i/nostr.build_53427fc4839ea069ff55c6ef055dcb0daeaeb9d2550d1a65b4246e3f8e8ba01c.png"
+  },
+  "1000": {
+    "name": "Gholdengo",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "img": "i/nostr.build_322785b451907fa4b1b4ae63aad2029243c724f2b5948aa892b52198ce235e5f.png"
+  },
+  "1001": {
+    "name": "Wo-Chien",
+    "types": [
+      "Dark",
+      "Grass"
+    ],
+    "img": "i/nostr.build_8fce2eb142d32bb672f77ae690cc54205700668659c0495a04e786e5893fad66.png"
+  },
+  "1002": {
+    "name": "Chien-Pao",
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "img": "i/nostr.build_b7a65991476aa23960cd167ce78e3794f5d389a328279e9ffa4905f680f77c6c.png"
+  },
+  "1003": {
+    "name": "Ting-Lu",
+    "types": [
+      "Dark",
+      "Ground"
+    ],
+    "img": "i/nostr.build_e8a87d236e50798cd38b46da9065052d6244f6fc10956276ec7ff2724204c332.png"
+  },
+  "1004": {
+    "name": "Chi-Yu",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "img": "i/nostr.build_5f24cc0fe5cfc3f4f30c404b188aefbb31fb45e8fd224c9b617764c97df3216c.png"
+  },
+  "1005": {
+    "name": "Roaring Moon",
+    "types": [
+      "Dragon",
+      "Dark"
+    ],
+    "img": "i/nostr.build_faa829545dfe58536ec4377344f5c0c04b0a37481ad3fac66415ff8563e3f714.png"
+  },
+  "1006": {
+    "name": "Iron Valiant",
+    "types": [
+      "Fairy",
+      "Fighting"
+    ],
+    "img": "i/nostr.build_6ee610d09daecc4cc564c6bd5b08d9637206d5e9a63776f1d628222d5ad8b191.png"
+  },
+  "1007": {
+    "name": "Koraidon",
+    "types": [
+      "Fighting",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_fb88dabff554030f9f3d168e16163884f909af329fda66ba6454fd524da43a9f.png"
+  },
+  "1008": {
+    "name": "Miraidon",
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "img": "i/nostr.build_b2c5b6dd0edfdf2489a9add84a3d5731dde95b106c61f55498774569f3d33f36.png"
+  }
+}

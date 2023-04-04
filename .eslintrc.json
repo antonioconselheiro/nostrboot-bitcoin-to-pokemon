@@ -1,0 +1,166 @@
+{
+  "root": true,
+  "ignorePatterns": ["**/*"],
+  "plugins": ["@nrwl/nx"],
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "plugins": ["ban"],
+      "extends": ["plugin:@nrwl/nx/typescript"],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "project": [ "tsconfig.base.json" ]
+      },
+      "rules": {
+        "@nrwl/nx/enforce-module-boundaries": [
+          "error",
+          {
+            "enforceBuildableLibDependency": true,
+            "allow": [],
+            "depConstraints": [
+              {
+                "sourceTag": "*",
+                "onlyDependOnLibsWithTags": ["*"]
+              }
+            ]
+          }
+        ],
+        "complexity": [
+          "error",
+          {
+            "max": 7
+          }
+        ],
+        "max-classes-per-file": [
+          "error",
+          1
+        ],
+        "max-lines": [
+          "error",
+          400
+        ],
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            "selector": [
+              "classProperty",
+              "objectLiteralProperty",
+              "typeProperty",
+              "classMethod",
+              "objectLiteralMethod",
+              "typeMethod",
+              "accessor",
+              "enumMember"
+            ],
+            "format": [
+              "camelCase",
+              "PascalCase",
+              "UPPER_CASE"
+            ]
+          }
+        ],
+        "@typescript-eslint/ban-types": [
+          "error",
+          {
+            "extendDefaults": false,
+            "types": {
+              "Boolean": {
+                "message": "Avoid using the `Boolean` type.",
+                "fixWith": "boolean"
+              },
+              "Number": {
+                "message": "Avoid using the `Number` type.",
+                "fixWith": "number"
+              },
+              "String": {
+                "message": "Avoid using the `String` type.",
+                "fixWith": "string"
+              }
+            }
+          }
+        ],
+        "@typescript-eslint/no-magic-numbers": [
+          "error",
+          {
+            "ignoreEnums": true,
+            "ignoreReadonlyClassProperties": true,
+            "ignoreNumericLiteralTypes": true,
+            "ignore": [
+              0,
+              1
+            ]
+          }
+        ],
+        "@typescript-eslint/member-ordering": "off",
+        "@typescript-eslint/member-delimiter-style": "off",
+        "prefer-arrow/prefer-arrow-functions": "off",
+        "@typescript-eslint/prefer-for-of": "off",
+        "quotes": [
+          "off"
+        ],
+        "arrow-parens": [
+          "off",
+          "always"
+        ],
+        "import/order": "off",
+        "jsdoc/check-alignment": "off",
+        "jsdoc/newline-after-description": "off",
+        "arrow-body-style": [
+          "off"
+        ],
+        "@typescript-eslint/explicit-member-accessibility": [
+          "warn",
+          {
+            "accessibility": "no-public"
+          }
+        ],
+        "one-var": [
+          "off",
+          "never"
+        ],
+        "eqeqeq": "warn",
+        "@typescript-eslint/ban-ts-comment": [
+          "error"
+        ],
+        "no-eval": "error",
+        "@typescript-eslint/no-explicit-any": "error",
+        "@typescript-eslint/consistent-type-assertions": [
+          "error",
+          {
+            "assertionStyle": "as",
+            "objectLiteralTypeAssertions": "never"
+          }
+        ],
+        "@typescript-eslint/no-empty-function": "error",
+        "@typescript-eslint/no-floating-promises": "error",
+        "@typescript-eslint/adjacent-overload-signatures": "error",
+        "@typescript-eslint/explicit-function-return-type": [
+          "error",
+          {
+            "allowExpressions": true
+          }
+        ],
+        "@typescript-eslint/no-use-before-define": "error",
+        "@typescript-eslint/unbound-method": "error",
+        "no-empty": [
+          "error"
+        ],
+        "no-unused-expressions": "error",
+        "ban/ban": [
+          "warn",
+          {
+            "name": "setTimeout",
+            "message": "justify the use of setTimeout in a comment and then ignore this lint"
+          }
+        ]
+      }
+    },
+    {
+      "files": ["*.spec.ts", "*.spec.tsx", "*.spec.js", "*.spec.jsx"],
+      "env": {
+        "jest": true
+      },
+      "rules": {}
+    }
+  ]
+}
