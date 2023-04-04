@@ -24,7 +24,7 @@ services:
     working_dir: /pokeboot
     volumes:
       - ..:/pokeboot:cached
-      - node_modules_vol:/bater-ponto/node_modules
+      - node_modules_vol:/pokeboot/node_modules
     environment:
       - APP_JSON_FILE_DATABASE=./last-published-pokemons.json
       - COINAPI_BASE_URL=https://rest.coinapi.io
