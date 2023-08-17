@@ -30,7 +30,7 @@ services:
       - COINAPI_BASE_URL=https://rest.coinapi.io
       - NOSTR_PRIVATE_NSEC_FILE=/run/secrets/nostr_keys
       - COINAPI_PRIVATE_KEY_FILE=/run/secrets/coinapi_keys
-      - NOSTR_RELAYS=wss://nostr.plebchain.org;wss://nostr.rocks;wss://nostr.relayer.se;wss://relay.nostr.ch;wss://relay.mostr.pub;wss://nostr-pub.wellorder.net;wss://relay.snort.social;wss://nostr.bitcoiner.social;wss://nostr.inosta.cc;wss://puravida.nostr.land;wss://nostr.milou.lol;wss://brb.io;wss://nostr.zebedee.cloud;wss://nostr.frennet.xyz
+      - NOSTR_RELAYS=wss://nostr.plebchain.org;wss://relay.nostriches.org;wss://relay.mostr.pub;wss://nostr-pub.wellorder.net;wss://relay.snort.social;wss://nostr.inosta.cc;wss://nostr.milou.lol;wss://nostr.frennet.xyz;wss://relay.damus.io;wss://nos.lol;wss://nostr.orangepill.dev;wss://offchain.pub;wss://relay.shitforce.one;wss://yabu.me;wss://ear-design-distinct-competition.trycloudflare.com;wss://relayable.org;wss://ca.relayable.org;wss://nostr1.current.fyi;wss://nostr.vulpem.com;wss://nostrich.friendship.tw;wss://n.xmr.se;wss://nostr-1.nbo.angani.co
       - TZ=America/Sao_Paulo
     tty: true
     secrets:
