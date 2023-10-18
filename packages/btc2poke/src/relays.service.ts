@@ -23,14 +23,10 @@ export class RelaysService {
 
     this.connectionReady.finally(() => {
       this.relays.forEach(relay => {
-        const subscription = relay.publish(event);
-        subscription.on('ok', () => {
-          console.log(`${relay.url} has accepted our event`);
-        });
-
-        subscription.on('failed', (reason: unknown) => {
-          console.error(`failed to publish to ${relay.url}: ${reason}`);
-        });
+        relay
+          .publish(event)
+          .then(() => console.log(`${relay.url} has accepted our event`))
+          .catch(e => console.error(`failed to publish to ${relay.url}: `, e));
       });
     });
   }
@@ -69,7 +65,8 @@ export class RelaysService {
       pubkey: user.publicKeyHex,
       // eslint-disable-next-line @typescript-eslint/naming-convention
       created_at: this.getCurrentTimestamp(),
-      tags: [],
+      tags: Array.from(message.match(/#[^\s]+\w/g) || [])
+      .map(hashtag => ['t', hashtag.replace(/^#/, '')]),
       content: message
     }
     const id = getEventHash(unsignedEvent)

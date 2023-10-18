@@ -17,6 +17,9 @@
     "customizations": {
       "vscode": {
         "extensions": [
+          "ms-vscode.vscode-typescript-next",
+          "manishsencha.readme-preview",
+          "wix.vscode-import-cost",
           "eamodio.gitlens",
           "fabiospampinato.vscode-diff",
           "Shinymimikyu.pokemon-color",
