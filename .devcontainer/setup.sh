@@ -14,7 +14,7 @@ read sshnome
 mkdir .ssh
 mkdir node_modules;
 
-ssh-keygen -t ed25519 -C $sshnome -f ".ssh/id_ed25519"
+ssh-keygen -t ed25519 -C $sshnome -f ".ssh/id_ed25519";
 
 echo "[user]
     email = $githubemail
