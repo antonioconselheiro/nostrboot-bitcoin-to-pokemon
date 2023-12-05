@@ -38,7 +38,7 @@ class main {
   }
 
   async checkGold(nostrBoot: NostrBoot): Promise<void> {
-    console.info('bitcoin price checking in gold...');
+    console.info('bitcoin price checking in GOLD...');
     const bitcoinPrice = await this.bitcoinPriceService.getBitcoinPrice('XAUT');
     console.info('bitcoin price: ', bitcoinPrice);
     const pokemon = this.bitcoinToPokemonService.convertFromGold(bitcoinPrice);
@@ -46,9 +46,9 @@ class main {
     let message = '';
 
     if (status === PostContentStatus.NOT_PUBLISHED_RECENTLY) {
-      message = this.generateDolarMessage(pokemon, bitcoinPrice);
+      message = this.generateGoldMessage(pokemon, bitcoinPrice);
     } else if (status === PostContentStatus.RECENT_POST) {
-      message = this.generateDolarMessage(pokemon, bitcoinPrice, true);
+      message = this.generateGoldMessage(pokemon, bitcoinPrice, true);
     } else if (status === PostContentStatus.LAST_POST) {
       console.info('already posted this, ignoring...', pokemon);
     }
@@ -63,7 +63,7 @@ class main {
   }
 
   async checkDolar(nostrBoot: NostrBoot): Promise<void> {
-    console.info('bitcoin price checking in usd...');
+    console.info('bitcoin price checking in DOLAR...');
     const bitcoinPrice = await this.bitcoinPriceService.getBitcoinPrice('USD');
     console.info('bitcoin price: ', bitcoinPrice);
     const pokemon = this.bitcoinToPokemonService.convertFromDolar(bitcoinPrice);

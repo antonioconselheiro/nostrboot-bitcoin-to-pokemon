@@ -18,6 +18,7 @@ export class PublishMemoryService {
     dolar: [],
     gold: []
   };
+
   private constructor() {
     this.loadFile();
   }
