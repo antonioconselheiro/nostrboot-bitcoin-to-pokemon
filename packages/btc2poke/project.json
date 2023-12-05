@@ -13,8 +13,8 @@
         "tsConfig": "packages/btc2poke/tsconfig.lib.json",
         "assets": [
           "packages/btc2poke/*.md",
-          "packages/btc2poke/Dockerfile",
-          "packages/btc2poke/docker-compose.yml"
+          "Dockerfile",
+          "docker-compose.yml"
         ]
       }
     },

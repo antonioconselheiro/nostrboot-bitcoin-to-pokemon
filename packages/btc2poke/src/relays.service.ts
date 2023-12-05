@@ -1,4 +1,4 @@
-import { Event, getEventHash, Kind, Relay, relayInit, signEvent, UnsignedEvent, validateEvent, verifySignature } from 'nostr-tools';
+import { Event, getEventHash, getSignature, Relay, relayInit, UnsignedEvent, validateEvent, verifySignature } from 'nostr-tools';
 import { NostrUser } from './nostr-user';
 
 export class RelaysService {
@@ -14,7 +14,7 @@ export class RelaysService {
     const event = this.createEvent(user, message);
     const ok = validateEvent(event);
     const veryOk = verifySignature(event);
-    console.info(`event created: ${JSON.stringify(event)}, validate: ${ok}, signatura: ${veryOk}`);
+    console.info(`event created: ${JSON.stringify(event)}, validate: ${ok}, signature: ${veryOk}`);
 
     if (!ok || !veryOk) {
       console.error('event is not valid... aborting...');
@@ -61,18 +61,21 @@ export class RelaysService {
 
   private createEvent(user: NostrUser, message: string): Event {
     const unsignedEvent: UnsignedEvent = {
-      kind: Kind.Text,
+      kind: 1,
       pubkey: user.publicKeyHex,
       // eslint-disable-next-line @typescript-eslint/naming-convention
       created_at: this.getCurrentTimestamp(),
       tags: Array.from(message.match(/#[^\s]+\w/g) || [])
       .map(hashtag => ['t', hashtag.replace(/^#/, '')]),
       content: message
-    }
-    const id = getEventHash(unsignedEvent)
-    const sig = signEvent(unsignedEvent, user.privateKeyHex)
+    };
 
-    return { id, sig, ...unsignedEvent };
+    const event: Event = unsignedEvent as Event;
+
+    event.id = getEventHash(unsignedEvent);
+    event.sig = getSignature(event, user.privateKeyHex);
+
+    return event;
   }
 
   private getCurrentTimestamp(): number {
