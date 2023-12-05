@@ -82,7 +82,7 @@ pipeline {
         script {
           ws("workspace") {
             docker.withRegistry('http://ra9.local:5000', 'ra9-registry-credentials') {
-              docker.image('memelord:latest').push()
+              docker.image('btc2poke:latest').push()
             }
           }
         }
