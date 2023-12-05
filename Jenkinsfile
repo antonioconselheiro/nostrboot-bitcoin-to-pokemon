@@ -81,7 +81,7 @@ pipeline {
       steps {
         script {
           ws("workspace") {
-            docker.withRegistry('http://ra9.local:5000', 'ra9-registry-credentials') {
+            docker.withRegistry('https://ra9.local:5000', 'ra9-registry-credentials') {
               docker.image('btc2poke:latest').push()
             }
           }
