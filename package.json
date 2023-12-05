@@ -1,11 +1,10 @@
 {
   "name": "nostrboot-btc2poke",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "scripts": {
     "lint": "nx run-many --target=lint --all",
-    "build": "nx run-many --target=build --all",
-    "postbuild": "mkdir -p dist/packages/btc2poke/node_modules"
+    "build": "nx run-many --target=build --all"
   },
   "private": true,
   "devDependencies": {
