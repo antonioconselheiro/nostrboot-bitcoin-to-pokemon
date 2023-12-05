@@ -17,18 +17,17 @@
     "customizations": {
       "vscode": {
         "extensions": [
-			"ms-vscode.vscode-typescript-next",
-			"manishsencha.readme-preview",
-			"wix.vscode-import-cost",
-			"eamodio.gitlens",
-			"fabiospampinato.vscode-diff",
-			"Shinymimikyu.pokemon-color",
-			"ms-azuretools.vscode-docker",
-			"dbaeumer.vscode-eslint",
-			"ZainChen.json",
-			"nrwl.angular-console",
-			"aud-xie.skGRTT"
-		]
+          "ms-vscode.vscode-typescript-next",
+          "manishsencha.readme-preview",
+          "wix.vscode-import-cost",
+          "eamodio.gitlens",
+          "fabiospampinato.vscode-diff",
+          "ms-azuretools.vscode-docker",
+          "dbaeumer.vscode-eslint",
+          "ZainChen.json",
+          "nrwl.angular-console",
+          "aud-xie.skGRTT"
+        ]
       }
     }
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
