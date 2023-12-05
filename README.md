@@ -4,7 +4,7 @@ Mas contigo estabelecerei a minha aliança; e entrarás na arca, tu e os teus fi
 E de tudo o que vive, de toda a carne, dois de cada espécie, farás entrar na arca, para os conservar vivos contigo; macho e fêmea serão."
 
 # Bitcoin to Pokémon
-Nostr boot for bitcoin dollar value update, publications every time there is a change in the thousands.
+Nostr boot for bitcoin dollar and gold value update, publications every time there is a change in the thousands for dolar or a change in gold troy ounce.
 
 Follow me in nostr: `npub18jdkvqpc07gx5nrmwyawnnmq8duq6u4pg8xxekvwxuqvq6h0l9cqhte42l`
 

@@ -20,11 +20,11 @@ export class BitcoinPriceService {
     this.coinApiSecret = this.readCoinApiSecret();
   }
 
-  async getBitcoinUSDPrice(): Promise<BitcoinPriceResultset> {
+  async getBitcoinPrice(to: 'USD' | 'XAUT'): Promise<BitcoinPriceResultset> {
     return axios({
       method: 'GET',
       baseURL: process.env['COINAPI_BASE_URL'],
-      url: '/v1/exchangerate/BTC/USD/',
+      url: `/v1/exchangerate/BTC/${to}/`,
       headers: {
         // eslint-disable-next-line @typescript-eslint/naming-convention
         'X-CoinAPI-Key': this.coinApiSecret

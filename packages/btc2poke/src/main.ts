@@ -30,28 +30,31 @@ class main {
 
     this.scheduleTimes.forEach(time => {
       console.info('scheduling', time);
-      schedule.scheduleJob(time, () => this.run(nostrBoot).catch(e => console.error(e)));
+      schedule.scheduleJob(time, () => {
+        this.checkDolar(nostrBoot).catch(e => console.error(e));
+        this.checkGold(nostrBoot).catch(e => console.error(e));
+      });
     });
   }
 
-  async run(nostrBoot: NostrBoot): Promise<void> {
-    console.info('bitcoin price checking...');
-    const bitcoinPrice = await this.bitcoinPriceService.getBitcoinUSDPrice();
+  async checkGold(nostrBoot: NostrBoot): Promise<void> {
+    console.info('bitcoin price checking in GOLD...');
+    const bitcoinPrice = await this.bitcoinPriceService.getBitcoinPrice('XAUT');
     console.info('bitcoin price: ', bitcoinPrice);
-    const pokemon = this.bitcoinToPokemonService.convert(bitcoinPrice);
-    const status = this.publishMemoryService.getStatus(pokemon.id);
+    const pokemon = this.bitcoinToPokemonService.convertFromGold(bitcoinPrice);
+    const status = this.publishMemoryService.getStatus(pokemon.id, 'gold');
     let message = '';
 
     if (status === PostContentStatus.NOT_PUBLISHED_RECENTLY) {
-      message = this.generateMessage(pokemon, bitcoinPrice);
+      message = this.generateGoldMessage(pokemon, bitcoinPrice);
     } else if (status === PostContentStatus.RECENT_POST) {
-      message = this.generateMessage(pokemon, bitcoinPrice, true);
+      message = this.generateGoldMessage(pokemon, bitcoinPrice, true);
     } else if (status === PostContentStatus.LAST_POST) {
       console.info('already posted this, ignoring...', pokemon);
     }
 
     if (message) {
-      this.publishMemoryService.register(pokemon.id);
+      this.publishMemoryService.register(pokemon.id, 'gold');
       console.info(message);
       nostrBoot.publish(message);
     }
@@ -59,30 +62,54 @@ class main {
     return Promise.resolve();
   }
 
-  private generateMessage(
+  async checkDolar(nostrBoot: NostrBoot): Promise<void> {
+    console.info('bitcoin price checking in DOLAR...');
+    const bitcoinPrice = await this.bitcoinPriceService.getBitcoinPrice('USD');
+    console.info('bitcoin price: ', bitcoinPrice);
+    const pokemon = this.bitcoinToPokemonService.convertFromDolar(bitcoinPrice);
+    const status = this.publishMemoryService.getStatus(pokemon.id, 'dolar');
+    let message = '';
+
+    if (status === PostContentStatus.NOT_PUBLISHED_RECENTLY) {
+      message = this.generateDolarMessage(pokemon, bitcoinPrice);
+    } else if (status === PostContentStatus.RECENT_POST) {
+      message = this.generateDolarMessage(pokemon, bitcoinPrice, true);
+    } else if (status === PostContentStatus.LAST_POST) {
+      console.info('already posted this, ignoring...', pokemon);
+    }
+
+    if (message) {
+      this.publishMemoryService.register(pokemon.id, 'dolar');
+      console.info(message);
+      nostrBoot.publish(message);
+    }
+
+    return Promise.resolve();
+  }
+
+  private generateGoldMessage(
     pokemon: PokemonResultset,
     bitcoinPrice: BitcoinPriceResultset,
     hasRecentlyPosted = false
   ): string {
-    const thousand = 1000;
-    const formattedValue = this.formateBtcValue(bitcoinPrice);
+    const hundred = 100;
+    const formattedValue = Math.floor(bitcoinPrice.rate * hundred) / hundred;
     let message = '';
     
-    //Qual a cotação do bitcoin em pokémons, considerando somente os digitos dos milhares, na cotação do dólar
     if (pokemon.id) {
-      const ascended = this.publishMemoryService.hasAscended(pokemon.id);
+      const ascended = this.publishMemoryService.hasAscended(pokemon.id, 'gold');
       if (ascended === true) {
-        message = 'Bitcoin value went up. ';
+        message = 'Bitcoin has INCREASED in GOLD. ';
       } else if (ascended === false) {
-        message = 'Bitcoin value decreased. ';
+        message = 'Bitcoin has DECREASED in GOLD. ';
       }
 
-      message += `The current price is ${formattedValue}, the pokémon #${pokemon.id} is ${pokemon.name} ${hasRecentlyPosted ? 'again ': ' '}(${pokemon.types.join(', ')}) #bitcoin #pokemon #zap https://nostr.build/${pokemon.img}`;
+      message += `The current price is ${formattedValue} troy ounce, the pokémon #${pokemon.id} is ${pokemon.name} ${hasRecentlyPosted ? 'again ': ' '}(${pokemon.types.join(', ')}) #bitcoin #pokemon #zap https://nostr.build/${pokemon.img}`;
     } else {
-      if (bitcoinPrice.rate < thousand) {
+      if (bitcoinPrice.rate < 1) {
         message += 'It was an honor to break together ladies and gentlemen. ';
       } else {
-        message += 'Well, it seems to me that Bitcoin rose faster than nintendo was able to launch pokemons. '
+        message += 'Well, Bitcoin grow faster than Nintendo was able to launch pokémons. '
       }
 
       message += `The current price is ${formattedValue}, the pokémon is ${pokemon.name} (${pokemon.types.join(', ')}) #bitcoin #pokemon #zap https://nostr.build/${pokemon.img}`;
@@ -91,11 +118,42 @@ class main {
     return message;
   }
 
-  formateBtcValue(bitcoinPrice: BitcoinPriceResultset): string {
+  private generateDolarMessage(
+    pokemon: PokemonResultset,
+    bitcoinPrice: BitcoinPriceResultset,
+    hasRecentlyPosted = false
+  ): string {
+    const thousand = 1000;
+    const formattedValue = this.formatBtcValueInDolar(bitcoinPrice);
+    let message = '';
+    
+    if (pokemon.id) {
+      const ascended = this.publishMemoryService.hasAscended(pokemon.id, 'dolar');
+      if (ascended === true) {
+        message = 'Bitcoin has INCREASED in DOLLAR. ';
+      } else if (ascended === false) {
+        message = 'Bitcoin has DECREASED in DOLLAR. ';
+      }
+
+      message += `The current price is ${formattedValue}, the pokémon #${pokemon.id} is ${pokemon.name} ${hasRecentlyPosted ? 'again ': ' '}(${pokemon.types.join(', ')}) #bitcoin #pokemon #zap https://nostr.build/${pokemon.img}`;
+    } else {
+      if (bitcoinPrice.rate < thousand) {
+        message += 'It was an honor to break together ladies and gentlemen. ';
+      } else {
+        message += 'Well, Bitcoin grow faster than Nintendo was able to launch pokémons. '
+      }
+
+      message += `The current price is ${formattedValue}, the pokémon is ${pokemon.name} (${pokemon.types.join(', ')}) #bitcoin #pokemon #zap https://nostr.build/${pokemon.img}`;
+    }
+
+    return message;
+  }
+
+  formatBtcValueInDolar(bitcoinPrice: BitcoinPriceResultset): string {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
       currency: bitcoinPrice.asset_id_quote,
-  }).format(bitcoinPrice.rate);
+    }).format(bitcoinPrice.rate);
   }
 }
 

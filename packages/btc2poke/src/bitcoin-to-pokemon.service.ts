@@ -4,7 +4,7 @@ import { PokemonResultset } from './pokemon.resultset';
 
 export class BitcoinToPokemonService {
 
-  private readonly missigno: PokemonResultset = {
+  private readonly missigNumber: PokemonResultset = {
     id: null,
     name: 'Missingno',
     types: ['Out of Range Exception'],
@@ -21,7 +21,7 @@ export class BitcoinToPokemonService {
 
   private static instance: BitcoinToPokemonService | null = null;
 
-  convert(bitcoinPrice: BitcoinPriceResultset): PokemonResultset {
+  convertFromDolar(bitcoinPrice: BitcoinPriceResultset): PokemonResultset {
     const baseThousand = 1000;
     const pokenumber = Math.floor(bitcoinPrice.rate / baseThousand);
     const pokeindex = String(pokenumber) as keyof typeof pokelist;
@@ -29,8 +29,18 @@ export class BitcoinToPokemonService {
       // eslint-disable-next-line @typescript-eslint/consistent-type-assertions
       return { id: Number(pokeindex), ...pokelist[pokeindex] } as PokemonResultset;
     } else {
-      return this.missigno;
+      return this.missigNumber;
     }
+  }
 
+  convertFromGold(bitcoinPrice: BitcoinPriceResultset): PokemonResultset {
+    const pokenumber = Math.floor(bitcoinPrice.rate);
+    const pokeindex = String(pokenumber) as keyof typeof pokelist;
+    if (pokelist[pokeindex]) {
+      // eslint-disable-next-line @typescript-eslint/consistent-type-assertions
+      return { id: Number(pokeindex), ...pokelist[pokeindex] } as PokemonResultset;
+    } else {
+      return this.missigNumber;
+    }
   }
 }
