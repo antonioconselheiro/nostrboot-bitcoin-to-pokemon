@@ -38,7 +38,7 @@ export class BitcoinPriceService {
   private readCoinApiSecret(): string {
     const exists = fs.existsSync(this.COINAPI_PRIVATE_KEY_FILE);
     if (!exists) {
-      throw new Error('nsec file does not exists, check your secrets file on docker-compose.yml');
+      throw new Error('coinapi file does not exists, check your secrets file on docker-compose.yml');
     }
 
     return fs.readFileSync(this.COINAPI_PRIVATE_KEY_FILE).toString();
