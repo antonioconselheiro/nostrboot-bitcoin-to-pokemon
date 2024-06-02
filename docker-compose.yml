@@ -20,7 +20,7 @@ services:
       - COINAPI_BASE_URL=https://rest.coinapi.io
       - NOSTR_PRIVATE_NSEC_FILE=/run/secrets/nostr_keys
       - COINAPI_PRIVATE_KEY_FILE=/run/secrets/coinapi_keys
-      - NOSTR_RELAYS=wss://relay.nostrica.com;wss://nostr.plebchain.org;wss://relay.nostriches.org;wss://bitcoiner.social;wss://relay.nostrplebs.com;wss://nostr.rocks;wss://nostr.relayer.se;wss://relay.nostr.ch;wss://nostr.sandwich.farm;wss://relay.mostr.pub;wss://nostr-pub.wellorder.net;wss://relay.snort.social;wss://nostr.bitcoiner.social;wss://nostr.inosta.cc;wss://puravida.nostr.land;wss://atlas.nostr.land;wss://nostr.milou.lol;wss://brb.io;wss://nostr.zebedee.cloud;wss://nostr.frennet.xyz
+      - NOSTR_RELAYS=wss://nostr.plebchain.org;wss://bitcoiner.social;wss://relay.nostrplebs.com;wss://nostr.relayer.se;wss://relay.nostr.ch;wss://nostr.sandwich.farm;wss://relay.mostr.pub;wss://nostr-pub.wellorder.net;wss://relay.snort.social;wss://nostr.bitcoiner.social;wss://puravida.nostr.land;wss://atlas.nostr.land;wss://nostr.zebedee.cloud
     tty: true
     secrets:
       - nostr_keys
