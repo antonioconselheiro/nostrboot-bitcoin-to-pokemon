@@ -1,5 +1,5 @@
 {
-    "name": "Existing Docker Compose (Extend)",
+    "name": "Bitcoin to Pokémon boot",
     "dockerComposeFile": [
       "docker-compose.yml"
     ],
