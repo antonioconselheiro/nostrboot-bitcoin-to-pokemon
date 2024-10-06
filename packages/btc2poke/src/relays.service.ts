@@ -1,5 +1,6 @@
-import { Event, getEventHash, getSignature, Relay, relayInit, UnsignedEvent, validateEvent, verifySignature } from 'nostr-tools';
+import { Event, getEventHash, getSignature, nip19, Relay, relayInit, UnsignedEvent, validateEvent, verifySignature } from 'nostr-tools';
 import { NostrUser } from './nostr-user';
+import { exec } from 'child_process';
 
 export class RelaysService {
 
@@ -10,7 +11,7 @@ export class RelaysService {
     this.connectionReady = this.connect();
   }
 
-  publish(user: NostrUser, message: string): void {
+  async publish(user: NostrUser, message: string): Promise<void> {
     const event = this.createEvent(user, message);
     const ok = validateEvent(event);
     const veryOk = verifySignature(event);
@@ -21,14 +22,16 @@ export class RelaysService {
       return;
     }
 
-    this.connectionReady.finally(() => {
-      this.relays.forEach(relay => {
-        relay
-          .publish(event)
-          .then(() => console.log(`${relay.url} has accepted our event`))
-          .catch(e => console.error(`failed to publish to ${relay.url}: `, e));
-      });
-    });
+    const command = `echo '${JSON.stringify(event)}' | torsocks nak event ${this.relayUrlList.join(' ')}`;
+    console.log(`${command}`);
+    await new Promise<void>(resolve => exec(command, err => {
+      // eslint-disable-next-line no-unused-expressions
+      err && console.error(err);
+      resolve();
+    } ))
+
+    const publishKey = nip19.noteEncode(event.id);
+    console.info(`published: https://primal.net/e/${publishKey}`);
   }
 
   private connect(): Promise<void> {

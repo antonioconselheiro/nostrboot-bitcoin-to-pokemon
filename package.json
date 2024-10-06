@@ -1,6 +1,6 @@
 {
   "name": "nostrboot-btc2poke",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "MIT",
   "scripts": {
     "lint": "nx run-many --target=lint --all",

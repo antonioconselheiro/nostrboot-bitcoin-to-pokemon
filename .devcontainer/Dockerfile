@@ -1,7 +1,15 @@
 FROM node:20
 
+WORKDIR /root/Downloads
+
 RUN npm install typescript node-typescript -g
 RUN npm install npx nx -g --force
+
+# Installing nak, the nostr army knife
+RUN wget https://github.com/fiatjaf/nak/releases/download/v0.7.6/nak-v0.7.6-linux-amd64
+RUN mv nak-v0.7.5-linux-amd64 /usr/bin/nak
+RUN chmod +x /usr/bin/nak
+
 WORKDIR /nostrbot
 
 COPY ./.gitconfig /root/.gitconfig
