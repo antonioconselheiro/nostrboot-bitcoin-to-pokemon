@@ -1,5 +1,3 @@
-version: '3.9'
-
 secrets:
   nostr_keys:
     file: keys_nsec_dev.txt
