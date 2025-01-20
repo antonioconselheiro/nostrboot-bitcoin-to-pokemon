@@ -22,7 +22,7 @@ export class BitcoinPriceService {
       ['XAUT']: 'https://api.coinpaprika.com/v1/price-converter?base_currency_id=btc-bitcoin&quote_currency_id=xaut-tether-gold&amount=1'
     };
 
-    const command = `torsocks curl --request GET --url '${api[to]}' --header 'Content-Type: application/json'`;
+    const command = `curl --request GET --url '${api[to]}' --header 'Content-Type: application/json'`;
     console.log(`${command}`);
     return new Promise<BitcoinPriceResultset>(resolve => exec(command, (err, out) => {
       // eslint-disable-next-line no-unused-expressions
@@ -33,7 +33,8 @@ export class BitcoinPriceService {
         const outParsed = JSON.parse(out);
         resolve(outParsed);
       } catch (e) {
-        console.error('error on parsing response', e);
+        console.error('error on parsing response: ', e);
+        console.error('response: ', out);
       }
     }));
   }
