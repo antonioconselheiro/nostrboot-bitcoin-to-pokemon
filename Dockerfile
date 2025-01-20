@@ -3,7 +3,7 @@ FROM node:20
 WORKDIR /root/Downloads
 
 RUN apt update
-RUN apt install jq tor curl torsocks -y
+RUN apt install jq tor curl -y
 RUN apt clean
 RUN rm -rf /var/lib/apt/lists/*
 

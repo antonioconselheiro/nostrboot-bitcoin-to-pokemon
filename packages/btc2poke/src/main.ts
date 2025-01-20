@@ -1,11 +1,11 @@
+import * as schedule from 'node-schedule';
+import { BitcoinPriceResultset } from './bitcoin-price.resultset';
 import { BitcoinPriceService } from './bitcoin-price.service';
 import { BitcoinToPokemonService } from './bitcoin-to-pokemon.service';
 import { NostrBoot } from './nostr-boot';
-import { PublishMemoryService } from './publish-memory.service';
-import * as schedule from 'node-schedule';
-import { BitcoinPriceResultset } from './bitcoin-price.resultset';
 import { PokemonResultset } from './pokemon.resultset';
 import { PostContentStatus } from './post-content-status.enum';
+import { PublishMemoryService } from './publish-memory.service';
 
 // o nostr-tools usa o objeto global WebSocket, que não existe no nodejs
 Object.assign(global, { WebSocket: require('ws') });
