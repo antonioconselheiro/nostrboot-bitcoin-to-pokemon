@@ -104,7 +104,7 @@ class main {
         message = 'Bitcoin has DECREASED in GOLD. ';
       }
 
-      message += `The current price is ${formattedValue} troy ounce, the pokémon #${pokemon.id} is ${pokemon.name} ${hasRecentlyPosted ? 'again ': ' '}(${pokemon.types.join(', ')}) #bitcoin #pokemon #zap https://nostr.build/${pokemon.img}`;
+      message += `The current price is ${formattedValue} troy ounce, the pokémon #${pokemon.id} is ${pokemon.name} ${hasRecentlyPosted ? 'again ': ' '}(${pokemon.types.join(', ')}) #bitcoin #pokemon https://nostr.build/${pokemon.img}`;
     } else {
       if (bitcoinPrice.price < 1) {
         message += 'It was an honor to break together ladies and gentlemen. ';
@@ -112,7 +112,7 @@ class main {
         message += 'Well, Bitcoin grow faster than Nintendo was able to launch pokémons. '
       }
 
-      message += `The current price is ${formattedValue}, the pokémon is ${pokemon.name} (${pokemon.types.join(', ')}) #bitcoin #pokemon #zap https://nostr.build/${pokemon.img}`;
+      message += `The current price is ${formattedValue}, the pokémon is ${pokemon.name} (${pokemon.types.join(', ')}) #bitcoin #pokemon https://nostr.build/${pokemon.img}`;
     }
 
     return message;
