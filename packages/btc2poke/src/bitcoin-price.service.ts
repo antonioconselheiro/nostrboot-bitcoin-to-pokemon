@@ -1,11 +1,7 @@
-import axios from 'axios';
-import * as fs from 'fs';
+import { exec } from 'child_process';
 import { BitcoinPriceResultset } from './bitcoin-price.resultset';
 
 export class BitcoinPriceService {
-
-  private readonly COINAPI_PRIVATE_KEY_FILE = process.env['COINAPI_PRIVATE_KEY_FILE'] || '';
-  private coinApiSecret: string;
 
   static getInstance(): BitcoinPriceService {
     if (!this.instance) {
@@ -16,31 +12,29 @@ export class BitcoinPriceService {
   }
 
   private static instance: BitcoinPriceService | null = null;
-  private constructor() {
-    this.coinApiSecret = this.readCoinApiSecret();
-  }
 
   async getBitcoinPrice(to: 'USD' | 'XAUT'): Promise<BitcoinPriceResultset> {
-    return axios({
-      method: 'GET',
-      baseURL: process.env['COINAPI_BASE_URL'],
-      url: `/v1/exchangerate/BTC/${to}/`,
-      headers: {
-        // eslint-disable-next-line @typescript-eslint/naming-convention
-        'X-CoinAPI-Key': this.coinApiSecret
-      },
-      params: {
-        time: new Date().toISOString()
+    const api: {
+      'USD': string;
+      'XAUT': string;
+    } = {
+      ['USD']: 'https://api.coinpaprika.com/v1/price-converter?base_currency_id=btc-bitcoin&quote_currency_id=usd-us-dollars&amount=1',
+      ['XAUT']: 'https://api.coinpaprika.com/v1/price-converter?base_currency_id=btc-bitcoin&quote_currency_id=xaut-tether-gold&amount=1'
+    };
+
+    const command = `torsocks curl --request GET --url '${api[to]}' --header 'Content-Type: application/json'`;
+    console.log(`${command}`);
+    return new Promise<BitcoinPriceResultset>(resolve => exec(command, (err, out) => {
+      // eslint-disable-next-line no-unused-expressions
+      err && console.error(err);
+
+      try {
+        console.info('response: ', out);
+        const outParsed = JSON.parse(out);
+        resolve(outParsed);
+      } catch (e) {
+        console.error('error on parsing response', e);
       }
-    }).then(response => response.data);
-  }
-
-  private readCoinApiSecret(): string {
-    const exists = fs.existsSync(this.COINAPI_PRIVATE_KEY_FILE);
-    if (!exists) {
-      throw new Error('coinapi file does not exists, check your secrets file on docker-compose.yml');
-    }
-
-    return fs.readFileSync(this.COINAPI_PRIVATE_KEY_FILE).toString();
+    }));
   }
 }

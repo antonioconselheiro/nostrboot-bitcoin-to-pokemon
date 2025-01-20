@@ -93,7 +93,7 @@ class main {
     hasRecentlyPosted = false
   ): string {
     const hundred = 100;
-    const formattedValue = Math.floor(bitcoinPrice.rate * hundred) / hundred;
+    const formattedValue = Math.floor(bitcoinPrice.price * hundred) / hundred;
     let message = '';
     
     if (pokemon.id) {
@@ -106,7 +106,7 @@ class main {
 
       message += `The current price is ${formattedValue} troy ounce, the pokémon #${pokemon.id} is ${pokemon.name} ${hasRecentlyPosted ? 'again ': ' '}(${pokemon.types.join(', ')}) #bitcoin #pokemon #zap https://nostr.build/${pokemon.img}`;
     } else {
-      if (bitcoinPrice.rate < 1) {
+      if (bitcoinPrice.price < 1) {
         message += 'It was an honor to break together ladies and gentlemen. ';
       } else {
         message += 'Well, Bitcoin grow faster than Nintendo was able to launch pokémons. '
@@ -137,7 +137,7 @@ class main {
 
       message += `The current price is ${formattedValue}, the pokémon #${pokemon.id} is ${pokemon.name} ${hasRecentlyPosted ? 'again ': ' '}(${pokemon.types.join(', ')}) #bitcoin #pokemon #zap https://nostr.build/${pokemon.img}`;
     } else {
-      if (bitcoinPrice.rate < thousand) {
+      if (bitcoinPrice.price < thousand) {
         message += 'It was an honor to break together ladies and gentlemen. ';
       } else {
         message += 'Well, Bitcoin grow faster than Nintendo was able to launch pokémons. '
@@ -152,8 +152,8 @@ class main {
   formatBtcValueInDolar(bitcoinPrice: BitcoinPriceResultset): string {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
-      currency: bitcoinPrice.asset_id_quote,
-    }).format(bitcoinPrice.rate);
+      currency: bitcoinPrice.quote_currency_id === 'usd-us-dollars' ? 'USD' : 'XAUT',
+    }).format(bitcoinPrice.price);
   }
 }
 

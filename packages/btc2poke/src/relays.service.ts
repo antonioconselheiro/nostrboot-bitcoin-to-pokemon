@@ -25,7 +25,7 @@ export class RelaysService {
       // eslint-disable-next-line no-unused-expressions
       err && console.error(err);
       resolve();
-    } ))
+    }));
 
     const publishKey = nip19.noteEncode(event.id);
     console.info(`published: https://primal.net/e/${publishKey}`);

@@ -23,7 +23,7 @@ export class BitcoinToPokemonService {
 
   convertFromDolar(bitcoinPrice: BitcoinPriceResultset): PokemonResultset {
     const baseThousand = 1000;
-    const pokenumber = Math.floor(bitcoinPrice.rate / baseThousand);
+    const pokenumber = Math.floor(bitcoinPrice.price / baseThousand);
     const pokeindex = String(pokenumber) as keyof typeof pokelist;
     if (pokelist[pokeindex]) {
       // eslint-disable-next-line @typescript-eslint/consistent-type-assertions
@@ -34,7 +34,7 @@ export class BitcoinToPokemonService {
   }
 
   convertFromGold(bitcoinPrice: BitcoinPriceResultset): PokemonResultset {
-    const pokenumber = Math.floor(bitcoinPrice.rate);
+    const pokenumber = Math.floor(bitcoinPrice.price);
     const pokeindex = String(pokenumber) as keyof typeof pokelist;
     if (pokelist[pokeindex]) {
       // eslint-disable-next-line @typescript-eslint/consistent-type-assertions
