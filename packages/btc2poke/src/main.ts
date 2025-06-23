@@ -135,7 +135,7 @@ class main {
         message = 'Bitcoin has DECREASED in DOLLAR. ';
       }
 
-      message += `The current price is ${formattedValue}, the pokémon #${pokemon.id} is ${pokemon.name} ${hasRecentlyPosted ? 'again ': ' '}(${pokemon.types.join(', ')}) #bitcoin #pokemon #zap https://nostr.build/${pokemon.img}`;
+      message += `The current price is ${formattedValue}, the pokémon #${pokemon.id} is ${pokemon.name} ${hasRecentlyPosted ? 'again ': ' '}(${pokemon.types.join(', ')}) #bitcoin #pokemon https://nostr.build/${pokemon.img}`;
     } else {
       if (bitcoinPrice.price < thousand) {
         message += 'It was an honor to break together ladies and gentlemen. ';
