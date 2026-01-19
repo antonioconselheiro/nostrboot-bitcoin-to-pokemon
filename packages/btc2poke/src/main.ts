@@ -143,7 +143,7 @@ class main {
         message += 'Well, Bitcoin grow faster than Nintendo was able to launch pokémons. '
       }
 
-      message += `The current price is ${formattedValue}, the pokémon is ${pokemon.name} (${pokemon.types.join(', ')}) #bitcoin #pokemon #zap https://nostr.build/${pokemon.img}`;
+      message += `The current price is ${formattedValue}, the pokémon is ${pokemon.name} (${pokemon.types.join(', ')}) #bitcoin #pokemon https://nostr.build/${pokemon.img}`;
     }
 
     return message;
